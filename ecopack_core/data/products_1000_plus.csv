@@ -1,0 +1,1101 @@
+product_id,product_name,product_category,length_cm,width_cm,height_cm,weight_in_kg,fragility_level,is_liquid,is_delicate,is_moisture_sensitive,is_temperature_sensitive
+1,Smartphone,Electronics,15.2,8.0,2.0,0.215,4,False,True,False,True
+2,Smartphone 2,Electronics,14.9,7.9,2.1,0.208,4,False,True,False,True
+3,Smartphone 3,Electronics,14.8,8.1,2.0,0.195,4,False,True,False,True
+4,Smartphone 4,Electronics,15.1,7.5,1.9,0.194,4,False,True,False,True
+5,Smartphone 5,Electronics,14.5,8.1,1.9,0.186,4,False,True,False,True
+6,Smartphone 6,Electronics,15.7,7.9,2.0,0.186,4,False,True,False,True
+7,Smartphone 7,Electronics,14.8,8.0,1.9,0.204,4,False,True,False,True
+8,Smartphone 8,Electronics,14.7,7.9,2.0,0.219,4,False,True,False,True
+9,Smartphone 9,Electronics,15.0,7.7,2.0,0.188,4,False,True,False,True
+10,Smartphone 10,Electronics,15.1,7.5,1.9,0.202,4,False,True,False,True
+11,Smartphone 11,Electronics,15.3,8.0,2.0,0.197,4,False,True,False,True
+12,Smartphone 12,Electronics,14.3,7.8,2.0,0.211,4,False,True,False,True
+13,Smartphone 13,Electronics,15.2,7.6,2.0,0.196,4,False,True,False,True
+14,Smartphone 14,Electronics,14.7,8.1,2.1,0.209,4,False,True,False,True
+15,Smartphone 15,Electronics,14.6,7.9,2.0,0.21,4,False,True,False,True
+16,Smartphone 16,Electronics,14.8,8.0,1.9,0.188,4,False,True,False,True
+17,Smartphone 17,Electronics,15.4,8.3,2.0,0.21,4,False,True,False,True
+18,Tablet 10 inch,Electronics,25.3,17.7,2.0,0.538,3,False,True,False,True
+19,Tablet 10 inch 2,Electronics,25.0,18.8,1.8,0.521,3,False,True,False,True
+20,Tablet 10 inch 3,Electronics,25.1,17.8,2.0,0.45,3,False,True,False,True
+21,Tablet 10 inch 4,Electronics,24.8,18.2,2.1,0.487,3,False,True,False,True
+22,Tablet 10 inch 5,Electronics,24.4,17.7,2.1,0.508,3,False,True,False,True
+23,Tablet 10 inch 6,Electronics,24.6,18.3,2.0,0.524,3,False,True,False,True
+24,Tablet 10 inch 7,Electronics,24.5,17.8,2.0,0.463,3,False,True,False,True
+25,Tablet 10 inch 8,Electronics,25.2,18.1,2.0,0.494,3,False,True,False,True
+26,Tablet 10 inch 9,Electronics,23.9,17.8,2.0,0.48,3,False,True,False,True
+27,Tablet 10 inch 10,Electronics,24.9,18.2,2.1,0.504,3,False,True,False,True
+28,Tablet 10 inch 11,Electronics,25.2,18.0,1.9,0.499,3,False,True,False,True
+29,Tablet 10 inch 12,Electronics,25.0,19.3,2.0,0.508,3,False,True,False,True
+30,Tablet 10 inch 13,Electronics,25.0,17.4,2.1,0.519,3,False,True,False,True
+31,Tablet 10 inch 14,Electronics,25.6,17.5,2.1,0.465,3,False,True,False,True
+32,Tablet 10 inch 15,Electronics,25.4,19.2,1.9,0.486,3,False,True,False,True
+33,Tablet 10 inch 16,Electronics,25.1,17.7,1.9,0.502,3,False,True,False,True
+34,Tablet 10 inch 17,Electronics,24.2,18.3,1.9,0.539,3,False,True,False,True
+35,Laptop 14 inch,Electronics,34.2,24.8,3.1,1.408,3,False,True,False,True
+36,Laptop 14 inch 2,Electronics,35.2,26.0,2.9,1.514,3,False,True,False,True
+37,Laptop 14 inch 3,Electronics,35.3,25.6,2.9,1.401,3,False,True,False,True
+38,Laptop 14 inch 4,Electronics,35.5,25.2,3.0,1.526,3,False,True,False,True
+39,Laptop 14 inch 5,Electronics,34.3,25.2,3.0,1.446,3,False,True,False,True
+40,Laptop 14 inch 6,Electronics,37.0,25.4,2.9,1.549,3,False,True,False,True
+41,Laptop 14 inch 7,Electronics,34.0,25.6,3.1,1.438,3,False,True,False,True
+42,Laptop 14 inch 8,Electronics,36.0,25.3,3.1,1.642,3,False,True,False,True
+43,Laptop 14 inch 9,Electronics,34.7,24.4,2.9,1.439,3,False,True,False,True
+44,Laptop 14 inch 10,Electronics,34.9,25.3,3.0,1.562,3,False,True,False,True
+45,Laptop 14 inch 11,Electronics,35.0,26.1,3.0,1.704,3,False,True,False,True
+46,Laptop 14 inch 12,Electronics,35.7,24.4,2.9,1.536,3,False,True,False,True
+47,Laptop 14 inch 13,Electronics,34.8,25.5,3.0,1.495,3,False,True,False,True
+48,Laptop 14 inch 14,Electronics,34.1,23.9,3.0,1.564,3,False,True,False,True
+49,Laptop 14 inch 15,Electronics,35.2,24.1,3.0,1.529,3,False,True,False,True
+50,Laptop 14 inch 16,Electronics,34.1,25.1,3.0,1.414,3,False,True,False,True
+51,Laptop 14 inch 17,Electronics,35.4,25.4,3.1,1.579,3,False,True,False,True
+52,Gaming Laptop 15 inch,Electronics,36.4,25.3,3.0,2.257,3,False,True,False,True
+53,Gaming Laptop 15 inch 2,Electronics,38.6,28.6,3.1,2.325,3,False,True,False,True
+54,Gaming Laptop 15 inch 3,Electronics,39.1,26.5,3.0,2.283,3,False,True,False,True
+55,Gaming Laptop 15 inch 4,Electronics,37.1,25.8,3.0,2.209,3,False,True,False,True
+56,Gaming Laptop 15 inch 5,Electronics,40.6,24.5,3.1,2.023,3,False,True,False,True
+57,Gaming Laptop 15 inch 6,Electronics,37.5,26.8,3.0,2.081,3,False,True,False,True
+58,Gaming Laptop 15 inch 7,Electronics,37.2,26.5,2.9,2.224,3,False,True,False,True
+59,Gaming Laptop 15 inch 8,Electronics,38.1,25.5,3.2,2.27,3,False,True,False,True
+60,Gaming Laptop 15 inch 9,Electronics,35.7,26.1,2.9,2.294,3,False,True,False,True
+61,Gaming Laptop 15 inch 10,Electronics,37.1,25.9,3.0,2.295,3,False,True,False,True
+62,Gaming Laptop 15 inch 11,Electronics,36.6,25.7,3.0,2.128,3,False,True,False,True
+63,Gaming Laptop 15 inch 12,Electronics,40.0,26.3,2.9,2.301,3,False,True,False,True
+64,Gaming Laptop 15 inch 13,Electronics,40.4,26.8,2.9,2.147,3,False,True,False,True
+65,Gaming Laptop 15 inch 14,Electronics,39.4,25.4,3.0,2.285,3,False,True,False,True
+66,Gaming Laptop 15 inch 15,Electronics,36.9,26.0,2.7,2.087,3,False,True,False,True
+67,Gaming Laptop 15 inch 16,Electronics,37.7,25.0,3.1,2.043,3,False,True,False,True
+68,Gaming Laptop 15 inch 17,Electronics,37.5,26.1,3.1,2.042,3,False,True,False,True
+69,Wireless Earbuds Case,Electronics,10.3,8.0,3.9,0.153,4,False,True,False,True
+70,Wireless Earbuds Case 2,Electronics,10.1,7.9,4.0,0.147,4,False,True,False,True
+71,Wireless Earbuds Case 3,Electronics,10.0,8.2,4.2,0.141,4,False,True,False,True
+72,Wireless Earbuds Case 4,Electronics,10.6,7.5,4.0,0.154,4,False,True,False,True
+73,Wireless Earbuds Case 5,Electronics,10.1,7.9,4.0,0.146,4,False,True,False,True
+74,Wireless Earbuds Case 6,Electronics,9.8,8.2,4.0,0.145,4,False,True,False,True
+75,Wireless Earbuds Case 7,Electronics,10.3,8.1,4.1,0.155,4,False,True,False,True
+76,Wireless Earbuds Case 8,Electronics,9.8,7.9,4.1,0.155,4,False,True,False,True
+77,Wireless Earbuds Case 9,Electronics,10.0,8.0,4.2,0.146,4,False,True,False,True
+78,Wireless Earbuds Case 10,Electronics,10.2,8.0,4.0,0.158,4,False,True,False,True
+79,Wireless Earbuds Case 11,Electronics,10.2,8.2,4.2,0.15,4,False,True,False,True
+80,Wireless Earbuds Case 12,Electronics,10.2,7.9,4.0,0.149,4,False,True,False,True
+81,Wireless Earbuds Case 13,Electronics,10.0,8.1,3.9,0.166,4,False,True,False,True
+82,Wireless Earbuds Case 14,Electronics,9.7,7.7,4.1,0.156,4,False,True,False,True
+83,Wireless Earbuds Case 15,Electronics,10.2,8.2,4.0,0.143,4,False,True,False,True
+84,Wireless Earbuds Case 16,Electronics,10.0,7.8,4.1,0.149,4,False,True,False,True
+85,Wireless Earbuds Case 17,Electronics,9.8,7.9,4.0,0.146,4,False,True,False,True
+86,Bluetooth Speaker Medium,Electronics,19.5,10.1,10.1,0.78,3,False,True,False,True
+87,Bluetooth Speaker Medium 2,Electronics,19.7,10.1,9.6,0.744,3,False,True,False,True
+88,Bluetooth Speaker Medium 3,Electronics,19.6,9.9,10.1,0.859,3,False,True,False,True
+89,Bluetooth Speaker Medium 4,Electronics,20.5,10.0,10.0,0.76,3,False,True,False,True
+90,Bluetooth Speaker Medium 5,Electronics,20.0,9.9,10.1,0.767,3,False,True,False,True
+91,Bluetooth Speaker Medium 6,Electronics,20.3,10.5,10.0,0.816,3,False,True,False,True
+92,Bluetooth Speaker Medium 7,Electronics,20.4,9.9,10.1,0.801,3,False,True,False,True
+93,Bluetooth Speaker Medium 8,Electronics,20.1,9.8,10.0,0.82,3,False,True,False,True
+94,Bluetooth Speaker Medium 9,Electronics,20.9,10.3,10.6,0.769,3,False,True,False,True
+95,Bluetooth Speaker Medium 10,Electronics,20.5,10.1,10.7,0.768,3,False,True,False,True
+96,Bluetooth Speaker Medium 11,Electronics,19.5,9.8,9.4,0.779,3,False,True,False,True
+97,Bluetooth Speaker Medium 12,Electronics,19.5,10.0,10.1,0.875,3,False,True,False,True
+98,Bluetooth Speaker Medium 13,Electronics,20.6,9.8,9.7,0.82,3,False,True,False,True
+99,Bluetooth Speaker Medium 14,Electronics,19.2,10.5,10.4,0.781,3,False,True,False,True
+100,Bluetooth Speaker Medium 15,Electronics,19.0,10.4,10.0,0.85,3,False,True,False,True
+101,Bluetooth Speaker Medium 16,Electronics,19.0,9.8,10.0,0.802,3,False,True,False,True
+102,Bluetooth Speaker Medium 17,Electronics,19.7,10.2,9.7,0.794,3,False,True,False,True
+103,DSLR Camera Body,Electronics,16.1,13.2,10.2,0.849,4,False,True,False,True
+104,DSLR Camera Body 2,Electronics,15.3,13.5,10.1,0.866,4,False,True,False,True
+105,DSLR Camera Body 3,Electronics,16.7,13.0,10.4,0.903,4,False,True,False,True
+106,DSLR Camera Body 4,Electronics,17.0,13.7,9.9,0.944,4,False,True,False,True
+107,DSLR Camera Body 5,Electronics,16.3,13.5,9.7,0.931,4,False,True,False,True
+108,DSLR Camera Body 6,Electronics,16.5,12.3,9.6,0.808,4,False,True,False,True
+109,DSLR Camera Body 7,Electronics,15.9,13.3,10.5,0.903,4,False,True,False,True
+110,DSLR Camera Body 8,Electronics,16.8,12.5,9.5,0.898,4,False,True,False,True
+111,DSLR Camera Body 9,Electronics,16.2,13.0,9.4,0.896,4,False,True,False,True
+112,DSLR Camera Body 10,Electronics,15.4,13.3,10.1,0.858,4,False,True,False,True
+113,DSLR Camera Body 11,Electronics,15.8,12.6,10.0,0.943,4,False,True,False,True
+114,DSLR Camera Body 12,Electronics,15.5,13.2,9.8,0.864,4,False,True,False,True
+115,DSLR Camera Body 13,Electronics,15.9,12.6,9.8,0.846,4,False,True,False,True
+116,DSLR Camera Body 14,Electronics,16.9,13.0,9.8,0.91,4,False,True,False,True
+117,DSLR Camera Body 15,Electronics,15.9,12.9,10.2,0.934,4,False,True,False,True
+118,DSLR Camera Body 16,Electronics,15.7,12.8,9.9,0.796,4,False,True,False,True
+119,DSLR Camera Body 17,Electronics,15.3,13.5,10.5,0.889,4,False,True,False,True
+120,Mirrorless Camera,Electronics,14.2,12.1,9.8,0.739,4,False,True,False,True
+121,Mirrorless Camera 2,Electronics,13.9,11.7,8.6,0.707,4,False,True,False,True
+122,Mirrorless Camera 3,Electronics,13.7,11.5,8.8,0.662,4,False,True,False,True
+123,Mirrorless Camera 4,Electronics,14.7,12.3,9.0,0.752,4,False,True,False,True
+124,Mirrorless Camera 5,Electronics,14.0,11.7,9.4,0.719,4,False,True,False,True
+125,Mirrorless Camera 6,Electronics,13.6,11.9,8.8,0.652,4,False,True,False,True
+126,Mirrorless Camera 7,Electronics,14.4,12.7,8.6,0.72,4,False,True,False,True
+127,Mirrorless Camera 8,Electronics,13.7,11.8,8.8,0.67,4,False,True,False,True
+128,Mirrorless Camera 9,Electronics,14.0,11.7,9.1,0.698,4,False,True,False,True
+129,Mirrorless Camera 10,Electronics,13.9,11.7,8.8,0.726,4,False,True,False,True
+130,Mirrorless Camera 11,Electronics,14.2,11.6,9.0,0.726,4,False,True,False,True
+131,Mirrorless Camera 12,Electronics,13.3,12.2,8.8,0.72,4,False,True,False,True
+132,Mirrorless Camera 13,Electronics,13.7,11.4,8.6,0.702,4,False,True,False,True
+133,Mirrorless Camera 14,Electronics,14.1,11.7,9.2,0.642,4,False,True,False,True
+134,Mirrorless Camera 15,Electronics,14.0,11.6,8.8,0.702,4,False,True,False,True
+135,Mirrorless Camera 16,Electronics,13.6,11.9,9.3,0.68,4,False,True,False,True
+136,Mirrorless Camera 17,Electronics,14.4,11.6,9.1,0.75,4,False,True,False,True
+137,Power Bank 20000mAh,Electronics,13.9,6.8,3.1,0.396,3,False,True,False,True
+138,Power Bank 20000mAh 2,Electronics,15.2,6.9,3.0,0.397,3,False,True,False,True
+139,Power Bank 20000mAh 3,Electronics,15.5,7.1,3.0,0.392,3,False,True,False,True
+140,Power Bank 20000mAh 4,Electronics,14.8,6.9,3.0,0.392,3,False,True,False,True
+141,Power Bank 20000mAh 5,Electronics,15.1,7.4,3.1,0.393,3,False,True,False,True
+142,Power Bank 20000mAh 6,Electronics,15.5,6.9,2.8,0.38,3,False,True,False,True
+143,Power Bank 20000mAh 7,Electronics,14.2,6.9,3.0,0.434,3,False,True,False,True
+144,Power Bank 20000mAh 8,Electronics,15.1,7.0,3.1,0.356,3,False,True,False,True
+145,Power Bank 20000mAh 9,Electronics,15.1,7.2,2.9,0.423,3,False,True,False,True
+146,Power Bank 20000mAh 10,Electronics,15.2,6.9,3.1,0.445,3,False,True,False,True
+147,Power Bank 20000mAh 11,Electronics,15.1,7.1,3.0,0.383,3,False,True,False,True
+148,Power Bank 20000mAh 12,Electronics,15.4,6.8,3.0,0.39,3,False,True,False,True
+149,Power Bank 20000mAh 13,Electronics,15.2,7.1,3.1,0.39,3,False,True,False,True
+150,Power Bank 20000mAh 14,Electronics,14.9,6.8,3.0,0.408,3,False,True,False,True
+151,Power Bank 20000mAh 15,Electronics,15.3,6.8,3.1,0.427,3,False,True,False,True
+152,Power Bank 20000mAh 16,Electronics,15.2,7.4,2.9,0.375,3,False,True,False,True
+153,Power Bank 20000mAh 17,Electronics,14.2,7.3,3.1,0.399,3,False,True,False,True
+154,Gaming Mouse,Electronics,13.1,7.7,4.3,0.151,2,False,True,False,True
+155,Gaming Mouse 2,Electronics,13.0,8.2,4.1,0.152,2,False,True,False,True
+156,Gaming Mouse 3,Electronics,12.7,8.1,4.2,0.16,2,False,True,False,True
+157,Gaming Mouse 4,Electronics,13.6,7.9,3.9,0.149,2,False,True,False,True
+158,Gaming Mouse 5,Electronics,13.0,8.3,3.8,0.161,2,False,True,False,True
+159,Gaming Mouse 6,Electronics,12.9,7.9,3.9,0.138,2,False,True,False,True
+160,Gaming Mouse 7,Electronics,13.3,8.0,3.8,0.14,2,False,True,False,True
+161,Gaming Mouse 8,Electronics,12.9,8.4,4.0,0.139,2,False,True,False,True
+162,Gaming Mouse 9,Electronics,12.9,7.9,3.7,0.15,2,False,True,False,True
+163,Gaming Mouse 10,Electronics,12.9,8.2,4.2,0.158,2,False,True,False,True
+164,Gaming Mouse 11,Electronics,12.9,7.7,4.3,0.15,2,False,True,False,True
+165,Gaming Mouse 12,Electronics,13.0,8.0,4.0,0.149,2,False,True,False,True
+166,Gaming Mouse 13,Electronics,12.8,7.9,4.0,0.146,2,False,True,False,True
+167,Gaming Mouse 14,Electronics,12.7,8.0,4.0,0.161,2,False,True,False,True
+168,Gaming Mouse 15,Electronics,12.0,8.3,4.1,0.134,2,False,True,False,True
+169,Gaming Mouse 16,Electronics,12.9,7.9,3.8,0.144,2,False,True,False,True
+170,Gaming Mouse 17,Electronics,12.6,8.4,4.1,0.16,2,False,True,False,True
+171,Mechanical Keyboard,Electronics,46.0,14.5,3.9,1.024,2,False,True,False,True
+172,Mechanical Keyboard 2,Electronics,43.4,15.3,4.0,0.981,2,False,True,False,True
+173,Mechanical Keyboard 3,Electronics,46.0,15.2,4.0,1.058,2,False,True,False,True
+174,Mechanical Keyboard 4,Electronics,43.5,15.3,4.1,0.985,2,False,True,False,True
+175,Mechanical Keyboard 5,Electronics,45.4,14.4,4.1,0.991,2,False,True,False,True
+176,Mechanical Keyboard 6,Electronics,44.3,15.5,3.9,0.93,2,False,True,False,True
+177,Mechanical Keyboard 7,Electronics,42.9,15.3,3.8,1.088,2,False,True,False,True
+178,Mechanical Keyboard 8,Electronics,42.2,15.8,4.0,0.995,2,False,True,False,True
+179,Mechanical Keyboard 9,Electronics,44.3,15.2,4.0,1.055,2,False,True,False,True
+180,Mechanical Keyboard 10,Electronics,45.2,15.1,4.0,0.997,2,False,True,False,True
+181,Mechanical Keyboard 11,Electronics,45.4,14.2,3.8,1.037,2,False,True,False,True
+182,Mechanical Keyboard 12,Electronics,45.2,14.9,4.0,1.017,2,False,True,False,True
+183,Mechanical Keyboard 13,Electronics,44.3,14.6,4.0,0.951,2,False,True,False,True
+184,Mechanical Keyboard 14,Electronics,45.6,14.2,4.1,1.024,2,False,True,False,True
+185,Mechanical Keyboard 15,Electronics,45.3,15.4,4.2,1.051,2,False,True,False,True
+186,Mechanical Keyboard 16,Electronics,42.5,14.4,3.9,1.001,2,False,True,False,True
+187,Mechanical Keyboard 17,Electronics,45.7,14.7,4.0,0.962,2,False,True,False,True
+188,27 inch 4K Monitor,Electronics,60.9,38.3,14.6,4.662,3,False,True,False,True
+189,27 inch 4K Monitor 2,Electronics,60.2,41.3,14.6,5.658,3,False,True,False,True
+190,27 inch 4K Monitor 3,Electronics,62.9,40.2,14.6,5.175,3,False,True,False,True
+191,27 inch 4K Monitor 4,Electronics,60.9,40.1,16.2,4.976,3,False,True,False,True
+192,27 inch 4K Monitor 5,Electronics,64.1,39.2,15.0,5.443,3,False,True,False,True
+193,27 inch 4K Monitor 6,Electronics,60.8,42.2,15.3,4.859,3,False,True,False,True
+194,27 inch 4K Monitor 7,Electronics,63.2,41.2,15.3,4.607,3,False,True,False,True
+195,27 inch 4K Monitor 8,Electronics,60.6,39.7,15.0,5.155,3,False,True,False,True
+196,27 inch 4K Monitor 9,Electronics,62.3,38.4,15.2,5.153,3,False,True,False,True
+197,27 inch 4K Monitor 10,Electronics,63.0,41.3,15.4,5.115,3,False,True,False,True
+198,27 inch 4K Monitor 11,Electronics,61.9,38.0,15.2,5.052,3,False,True,False,True
+199,27 inch 4K Monitor 12,Electronics,62.5,38.5,14.5,5.263,3,False,True,False,True
+200,27 inch 4K Monitor 13,Electronics,61.9,40.8,15.0,5.007,3,False,True,False,True
+201,27 inch 4K Monitor 14,Electronics,63.7,39.4,15.0,4.884,3,False,True,False,True
+202,27 inch 4K Monitor 15,Electronics,61.2,39.6,15.1,4.88,3,False,True,False,True
+203,27 inch 4K Monitor 16,Electronics,64.3,38.9,14.9,4.89,3,False,True,False,True
+204,27 inch 4K Monitor 17,Electronics,64.7,40.2,15.5,4.629,3,False,True,False,True
+205,External Hard Drive 1TB,Electronics,12.1,8.2,3.0,0.263,3,False,True,False,True
+206,External Hard Drive 1TB 2,Electronics,11.8,8.3,3.2,0.245,3,False,True,False,True
+207,External Hard Drive 1TB 3,Electronics,11.8,8.3,3.1,0.243,3,False,True,False,True
+208,External Hard Drive 1TB 4,Electronics,11.8,7.9,2.9,0.239,3,False,True,False,True
+209,External Hard Drive 1TB 5,Electronics,11.6,7.8,3.0,0.253,3,False,True,False,True
+210,External Hard Drive 1TB 6,Electronics,12.6,7.8,3.1,0.247,3,False,True,False,True
+211,External Hard Drive 1TB 7,Electronics,12.0,8.2,2.9,0.255,3,False,True,False,True
+212,External Hard Drive 1TB 8,Electronics,12.1,8.1,3.0,0.281,3,False,True,False,True
+213,External Hard Drive 1TB 9,Electronics,11.8,7.9,2.9,0.243,3,False,True,False,True
+214,External Hard Drive 1TB 10,Electronics,11.8,8.3,3.1,0.243,3,False,True,False,True
+215,External Hard Drive 1TB 11,Electronics,11.7,8.1,3.0,0.258,3,False,True,False,True
+216,External Hard Drive 1TB 12,Electronics,12.1,7.6,3.1,0.272,3,False,True,False,True
+217,External Hard Drive 1TB 13,Electronics,11.8,7.9,3.0,0.254,3,False,True,False,True
+218,External Hard Drive 1TB 14,Electronics,12.2,8.5,3.0,0.24,3,False,True,False,True
+219,External Hard Drive 1TB 15,Electronics,11.5,7.8,3.0,0.272,3,False,True,False,True
+220,External Hard Drive 1TB 16,Electronics,11.8,8.1,3.0,0.265,3,False,True,False,True
+221,External Hard Drive 1TB 17,Electronics,12.9,7.9,3.0,0.263,3,False,True,False,True
+222,WiFi Router,Electronics,20.4,15.8,5.1,0.589,3,False,True,False,True
+223,WiFi Router 2,Electronics,20.4,15.5,5.1,0.615,3,False,True,False,True
+224,WiFi Router 3,Electronics,20.6,15.5,5.2,0.619,3,False,True,False,True
+225,WiFi Router 4,Electronics,19.9,15.1,5.2,0.575,3,False,True,False,True
+226,WiFi Router 5,Electronics,20.2,14.8,5.0,0.638,3,False,True,False,True
+227,WiFi Router 6,Electronics,20.1,15.0,4.8,0.622,3,False,True,False,True
+228,WiFi Router 7,Electronics,20.4,16.0,5.0,0.607,3,False,True,False,True
+229,WiFi Router 8,Electronics,20.1,15.7,5.0,0.608,3,False,True,False,True
+230,WiFi Router 9,Electronics,20.4,15.1,4.9,0.606,3,False,True,False,True
+231,WiFi Router 10,Electronics,20.6,14.5,5.0,0.579,3,False,True,False,True
+232,WiFi Router 11,Electronics,20.7,14.3,4.9,0.611,3,False,True,False,True
+233,WiFi Router 12,Electronics,20.9,15.0,4.9,0.656,3,False,True,False,True
+234,WiFi Router 13,Electronics,19.1,14.0,5.1,0.585,3,False,True,False,True
+235,WiFi Router 14,Electronics,19.4,15.3,5.0,0.583,3,False,True,False,True
+236,WiFi Router 15,Electronics,19.2,15.4,5.1,0.597,3,False,True,False,True
+237,WiFi Router 16,Electronics,21.1,14.5,4.8,0.579,3,False,True,False,True
+238,WiFi Router 17,Electronics,20.0,15.1,5.0,0.611,3,False,True,False,True
+239,Cotton T-Shirt,Apparel & Fashion,28.9,26.1,3.0,0.264,1,False,True,False,False
+240,Cotton T-Shirt 2,Apparel & Fashion,30.3,25.3,3.1,0.256,1,False,True,False,False
+241,Cotton T-Shirt 3,Apparel & Fashion,30.6,26.0,3.0,0.259,1,False,True,False,False
+242,Cotton T-Shirt 4,Apparel & Fashion,29.9,26.1,2.9,0.273,1,False,True,False,False
+243,Cotton T-Shirt 5,Apparel & Fashion,30.0,23.9,3.0,0.241,1,False,True,False,False
+244,Cotton T-Shirt 6,Apparel & Fashion,30.8,24.5,3.0,0.226,1,False,True,False,False
+245,Cotton T-Shirt 7,Apparel & Fashion,29.6,23.2,2.9,0.26,1,False,True,False,False
+246,Cotton T-Shirt 8,Apparel & Fashion,30.7,25.3,2.9,0.249,1,False,True,False,False
+247,Cotton T-Shirt 9,Apparel & Fashion,30.0,24.1,3.1,0.261,1,False,True,False,False
+248,Cotton T-Shirt 10,Apparel & Fashion,29.8,25.0,3.0,0.224,1,False,True,False,False
+249,Cotton T-Shirt 11,Apparel & Fashion,29.8,24.5,2.9,0.246,1,False,True,False,False
+250,Cotton T-Shirt 12,Apparel & Fashion,31.6,25.5,2.9,0.257,1,False,True,False,False
+251,Cotton T-Shirt 13,Apparel & Fashion,31.3,25.7,3.0,0.242,1,False,True,False,False
+252,Cotton T-Shirt 14,Apparel & Fashion,30.6,25.3,3.1,0.258,1,False,True,False,False
+253,Cotton T-Shirt 15,Apparel & Fashion,30.9,24.6,3.1,0.252,1,False,True,False,False
+254,Cotton T-Shirt 16,Apparel & Fashion,31.9,24.5,3.2,0.252,1,False,True,False,False
+255,Cotton T-Shirt 17,Apparel & Fashion,29.4,24.6,3.0,0.255,1,False,True,False,False
+256,Slim Fit Jeans,Apparel & Fashion,35.5,27.5,5.0,0.775,1,False,True,False,False
+257,Slim Fit Jeans 2,Apparel & Fashion,36.8,28.4,5.0,0.704,1,False,True,False,False
+258,Slim Fit Jeans 3,Apparel & Fashion,35.6,27.1,5.0,0.642,1,False,True,False,False
+259,Slim Fit Jeans 4,Apparel & Fashion,35.4,28.5,4.9,0.755,1,False,True,False,False
+260,Slim Fit Jeans 5,Apparel & Fashion,33.7,26.8,5.0,0.737,1,False,True,False,False
+261,Slim Fit Jeans 6,Apparel & Fashion,36.8,27.6,5.2,0.699,1,False,True,False,False
+262,Slim Fit Jeans 7,Apparel & Fashion,34.8,28.7,5.1,0.645,1,False,True,False,False
+263,Slim Fit Jeans 8,Apparel & Fashion,36.6,29.2,4.9,0.714,1,False,True,False,False
+264,Slim Fit Jeans 9,Apparel & Fashion,35.5,28.2,4.9,0.676,1,False,True,False,False
+265,Slim Fit Jeans 10,Apparel & Fashion,35.0,29.0,5.1,0.687,1,False,True,False,False
+266,Slim Fit Jeans 11,Apparel & Fashion,35.8,25.6,5.2,0.639,1,False,True,False,False
+267,Slim Fit Jeans 12,Apparel & Fashion,34.6,27.1,4.8,0.741,1,False,True,False,False
+268,Slim Fit Jeans 13,Apparel & Fashion,34.5,28.3,5.0,0.717,1,False,True,False,False
+269,Slim Fit Jeans 14,Apparel & Fashion,35.1,26.9,5.1,0.683,1,False,True,False,False
+270,Slim Fit Jeans 15,Apparel & Fashion,33.4,27.6,5.2,0.73,1,False,True,False,False
+271,Slim Fit Jeans 16,Apparel & Fashion,34.6,27.7,5.0,0.773,1,False,True,False,False
+272,Slim Fit Jeans 17,Apparel & Fashion,35.4,28.4,5.2,0.708,1,False,True,False,False
+273,Formal Shirt,Apparel & Fashion,31.8,25.8,4.0,0.349,1,False,True,False,False
+274,Formal Shirt 2,Apparel & Fashion,32.7,26.0,4.1,0.349,1,False,True,False,False
+275,Formal Shirt 3,Apparel & Fashion,32.1,24.4,4.1,0.356,1,False,True,False,False
+276,Formal Shirt 4,Apparel & Fashion,33.0,23.7,4.3,0.348,1,False,True,False,False
+277,Formal Shirt 5,Apparel & Fashion,33.1,25.2,4.1,0.332,1,False,True,False,False
+278,Formal Shirt 6,Apparel & Fashion,31.4,27.5,4.0,0.354,1,False,True,False,False
+279,Formal Shirt 7,Apparel & Fashion,32.8,26.4,4.0,0.356,1,False,True,False,False
+280,Formal Shirt 8,Apparel & Fashion,34.3,26.0,4.0,0.368,1,False,True,False,False
+281,Formal Shirt 9,Apparel & Fashion,33.1,26.9,4.1,0.33,1,False,True,False,False
+282,Formal Shirt 10,Apparel & Fashion,33.6,25.1,4.0,0.337,1,False,True,False,False
+283,Formal Shirt 11,Apparel & Fashion,31.9,26.3,4.0,0.357,1,False,True,False,False
+284,Formal Shirt 12,Apparel & Fashion,33.5,26.4,4.0,0.367,1,False,True,False,False
+285,Formal Shirt 13,Apparel & Fashion,33.1,25.0,4.1,0.362,1,False,True,False,False
+286,Formal Shirt 14,Apparel & Fashion,31.7,27.1,4.0,0.352,1,False,True,False,False
+287,Formal Shirt 15,Apparel & Fashion,31.8,26.0,3.9,0.325,1,False,True,False,False
+288,Formal Shirt 16,Apparel & Fashion,33.5,25.3,3.9,0.312,1,False,True,False,False
+289,Formal Shirt 17,Apparel & Fashion,31.4,25.0,4.2,0.368,1,False,True,False,False
+290,Running Shoes,Apparel & Fashion,34.3,26.7,13.4,0.984,2,False,True,False,False
+291,Running Shoes 2,Apparel & Fashion,32.4,26.7,12.5,0.918,2,False,True,False,False
+292,Running Shoes 3,Apparel & Fashion,36.1,26.8,13.5,1.028,2,False,True,False,False
+293,Running Shoes 4,Apparel & Fashion,35.6,25.6,13.3,1.014,2,False,True,False,False
+294,Running Shoes 5,Apparel & Fashion,35.1,25.0,12.7,0.986,2,False,True,False,False
+295,Running Shoes 6,Apparel & Fashion,33.2,24.9,12.6,0.945,2,False,True,False,False
+296,Running Shoes 7,Apparel & Fashion,35.2,26.0,13.4,0.921,2,False,True,False,False
+297,Running Shoes 8,Apparel & Fashion,34.0,25.7,12.6,0.989,2,False,True,False,False
+298,Running Shoes 9,Apparel & Fashion,35.6,24.3,13.0,0.933,2,False,True,False,False
+299,Running Shoes 10,Apparel & Fashion,34.4,25.2,12.4,1.022,2,False,True,False,False
+300,Running Shoes 11,Apparel & Fashion,35.0,25.4,13.1,1.068,2,False,True,False,False
+301,Running Shoes 12,Apparel & Fashion,35.1,24.7,13.0,1.027,2,False,True,False,False
+302,Running Shoes 13,Apparel & Fashion,35.1,25.0,12.7,0.967,2,False,True,False,False
+303,Running Shoes 14,Apparel & Fashion,33.5,26.3,12.5,0.965,2,False,True,False,False
+304,Running Shoes 15,Apparel & Fashion,34.2,25.7,12.9,1.062,2,False,True,False,False
+305,Running Shoes 16,Apparel & Fashion,34.3,25.2,12.7,1.107,2,False,True,False,False
+306,Running Shoes 17,Apparel & Fashion,33.8,25.2,13.2,1.021,2,False,True,False,False
+307,Sports Hoodie,Apparel & Fashion,39.8,29.9,8.0,0.794,2,False,True,False,False
+308,Sports Hoodie 2,Apparel & Fashion,41.2,32.0,7.9,0.745,2,False,True,False,False
+309,Sports Hoodie 3,Apparel & Fashion,39.9,32.3,7.8,0.866,2,False,True,False,False
+310,Sports Hoodie 4,Apparel & Fashion,42.0,29.5,8.1,0.865,2,False,True,False,False
+311,Sports Hoodie 5,Apparel & Fashion,39.5,29.8,7.9,0.759,2,False,True,False,False
+312,Sports Hoodie 6,Apparel & Fashion,39.2,28.9,8.0,0.769,2,False,True,False,False
+313,Sports Hoodie 7,Apparel & Fashion,40.3,28.6,8.1,0.833,2,False,True,False,False
+314,Sports Hoodie 8,Apparel & Fashion,37.6,30.3,8.3,0.752,2,False,True,False,False
+315,Sports Hoodie 9,Apparel & Fashion,42.0,30.4,7.8,0.798,2,False,True,False,False
+316,Sports Hoodie 10,Apparel & Fashion,40.7,30.1,8.1,0.763,2,False,True,False,False
+317,Sports Hoodie 11,Apparel & Fashion,40.2,28.7,8.0,0.764,2,False,True,False,False
+318,Sports Hoodie 12,Apparel & Fashion,39.1,31.1,8.3,0.824,2,False,True,False,False
+319,Sports Hoodie 13,Apparel & Fashion,38.7,29.7,8.3,0.806,2,False,True,False,False
+320,Sports Hoodie 14,Apparel & Fashion,42.8,30.4,8.0,0.788,2,False,True,False,False
+321,Sports Hoodie 15,Apparel & Fashion,40.2,29.9,8.2,0.838,2,False,True,False,False
+322,Sports Hoodie 16,Apparel & Fashion,39.1,28.8,7.6,0.82,2,False,True,False,False
+323,Sports Hoodie 17,Apparel & Fashion,38.7,28.1,8.1,0.9,2,False,True,False,False
+324,Women Handbag Medium,Apparel & Fashion,35.0,25.6,15.0,0.796,2,False,True,False,False
+325,Women Handbag Medium 2,Apparel & Fashion,36.0,24.8,15.1,0.813,2,False,True,False,False
+326,Women Handbag Medium 3,Apparel & Fashion,34.3,25.7,14.9,0.77,2,False,True,False,False
+327,Women Handbag Medium 4,Apparel & Fashion,35.6,24.3,15.0,0.8,2,False,True,False,False
+328,Women Handbag Medium 5,Apparel & Fashion,36.1,25.4,15.0,0.833,2,False,True,False,False
+329,Women Handbag Medium 6,Apparel & Fashion,36.5,25.4,15.0,0.748,2,False,True,False,False
+330,Women Handbag Medium 7,Apparel & Fashion,33.9,24.8,14.7,0.793,2,False,True,False,False
+331,Women Handbag Medium 8,Apparel & Fashion,35.1,25.4,15.0,0.819,2,False,True,False,False
+332,Women Handbag Medium 9,Apparel & Fashion,35.1,23.5,14.6,0.794,2,False,True,False,False
+333,Women Handbag Medium 10,Apparel & Fashion,33.7,25.4,15.7,0.849,2,False,True,False,False
+334,Women Handbag Medium 11,Apparel & Fashion,34.8,26.1,15.1,0.787,2,False,True,False,False
+335,Women Handbag Medium 12,Apparel & Fashion,34.4,24.8,14.8,0.807,2,False,True,False,False
+336,Women Handbag Medium 13,Apparel & Fashion,35.2,25.0,15.2,0.848,2,False,True,False,False
+337,Women Handbag Medium 14,Apparel & Fashion,36.0,23.9,13.9,0.837,2,False,True,False,False
+338,Women Handbag Medium 15,Apparel & Fashion,33.6,24.8,14.5,0.728,2,False,True,False,False
+339,Women Handbag Medium 16,Apparel & Fashion,35.6,25.6,14.7,0.696,2,False,True,False,False
+340,Women Handbag Medium 17,Apparel & Fashion,34.4,25.3,14.3,0.807,2,False,True,False,False
+341,Leather Wallet,Apparel & Fashion,12.0,10.2,3.0,0.19,1,False,True,False,False
+342,Leather Wallet 2,Apparel & Fashion,12.4,10.0,3.0,0.191,1,False,True,False,False
+343,Leather Wallet 3,Apparel & Fashion,11.8,9.7,3.0,0.217,1,False,True,False,False
+344,Leather Wallet 4,Apparel & Fashion,11.5,9.5,3.1,0.198,1,False,True,False,False
+345,Leather Wallet 5,Apparel & Fashion,11.8,10.3,2.9,0.218,1,False,True,False,False
+346,Leather Wallet 6,Apparel & Fashion,12.2,9.9,3.2,0.194,1,False,True,False,False
+347,Leather Wallet 7,Apparel & Fashion,12.3,10.1,3.1,0.216,1,False,True,False,False
+348,Leather Wallet 8,Apparel & Fashion,12.0,9.8,3.0,0.193,1,False,True,False,False
+349,Leather Wallet 9,Apparel & Fashion,12.7,10.0,3.0,0.202,1,False,True,False,False
+350,Leather Wallet 10,Apparel & Fashion,11.5,9.7,3.1,0.193,1,False,True,False,False
+351,Leather Wallet 11,Apparel & Fashion,11.6,10.2,3.1,0.207,1,False,True,False,False
+352,Leather Wallet 12,Apparel & Fashion,12.4,9.8,2.9,0.215,1,False,True,False,False
+353,Leather Wallet 13,Apparel & Fashion,11.9,9.9,3.1,0.206,1,False,True,False,False
+354,Leather Wallet 14,Apparel & Fashion,12.2,10.6,2.9,0.209,1,False,True,False,False
+355,Leather Wallet 15,Apparel & Fashion,12.0,10.1,3.1,0.205,1,False,True,False,False
+356,Leather Wallet 16,Apparel & Fashion,12.2,10.3,3.0,0.192,1,False,True,False,False
+357,Leather Wallet 17,Apparel & Fashion,11.6,9.4,3.2,0.189,1,False,True,False,False
+358,Backpack 25L,Apparel & Fashion,44.7,29.8,18.2,0.937,2,False,True,False,False
+359,Backpack 25L 2,Apparel & Fashion,46.2,29.5,17.9,0.913,2,False,True,False,False
+360,Backpack 25L 3,Apparel & Fashion,44.7,31.4,18.3,0.933,2,False,True,False,False
+361,Backpack 25L 4,Apparel & Fashion,45.9,31.1,18.1,0.842,2,False,True,False,False
+362,Backpack 25L 5,Apparel & Fashion,45.5,29.4,17.7,0.926,2,False,True,False,False
+363,Backpack 25L 6,Apparel & Fashion,46.7,30.0,18.2,0.977,2,False,True,False,False
+364,Backpack 25L 7,Apparel & Fashion,45.3,32.3,18.3,0.821,2,False,True,False,False
+365,Backpack 25L 8,Apparel & Fashion,46.0,30.3,18.7,0.93,2,False,True,False,False
+366,Backpack 25L 9,Apparel & Fashion,44.8,28.9,17.9,0.862,2,False,True,False,False
+367,Backpack 25L 10,Apparel & Fashion,44.2,30.5,18.9,0.918,2,False,True,False,False
+368,Backpack 25L 11,Apparel & Fashion,43.4,30.4,18.6,0.873,2,False,True,False,False
+369,Backpack 25L 12,Apparel & Fashion,44.8,30.0,17.6,0.929,2,False,True,False,False
+370,Backpack 25L 13,Apparel & Fashion,44.8,30.4,17.5,0.88,2,False,True,False,False
+371,Backpack 25L 14,Apparel & Fashion,46.0,29.7,18.9,0.882,2,False,True,False,False
+372,Backpack 25L 15,Apparel & Fashion,45.3,30.8,17.2,0.821,2,False,True,False,False
+373,Backpack 25L 16,Apparel & Fashion,42.9,31.1,17.7,1.015,2,False,True,False,False
+374,Backpack 25L 17,Apparel & Fashion,44.2,30.2,18.8,0.99,2,False,True,False,False
+375,Travel Trolley Bag Medium,Apparel & Fashion,69.0,41.5,30.9,3.604,2,False,True,False,False
+376,Travel Trolley Bag Medium 2,Apparel & Fashion,66.5,39.3,29.3,3.499,2,False,True,False,False
+377,Travel Trolley Bag Medium 3,Apparel & Fashion,64.7,39.5,30.6,3.667,2,False,True,False,False
+378,Travel Trolley Bag Medium 4,Apparel & Fashion,65.2,41.8,29.0,3.466,2,False,True,False,False
+379,Travel Trolley Bag Medium 5,Apparel & Fashion,63.6,37.8,29.9,3.479,2,False,True,False,False
+380,Travel Trolley Bag Medium 6,Apparel & Fashion,68.0,40.8,29.1,3.824,2,False,True,False,False
+381,Travel Trolley Bag Medium 7,Apparel & Fashion,67.4,40.7,29.8,3.332,2,False,True,False,False
+382,Travel Trolley Bag Medium 8,Apparel & Fashion,64.3,41.3,31.7,3.77,2,False,True,False,False
+383,Travel Trolley Bag Medium 9,Apparel & Fashion,64.0,38.7,30.1,3.191,2,False,True,False,False
+384,Travel Trolley Bag Medium 10,Apparel & Fashion,65.6,39.8,29.6,3.221,2,False,True,False,False
+385,Travel Trolley Bag Medium 11,Apparel & Fashion,66.0,39.4,28.9,2.997,2,False,True,False,False
+386,Travel Trolley Bag Medium 12,Apparel & Fashion,64.9,42.1,31.5,3.42,2,False,True,False,False
+387,Travel Trolley Bag Medium 13,Apparel & Fashion,63.8,40.6,29.1,3.553,2,False,True,False,False
+388,Travel Trolley Bag Medium 14,Apparel & Fashion,66.5,41.5,29.9,3.464,2,False,True,False,False
+389,Travel Trolley Bag Medium 15,Apparel & Fashion,63.3,39.0,29.8,3.564,2,False,True,False,False
+390,Travel Trolley Bag Medium 16,Apparel & Fashion,66.8,39.0,31.3,3.453,2,False,True,False,False
+391,Travel Trolley Bag Medium 17,Apparel & Fashion,65.0,39.1,27.8,3.655,2,False,True,False,False
+392,Sports Shorts,Apparel & Fashion,28.6,24.8,3.0,0.205,1,False,True,False,False
+393,Sports Shorts 2,Apparel & Fashion,26.7,24.6,3.1,0.187,1,False,True,False,False
+394,Sports Shorts 3,Apparel & Fashion,28.2,24.0,3.0,0.2,1,False,True,False,False
+395,Sports Shorts 4,Apparel & Fashion,26.6,25.9,2.9,0.192,1,False,True,False,False
+396,Sports Shorts 5,Apparel & Fashion,28.2,25.9,2.9,0.201,1,False,True,False,False
+397,Sports Shorts 6,Apparel & Fashion,28.4,25.5,3.0,0.196,1,False,True,False,False
+398,Sports Shorts 7,Apparel & Fashion,27.3,25.1,2.9,0.171,1,False,True,False,False
+399,Sports Shorts 8,Apparel & Fashion,28.4,25.7,2.8,0.19,1,False,True,False,False
+400,Sports Shorts 9,Apparel & Fashion,28.5,26.5,3.0,0.193,1,False,True,False,False
+401,Sports Shorts 10,Apparel & Fashion,27.8,26.0,2.9,0.192,1,False,True,False,False
+402,Sports Shorts 11,Apparel & Fashion,27.6,24.3,3.0,0.216,1,False,True,False,False
+403,Sports Shorts 12,Apparel & Fashion,28.3,24.8,3.0,0.184,1,False,True,False,False
+404,Sports Shorts 13,Apparel & Fashion,28.7,24.9,3.0,0.23,1,False,True,False,False
+405,Sports Shorts 14,Apparel & Fashion,28.3,24.4,3.0,0.211,1,False,True,False,False
+406,Sports Shorts 15,Apparel & Fashion,28.1,23.9,3.1,0.193,1,False,True,False,False
+407,Sports Shorts 16,Apparel & Fashion,29.6,25.8,3.0,0.213,1,False,True,False,False
+408,Sports Shorts 17,Apparel & Fashion,28.1,25.6,3.0,0.192,1,False,True,False,False
+409,Winter Jacket,Apparel & Fashion,44.1,36.1,11.9,1.274,2,False,True,False,False
+410,Winter Jacket 2,Apparel & Fashion,43.7,35.4,12.7,1.231,2,False,True,False,False
+411,Winter Jacket 3,Apparel & Fashion,45.0,36.5,12.0,1.329,2,False,True,False,False
+412,Winter Jacket 4,Apparel & Fashion,43.6,35.4,11.9,1.364,2,False,True,False,False
+413,Winter Jacket 5,Apparel & Fashion,46.6,37.7,12.2,1.321,2,False,True,False,False
+414,Winter Jacket 6,Apparel & Fashion,45.3,34.6,12.1,1.281,2,False,True,False,False
+415,Winter Jacket 7,Apparel & Fashion,45.2,36.4,11.6,1.374,2,False,True,False,False
+416,Winter Jacket 8,Apparel & Fashion,46.8,34.9,11.2,1.26,2,False,True,False,False
+417,Winter Jacket 9,Apparel & Fashion,46.8,35.0,11.6,1.267,2,False,True,False,False
+418,Winter Jacket 10,Apparel & Fashion,46.1,35.6,11.9,1.276,2,False,True,False,False
+419,Winter Jacket 11,Apparel & Fashion,44.5,34.0,12.6,1.279,2,False,True,False,False
+420,Winter Jacket 12,Apparel & Fashion,46.6,36.6,12.4,1.272,2,False,True,False,False
+421,Winter Jacket 13,Apparel & Fashion,45.5,35.0,11.7,1.321,2,False,True,False,False
+422,Winter Jacket 14,Apparel & Fashion,43.4,36.2,11.8,1.313,2,False,True,False,False
+423,Winter Jacket 15,Apparel & Fashion,45.4,34.7,12.2,1.269,2,False,True,False,False
+424,Winter Jacket 16,Apparel & Fashion,46.2,33.6,12.0,1.426,2,False,True,False,False
+425,Winter Jacket 17,Apparel & Fashion,43.6,34.3,12.2,1.312,2,False,True,False,False
+426,Potato Chips Family Pack,Food & Beverages,30.3,20.3,8.2,0.317,1,False,True,False,False
+427,Potato Chips Family Pack 2,Food & Beverages,30.4,19.9,8.2,0.328,1,False,True,False,False
+428,Potato Chips Family Pack 3,Food & Beverages,29.9,19.4,8.3,0.298,1,False,True,False,False
+429,Potato Chips Family Pack 4,Food & Beverages,28.0,20.5,7.9,0.299,1,False,True,False,False
+430,Potato Chips Family Pack 5,Food & Beverages,30.3,20.1,8.2,0.293,1,False,True,False,False
+431,Potato Chips Family Pack 6,Food & Beverages,30.5,19.8,8.2,0.309,1,False,True,False,False
+432,Potato Chips Family Pack 7,Food & Beverages,29.2,20.7,7.9,0.312,1,False,True,False,False
+433,Potato Chips Family Pack 8,Food & Beverages,30.3,21.1,7.9,0.295,1,False,True,False,False
+434,Potato Chips Family Pack 9,Food & Beverages,30.0,19.8,8.2,0.276,1,False,True,False,False
+435,Potato Chips Family Pack 10,Food & Beverages,29.1,19.4,8.2,0.326,1,False,True,False,False
+436,Potato Chips Family Pack 11,Food & Beverages,29.9,19.9,8.0,0.317,1,False,True,False,False
+437,Potato Chips Family Pack 12,Food & Beverages,29.2,20.1,8.2,0.308,1,False,True,False,False
+438,Potato Chips Family Pack 13,Food & Beverages,30.2,20.6,7.4,0.31,1,False,True,False,False
+439,Potato Chips Family Pack 14,Food & Beverages,29.4,18.9,8.1,0.321,1,False,True,False,False
+440,Potato Chips Family Pack 15,Food & Beverages,29.9,20.6,8.4,0.32,1,False,True,False,False
+441,Potato Chips Family Pack 16,Food & Beverages,31.5,20.4,8.0,0.276,1,False,True,False,False
+442,Potato Chips Family Pack 17,Food & Beverages,29.8,19.5,8.5,0.297,1,False,True,False,False
+443,Instant Noodles Pack,Food & Beverages,20.1,15.2,5.0,0.108,1,False,True,False,False
+444,Instant Noodles Pack 2,Food & Beverages,19.6,15.1,4.9,0.093,1,False,True,False,False
+445,Instant Noodles Pack 3,Food & Beverages,19.6,15.0,4.9,0.097,1,False,True,False,False
+446,Instant Noodles Pack 4,Food & Beverages,19.2,15.0,4.8,0.104,1,False,True,False,False
+447,Instant Noodles Pack 5,Food & Beverages,20.0,14.3,5.0,0.096,1,False,True,False,False
+448,Instant Noodles Pack 6,Food & Beverages,20.2,15.6,4.7,0.101,1,False,True,False,False
+449,Instant Noodles Pack 7,Food & Beverages,19.9,15.3,5.0,0.096,1,False,True,False,False
+450,Instant Noodles Pack 8,Food & Beverages,19.8,14.6,5.2,0.1,1,False,True,False,False
+451,Instant Noodles Pack 9,Food & Beverages,21.1,15.0,4.9,0.092,1,False,True,False,False
+452,Instant Noodles Pack 10,Food & Beverages,18.9,14.3,5.0,0.103,1,False,True,False,False
+453,Instant Noodles Pack 11,Food & Beverages,19.1,15.4,4.9,0.101,1,False,True,False,False
+454,Instant Noodles Pack 12,Food & Beverages,21.0,15.4,5.0,0.096,1,False,True,False,False
+455,Instant Noodles Pack 13,Food & Beverages,18.7,14.7,5.0,0.095,1,False,True,False,False
+456,Instant Noodles Pack 14,Food & Beverages,19.9,15.0,5.0,0.097,1,False,True,False,False
+457,Instant Noodles Pack 15,Food & Beverages,20.1,15.2,4.8,0.107,1,False,True,False,False
+458,Instant Noodles Pack 16,Food & Beverages,19.9,15.0,5.1,0.101,1,False,True,False,False
+459,Instant Noodles Pack 17,Food & Beverages,20.6,15.1,4.9,0.102,1,False,True,False,False
+460,Biscuits Family Pack,Food & Beverages,24.1,18.1,6.0,0.396,1,False,True,False,False
+461,Biscuits Family Pack 2,Food & Beverages,24.9,17.0,5.9,0.402,1,False,True,False,False
+462,Biscuits Family Pack 3,Food & Beverages,25.1,17.4,6.2,0.383,1,False,True,False,False
+463,Biscuits Family Pack 4,Food & Beverages,25.7,18.2,5.9,0.436,1,False,True,False,False
+464,Biscuits Family Pack 5,Food & Beverages,24.1,18.5,6.2,0.387,1,False,True,False,False
+465,Biscuits Family Pack 6,Food & Beverages,26.0,17.9,6.1,0.405,1,False,True,False,False
+466,Biscuits Family Pack 7,Food & Beverages,24.9,18.4,6.1,0.365,1,False,True,False,False
+467,Biscuits Family Pack 8,Food & Beverages,26.0,17.1,6.2,0.423,1,False,True,False,False
+468,Biscuits Family Pack 9,Food & Beverages,24.2,17.8,5.8,0.396,1,False,True,False,False
+469,Biscuits Family Pack 10,Food & Beverages,24.8,18.4,6.2,0.428,1,False,True,False,False
+470,Biscuits Family Pack 11,Food & Beverages,24.6,17.9,5.7,0.384,1,False,True,False,False
+471,Biscuits Family Pack 12,Food & Beverages,25.7,18.9,5.8,0.388,1,False,True,False,False
+472,Biscuits Family Pack 13,Food & Beverages,25.0,18.2,5.9,0.408,1,False,True,False,False
+473,Biscuits Family Pack 14,Food & Beverages,24.6,18.0,6.1,0.4,1,False,True,False,False
+474,Biscuits Family Pack 15,Food & Beverages,24.7,17.9,6.0,0.393,1,False,True,False,False
+475,Biscuits Family Pack 16,Food & Beverages,24.8,18.9,6.1,0.394,1,False,True,False,False
+476,Biscuits Family Pack 17,Food & Beverages,25.5,17.8,6.2,0.407,1,False,True,False,False
+477,Soft Drink 1L PET Bottle,Food & Beverages,29.9,9.1,8.6,1.132,2,True,False,True,True
+478,Soft Drink 1L PET Bottle 2,Food & Beverages,28.9,9.0,9.5,1.334,2,True,False,True,True
+479,Soft Drink 1L PET Bottle 3,Food & Beverages,30.6,9.1,8.5,1.167,2,True,False,True,True
+480,Soft Drink 1L PET Bottle 4,Food & Beverages,29.3,8.8,9.0,1.172,2,True,False,True,True
+481,Soft Drink 1L PET Bottle 5,Food & Beverages,28.2,9.2,8.7,1.214,2,True,False,True,True
+482,Soft Drink 1L PET Bottle 6,Food & Beverages,31.9,8.8,8.3,1.183,2,True,False,True,True
+483,Soft Drink 1L PET Bottle 7,Food & Beverages,31.0,9.5,8.7,1.23,2,True,False,True,True
+484,Soft Drink 1L PET Bottle 8,Food & Beverages,29.6,9.0,9.7,1.11,2,True,False,True,True
+485,Soft Drink 1L PET Bottle 9,Food & Beverages,30.2,9.1,9.3,1.206,2,True,False,True,True
+486,Soft Drink 1L PET Bottle 10,Food & Beverages,30.3,8.9,9.1,1.179,2,True,False,True,True
+487,Soft Drink 1L PET Bottle 11,Food & Beverages,30.6,8.9,9.1,1.198,2,True,False,True,True
+488,Soft Drink 1L PET Bottle 12,Food & Beverages,31.0,9.0,8.5,1.276,2,True,False,True,True
+489,Soft Drink 1L PET Bottle 13,Food & Beverages,29.2,8.8,8.8,1.282,2,True,False,True,True
+490,Soft Drink 1L PET Bottle 14,Food & Beverages,28.1,9.8,9.3,1.213,2,True,False,True,True
+491,Soft Drink 1L PET Bottle 15,Food & Beverages,30.0,9.1,9.1,1.239,2,True,False,True,True
+492,Soft Drink 1L PET Bottle 16,Food & Beverages,30.5,9.0,8.9,1.191,2,True,False,True,True
+493,Soft Drink 1L PET Bottle 17,Food & Beverages,29.8,9.3,9.2,1.024,2,True,False,True,True
+494,Cold Pressed Juice 500ml Glass,Food & Beverages,25.5,8.0,8.0,0.981,3,True,True,True,True
+495,Cold Pressed Juice 500ml Glass 2,Food & Beverages,25.8,8.2,7.8,1.02,3,True,True,True,True
+496,Cold Pressed Juice 500ml Glass 3,Food & Beverages,24.3,7.7,7.8,1.043,3,True,True,True,True
+497,Cold Pressed Juice 500ml Glass 4,Food & Beverages,25.7,8.1,8.2,1.026,3,True,True,True,True
+498,Cold Pressed Juice 500ml Glass 5,Food & Beverages,24.5,8.1,8.2,1.038,3,True,True,True,True
+499,Cold Pressed Juice 500ml Glass 6,Food & Beverages,25.9,8.2,8.1,1.054,3,True,True,True,True
+500,Cold Pressed Juice 500ml Glass 7,Food & Beverages,25.0,7.8,8.0,0.963,3,True,True,True,True
+501,Cold Pressed Juice 500ml Glass 8,Food & Beverages,24.5,8.0,7.8,0.985,3,True,True,True,True
+502,Cold Pressed Juice 500ml Glass 9,Food & Beverages,23.6,8.1,8.0,0.959,3,True,True,True,True
+503,Cold Pressed Juice 500ml Glass 10,Food & Beverages,25.5,8.2,7.6,0.962,3,True,True,True,True
+504,Cold Pressed Juice 500ml Glass 11,Food & Beverages,24.4,7.8,8.2,0.99,3,True,True,True,True
+505,Cold Pressed Juice 500ml Glass 12,Food & Beverages,24.8,7.5,8.2,0.938,3,True,True,True,True
+506,Cold Pressed Juice 500ml Glass 13,Food & Beverages,25.0,8.1,8.3,0.935,3,True,True,True,True
+507,Cold Pressed Juice 500ml Glass 14,Food & Beverages,22.7,8.0,8.4,1.062,3,True,True,True,True
+508,Cold Pressed Juice 500ml Glass 15,Food & Beverages,25.2,7.9,8.2,0.951,3,True,True,True,True
+509,Cold Pressed Juice 500ml Glass 16,Food & Beverages,25.4,8.1,8.3,1.138,3,True,True,True,True
+510,Cold Pressed Juice 500ml Glass 17,Food & Beverages,25.3,7.9,8.0,0.912,3,True,True,True,True
+511,Tomato Ketchup 750g Squeeze,Food & Beverages,23.5,7.9,6.9,0.907,2,True,False,True,False
+512,Tomato Ketchup 750g Squeeze 2,Food & Beverages,23.4,8.3,7.0,0.9,2,True,False,True,False
+513,Tomato Ketchup 750g Squeeze 3,Food & Beverages,23.8,8.0,7.2,0.861,2,True,False,True,False
+514,Tomato Ketchup 750g Squeeze 4,Food & Beverages,23.5,7.9,6.7,0.863,2,True,False,True,False
+515,Tomato Ketchup 750g Squeeze 5,Food & Beverages,23.7,8.2,7.1,0.909,2,True,False,True,False
+516,Tomato Ketchup 750g Squeeze 6,Food & Beverages,24.6,8.0,7.1,0.895,2,True,False,True,False
+517,Tomato Ketchup 750g Squeeze 7,Food & Beverages,24.2,7.9,6.5,0.894,2,True,False,True,False
+518,Tomato Ketchup 750g Squeeze 8,Food & Beverages,25.0,8.2,7.2,0.956,2,True,False,True,False
+519,Tomato Ketchup 750g Squeeze 9,Food & Beverages,24.1,8.0,6.9,0.886,2,True,False,True,False
+520,Tomato Ketchup 750g Squeeze 10,Food & Beverages,24.4,8.3,7.0,0.88,2,True,False,True,False
+521,Tomato Ketchup 750g Squeeze 11,Food & Beverages,24.0,8.1,6.7,0.797,2,True,False,True,False
+522,Tomato Ketchup 750g Squeeze 12,Food & Beverages,23.6,7.7,6.9,0.893,2,True,False,True,False
+523,Tomato Ketchup 750g Squeeze 13,Food & Beverages,23.7,8.3,7.1,0.914,2,True,False,True,False
+524,Tomato Ketchup 750g Squeeze 14,Food & Beverages,24.4,7.7,7.2,0.897,2,True,False,True,False
+525,Tomato Ketchup 750g Squeeze 15,Food & Beverages,24.5,7.7,6.7,0.937,2,True,False,True,False
+526,Tomato Ketchup 750g Squeeze 16,Food & Beverages,24.3,7.8,6.8,0.951,2,True,False,True,False
+527,Tomato Ketchup 750g Squeeze 17,Food & Beverages,23.1,8.4,6.8,0.929,2,True,False,True,False
+528,Basmati Rice 5kg Pouch,Food & Beverages,39.6,30.5,11.8,4.959,1,False,True,False,False
+529,Basmati Rice 5kg Pouch 2,Food & Beverages,40.0,29.1,12.3,4.872,1,False,True,False,False
+530,Basmati Rice 5kg Pouch 3,Food & Beverages,39.7,29.1,11.1,4.952,1,False,True,False,False
+531,Basmati Rice 5kg Pouch 4,Food & Beverages,42.9,30.7,12.0,4.934,1,False,True,False,False
+532,Basmati Rice 5kg Pouch 5,Food & Beverages,40.0,30.5,11.6,5.279,1,False,True,False,False
+533,Basmati Rice 5kg Pouch 6,Food & Beverages,40.9,30.6,12.2,5.005,1,False,True,False,False
+534,Basmati Rice 5kg Pouch 7,Food & Beverages,40.8,30.5,11.9,4.857,1,False,True,False,False
+535,Basmati Rice 5kg Pouch 8,Food & Beverages,40.1,31.4,11.6,4.633,1,False,True,False,False
+536,Basmati Rice 5kg Pouch 9,Food & Beverages,40.2,30.0,12.1,5.061,1,False,True,False,False
+537,Basmati Rice 5kg Pouch 10,Food & Beverages,39.7,31.3,11.4,4.793,1,False,True,False,False
+538,Basmati Rice 5kg Pouch 11,Food & Beverages,39.9,28.5,11.9,5.415,1,False,True,False,False
+539,Basmati Rice 5kg Pouch 12,Food & Beverages,40.0,30.2,11.5,4.846,1,False,True,False,False
+540,Basmati Rice 5kg Pouch 13,Food & Beverages,39.5,29.7,12.5,5.139,1,False,True,False,False
+541,Basmati Rice 5kg Pouch 14,Food & Beverages,38.7,30.2,12.2,5.285,1,False,True,False,False
+542,Basmati Rice 5kg Pouch 15,Food & Beverages,41.9,29.1,11.7,4.686,1,False,True,False,False
+543,Basmati Rice 5kg Pouch 16,Food & Beverages,39.7,30.4,12.4,4.981,1,False,True,False,False
+544,Basmati Rice 5kg Pouch 17,Food & Beverages,39.6,30.1,11.7,5.522,1,False,True,False,False
+545,Breakfast Cereal Box,Food & Beverages,28.6,20.1,7.4,0.6,1,False,True,False,False
+546,Breakfast Cereal Box 2,Food & Beverages,29.8,19.8,7.0,0.641,1,False,True,False,False
+547,Breakfast Cereal Box 3,Food & Beverages,28.0,20.9,6.7,0.592,1,False,True,False,False
+548,Breakfast Cereal Box 4,Food & Beverages,29.6,20.4,6.7,0.614,1,False,True,False,False
+549,Breakfast Cereal Box 5,Food & Beverages,31.8,19.2,7.0,0.58,1,False,True,False,False
+550,Breakfast Cereal Box 6,Food & Beverages,30.4,20.0,6.9,0.615,1,False,True,False,False
+551,Breakfast Cereal Box 7,Food & Beverages,31.6,19.9,7.2,0.561,1,False,True,False,False
+552,Breakfast Cereal Box 8,Food & Beverages,29.1,20.3,7.3,0.611,1,False,True,False,False
+553,Breakfast Cereal Box 9,Food & Beverages,29.7,20.0,6.7,0.618,1,False,True,False,False
+554,Breakfast Cereal Box 10,Food & Beverages,30.8,19.7,6.9,0.608,1,False,True,False,False
+555,Breakfast Cereal Box 11,Food & Beverages,29.6,20.0,7.4,0.593,1,False,True,False,False
+556,Breakfast Cereal Box 12,Food & Beverages,29.7,19.6,7.2,0.595,1,False,True,False,False
+557,Breakfast Cereal Box 13,Food & Beverages,29.4,20.8,7.3,0.582,1,False,True,False,False
+558,Breakfast Cereal Box 14,Food & Beverages,28.3,20.6,6.9,0.624,1,False,True,False,False
+559,Breakfast Cereal Box 15,Food & Beverages,28.2,20.5,6.7,0.622,1,False,True,False,False
+560,Breakfast Cereal Box 16,Food & Beverages,30.0,19.4,6.9,0.621,1,False,True,False,False
+561,Breakfast Cereal Box 17,Food & Beverages,30.1,20.4,7.4,0.553,1,False,True,False,False
+562,Cooking Oil 1L PET Bottle,Food & Beverages,31.5,8.0,7.8,0.933,2,True,False,True,True
+563,Cooking Oil 1L PET Bottle 2,Food & Beverages,29.8,8.2,8.0,1.076,2,True,False,True,True
+564,Cooking Oil 1L PET Bottle 3,Food & Beverages,28.7,8.0,7.7,1.018,2,True,False,True,True
+565,Cooking Oil 1L PET Bottle 4,Food & Beverages,30.8,7.9,7.4,1.01,2,True,False,True,True
+566,Cooking Oil 1L PET Bottle 5,Food & Beverages,30.4,8.1,8.3,0.946,2,True,False,True,True
+567,Cooking Oil 1L PET Bottle 6,Food & Beverages,30.6,8.3,7.6,1.016,2,True,False,True,True
+568,Cooking Oil 1L PET Bottle 7,Food & Beverages,29.5,8.0,8.1,0.976,2,True,False,True,True
+569,Cooking Oil 1L PET Bottle 8,Food & Beverages,29.4,8.0,7.7,0.946,2,True,False,True,True
+570,Cooking Oil 1L PET Bottle 9,Food & Beverages,30.6,7.7,8.2,1.023,2,True,False,True,True
+571,Cooking Oil 1L PET Bottle 10,Food & Beverages,28.4,7.8,8.3,0.951,2,True,False,True,True
+572,Cooking Oil 1L PET Bottle 11,Food & Beverages,29.6,8.1,8.2,0.987,2,True,False,True,True
+573,Cooking Oil 1L PET Bottle 12,Food & Beverages,29.5,8.3,8.4,1.049,2,True,False,True,True
+574,Cooking Oil 1L PET Bottle 13,Food & Beverages,30.1,7.8,7.8,1.026,2,True,False,True,True
+575,Cooking Oil 1L PET Bottle 14,Food & Beverages,30.4,8.3,8.2,0.925,2,True,False,True,True
+576,Cooking Oil 1L PET Bottle 15,Food & Beverages,30.9,7.8,7.9,1.013,2,True,False,True,True
+577,Cooking Oil 1L PET Bottle 16,Food & Beverages,31.8,8.7,8.1,0.991,2,True,False,True,True
+578,Cooking Oil 1L PET Bottle 17,Food & Beverages,30.5,8.2,7.9,1.09,2,True,False,True,True
+579,Chocolate Gift Box,Food & Beverages,22.2,18.3,5.1,0.511,2,False,True,False,False
+580,Chocolate Gift Box 2,Food & Beverages,22.6,17.7,4.9,0.472,2,False,True,False,False
+581,Chocolate Gift Box 3,Food & Beverages,22.3,18.4,5.1,0.542,2,False,True,False,False
+582,Chocolate Gift Box 4,Food & Beverages,22.0,18.4,4.8,0.49,2,False,True,False,False
+583,Chocolate Gift Box 5,Food & Beverages,22.5,18.5,5.0,0.498,2,False,True,False,False
+584,Chocolate Gift Box 6,Food & Beverages,21.0,17.8,5.1,0.514,2,False,True,False,False
+585,Chocolate Gift Box 7,Food & Beverages,22.3,18.0,5.0,0.483,2,False,True,False,False
+586,Chocolate Gift Box 8,Food & Beverages,22.5,18.2,5.1,0.487,2,False,True,False,False
+587,Chocolate Gift Box 9,Food & Beverages,20.6,18.6,4.9,0.478,2,False,True,False,False
+588,Chocolate Gift Box 10,Food & Beverages,22.5,17.8,5.2,0.515,2,False,True,False,False
+589,Chocolate Gift Box 11,Food & Beverages,22.5,17.3,5.2,0.507,2,False,True,False,False
+590,Chocolate Gift Box 12,Food & Beverages,21.8,18.1,4.7,0.51,2,False,True,False,False
+591,Chocolate Gift Box 13,Food & Beverages,21.3,17.3,4.8,0.528,2,False,True,False,False
+592,Chocolate Gift Box 14,Food & Beverages,21.6,18.8,4.9,0.457,2,False,True,False,False
+593,Chocolate Gift Box 15,Food & Beverages,21.3,18.7,5.0,0.486,2,False,True,False,False
+594,Chocolate Gift Box 16,Food & Beverages,22.1,18.3,5.2,0.536,2,False,True,False,False
+595,Chocolate Gift Box 17,Food & Beverages,21.8,17.3,4.9,0.507,2,False,True,False,False
+596,Energy Drink 500ml Can,Food & Beverages,21.4,6.8,7.1,0.599,2,True,False,True,True
+597,Energy Drink 500ml Can 2,Food & Beverages,22.0,6.8,7.0,0.572,2,True,False,True,True
+598,Energy Drink 500ml Can 3,Food & Beverages,22.6,7.2,6.6,0.572,2,True,False,True,True
+599,Energy Drink 500ml Can 4,Food & Beverages,21.0,6.9,7.0,0.557,2,True,False,True,True
+600,Energy Drink 500ml Can 5,Food & Beverages,21.4,6.8,7.0,0.602,2,True,False,True,True
+601,Energy Drink 500ml Can 6,Food & Beverages,21.5,7.0,6.9,0.592,2,True,False,True,True
+602,Energy Drink 500ml Can 7,Food & Beverages,23.1,7.3,6.7,0.625,2,True,False,True,True
+603,Energy Drink 500ml Can 8,Food & Beverages,22.5,6.8,7.2,0.646,2,True,False,True,True
+604,Energy Drink 500ml Can 9,Food & Beverages,21.3,6.8,7.2,0.608,2,True,False,True,True
+605,Energy Drink 500ml Can 10,Food & Beverages,22.4,7.1,7.1,0.56,2,True,False,True,True
+606,Energy Drink 500ml Can 11,Food & Beverages,22.7,7.2,7.0,0.599,2,True,False,True,True
+607,Energy Drink 500ml Can 12,Food & Beverages,21.0,7.1,7.1,0.598,2,True,False,True,True
+608,Energy Drink 500ml Can 13,Food & Beverages,22.7,6.9,7.1,0.569,2,True,False,True,True
+609,Energy Drink 500ml Can 14,Food & Beverages,22.0,7.0,7.0,0.589,2,True,False,True,True
+610,Energy Drink 500ml Can 15,Food & Beverages,21.9,7.2,6.9,0.552,2,True,False,True,True
+611,Energy Drink 500ml Can 16,Food & Beverages,23.2,7.3,6.7,0.621,2,True,False,True,True
+612,Energy Drink 500ml Can 17,Food & Beverages,21.7,7.1,7.1,0.593,2,True,False,True,True
+613,Perfume 100ml Glass,Cosmetics & Beauty,14.6,5.9,3.9,0.335,5,True,True,True,True
+614,Perfume 100ml Glass 2,Cosmetics & Beauty,15.0,5.9,4.1,0.376,5,True,True,True,True
+615,Perfume 100ml Glass 3,Cosmetics & Beauty,14.7,6.0,4.1,0.358,5,True,True,True,True
+616,Perfume 100ml Glass 4,Cosmetics & Beauty,15.0,6.1,4.1,0.328,5,True,True,True,True
+617,Perfume 100ml Glass 5,Cosmetics & Beauty,15.4,6.2,3.9,0.351,5,True,True,True,True
+618,Perfume 100ml Glass 6,Cosmetics & Beauty,15.3,6.0,4.1,0.391,5,True,True,True,True
+619,Perfume 100ml Glass 7,Cosmetics & Beauty,14.6,5.8,4.0,0.363,5,True,True,True,True
+620,Perfume 100ml Glass 8,Cosmetics & Beauty,14.9,6.3,3.8,0.362,5,True,True,True,True
+621,Perfume 100ml Glass 9,Cosmetics & Beauty,14.7,6.3,4.2,0.337,5,True,True,True,True
+622,Perfume 100ml Glass 10,Cosmetics & Beauty,14.8,6.2,4.0,0.349,5,True,True,True,True
+623,Perfume 100ml Glass 11,Cosmetics & Beauty,15.0,5.7,4.0,0.338,5,True,True,True,True
+624,Perfume 100ml Glass 12,Cosmetics & Beauty,14.8,6.3,3.8,0.364,5,True,True,True,True
+625,Perfume 100ml Glass 13,Cosmetics & Beauty,14.9,5.9,4.1,0.356,5,True,True,True,True
+626,Perfume 100ml Glass 14,Cosmetics & Beauty,15.3,6.2,4.0,0.339,5,True,True,True,True
+627,Perfume 100ml Glass 15,Cosmetics & Beauty,14.5,5.9,4.4,0.372,5,True,True,True,True
+628,Perfume 100ml Glass 16,Cosmetics & Beauty,14.4,5.8,4.1,0.36,5,True,True,True,True
+629,Perfume 100ml Glass 17,Cosmetics & Beauty,15.2,6.0,4.0,0.356,5,True,True,True,True
+630,Face Cream 50g Jar,Cosmetics & Beauty,6.0,5.6,5.0,0.191,4,False,True,True,False
+631,Face Cream 50g Jar 2,Cosmetics & Beauty,6.0,6.5,5.1,0.197,4,False,True,True,False
+632,Face Cream 50g Jar 3,Cosmetics & Beauty,6.2,6.1,5.1,0.206,4,False,True,True,False
+633,Face Cream 50g Jar 4,Cosmetics & Beauty,6.4,5.8,5.1,0.191,4,False,True,True,False
+634,Face Cream 50g Jar 5,Cosmetics & Beauty,6.1,5.8,4.9,0.197,4,False,True,True,False
+635,Face Cream 50g Jar 6,Cosmetics & Beauty,6.2,6.2,4.8,0.201,4,False,True,True,False
+636,Face Cream 50g Jar 7,Cosmetics & Beauty,5.9,5.8,5.0,0.197,4,False,True,True,False
+637,Face Cream 50g Jar 8,Cosmetics & Beauty,6.4,6.1,4.8,0.194,4,False,True,True,False
+638,Face Cream 50g Jar 9,Cosmetics & Beauty,6.2,6.4,4.8,0.181,4,False,True,True,False
+639,Face Cream 50g Jar 10,Cosmetics & Beauty,6.3,6.1,4.9,0.205,4,False,True,True,False
+640,Face Cream 50g Jar 11,Cosmetics & Beauty,5.5,6.0,5.0,0.209,4,False,True,True,False
+641,Face Cream 50g Jar 12,Cosmetics & Beauty,5.8,6.0,4.9,0.203,4,False,True,True,False
+642,Face Cream 50g Jar 13,Cosmetics & Beauty,5.8,5.9,4.9,0.207,4,False,True,True,False
+643,Face Cream 50g Jar 14,Cosmetics & Beauty,6.2,6.0,5.0,0.186,4,False,True,True,False
+644,Face Cream 50g Jar 15,Cosmetics & Beauty,5.9,6.0,5.4,0.189,4,False,True,True,False
+645,Face Cream 50g Jar 16,Cosmetics & Beauty,6.3,6.2,5.0,0.218,4,False,True,True,False
+646,Face Cream 50g Jar 17,Cosmetics & Beauty,6.1,6.1,5.0,0.212,4,False,True,True,False
+647,Shampoo 250ml Bottle,Cosmetics & Beauty,20.7,6.9,4.8,0.396,3,True,False,True,False
+648,Shampoo 250ml Bottle 2,Cosmetics & Beauty,19.5,7.0,5.2,0.391,3,True,False,True,False
+649,Shampoo 250ml Bottle 3,Cosmetics & Beauty,20.0,7.0,5.1,0.355,3,True,False,True,False
+650,Shampoo 250ml Bottle 4,Cosmetics & Beauty,19.6,7.0,5.2,0.39,3,True,False,True,False
+651,Shampoo 250ml Bottle 5,Cosmetics & Beauty,18.9,7.1,4.9,0.376,3,True,False,True,False
+652,Shampoo 250ml Bottle 6,Cosmetics & Beauty,19.6,7.0,4.9,0.356,3,True,False,True,False
+653,Shampoo 250ml Bottle 7,Cosmetics & Beauty,20.5,7.3,5.1,0.377,3,True,False,True,False
+654,Shampoo 250ml Bottle 8,Cosmetics & Beauty,19.9,7.0,5.1,0.413,3,True,False,True,False
+655,Shampoo 250ml Bottle 9,Cosmetics & Beauty,19.6,7.0,5.1,0.429,3,True,False,True,False
+656,Shampoo 250ml Bottle 10,Cosmetics & Beauty,20.4,7.2,5.0,0.428,3,True,False,True,False
+657,Shampoo 250ml Bottle 11,Cosmetics & Beauty,20.2,6.8,5.2,0.414,3,True,False,True,False
+658,Shampoo 250ml Bottle 12,Cosmetics & Beauty,19.7,6.9,5.0,0.409,3,True,False,True,False
+659,Shampoo 250ml Bottle 13,Cosmetics & Beauty,20.1,7.1,5.3,0.421,3,True,False,True,False
+660,Shampoo 250ml Bottle 14,Cosmetics & Beauty,20.1,7.2,4.8,0.408,3,True,False,True,False
+661,Shampoo 250ml Bottle 15,Cosmetics & Beauty,21.1,7.0,4.9,0.387,3,True,False,True,False
+662,Shampoo 250ml Bottle 16,Cosmetics & Beauty,19.3,6.8,4.9,0.372,3,True,False,True,False
+663,Shampoo 250ml Bottle 17,Cosmetics & Beauty,20.0,7.2,4.9,0.43,3,True,False,True,False
+664,Conditioner 250ml Bottle,Cosmetics & Beauty,20.3,7.2,4.9,0.417,3,True,False,True,False
+665,Conditioner 250ml Bottle 2,Cosmetics & Beauty,19.3,7.2,5.0,0.411,3,True,False,True,False
+666,Conditioner 250ml Bottle 3,Cosmetics & Beauty,19.3,6.8,5.1,0.381,3,True,False,True,False
+667,Conditioner 250ml Bottle 4,Cosmetics & Beauty,20.3,6.7,5.1,0.375,3,True,False,True,False
+668,Conditioner 250ml Bottle 5,Cosmetics & Beauty,20.3,7.1,4.9,0.412,3,True,False,True,False
+669,Conditioner 250ml Bottle 6,Cosmetics & Beauty,20.2,6.9,4.8,0.361,3,True,False,True,False
+670,Conditioner 250ml Bottle 7,Cosmetics & Beauty,20.2,6.7,5.0,0.395,3,True,False,True,False
+671,Conditioner 250ml Bottle 8,Cosmetics & Beauty,20.4,6.9,5.0,0.415,3,True,False,True,False
+672,Conditioner 250ml Bottle 9,Cosmetics & Beauty,20.2,7.1,5.1,0.369,3,True,False,True,False
+673,Conditioner 250ml Bottle 10,Cosmetics & Beauty,20.5,7.1,4.8,0.395,3,True,False,True,False
+674,Conditioner 250ml Bottle 11,Cosmetics & Beauty,20.0,7.0,5.1,0.429,3,True,False,True,False
+675,Conditioner 250ml Bottle 12,Cosmetics & Beauty,20.6,6.7,5.1,0.427,3,True,False,True,False
+676,Conditioner 250ml Bottle 13,Cosmetics & Beauty,20.2,7.2,5.3,0.42,3,True,False,True,False
+677,Conditioner 250ml Bottle 14,Cosmetics & Beauty,20.1,7.2,5.0,0.4,3,True,False,True,False
+678,Conditioner 250ml Bottle 15,Cosmetics & Beauty,19.8,7.3,4.9,0.431,3,True,False,True,False
+679,Conditioner 250ml Bottle 16,Cosmetics & Beauty,20.3,6.7,5.1,0.358,3,True,False,True,False
+680,Conditioner 250ml Bottle 17,Cosmetics & Beauty,20.4,7.2,4.9,0.402,3,True,False,True,False
+681,Liquid Foundation Bottle,Cosmetics & Beauty,12.7,3.9,3.9,0.269,4,True,True,True,False
+682,Liquid Foundation Bottle 2,Cosmetics & Beauty,12.7,4.0,4.1,0.267,4,True,True,True,False
+683,Liquid Foundation Bottle 3,Cosmetics & Beauty,11.7,3.9,4.1,0.271,4,True,True,True,False
+684,Liquid Foundation Bottle 4,Cosmetics & Beauty,12.2,3.9,4.2,0.243,4,True,True,True,False
+685,Liquid Foundation Bottle 5,Cosmetics & Beauty,11.9,4.0,4.2,0.261,4,True,True,True,False
+686,Liquid Foundation Bottle 6,Cosmetics & Beauty,12.1,4.1,4.0,0.257,4,True,True,True,False
+687,Liquid Foundation Bottle 7,Cosmetics & Beauty,11.1,4.0,4.0,0.236,4,True,True,True,False
+688,Liquid Foundation Bottle 8,Cosmetics & Beauty,12.1,4.0,4.2,0.27,4,True,True,True,False
+689,Liquid Foundation Bottle 9,Cosmetics & Beauty,11.8,4.0,4.0,0.244,4,True,True,True,False
+690,Liquid Foundation Bottle 10,Cosmetics & Beauty,12.1,3.9,3.9,0.258,4,True,True,True,False
+691,Liquid Foundation Bottle 11,Cosmetics & Beauty,12.2,3.9,4.1,0.242,4,True,True,True,False
+692,Liquid Foundation Bottle 12,Cosmetics & Beauty,12.1,4.1,4.0,0.256,4,True,True,True,False
+693,Liquid Foundation Bottle 13,Cosmetics & Beauty,11.8,4.0,4.0,0.241,4,True,True,True,False
+694,Liquid Foundation Bottle 14,Cosmetics & Beauty,11.9,3.8,3.9,0.246,4,True,True,True,False
+695,Liquid Foundation Bottle 15,Cosmetics & Beauty,11.9,4.0,4.0,0.256,4,True,True,True,False
+696,Liquid Foundation Bottle 16,Cosmetics & Beauty,12.3,3.9,3.9,0.237,4,True,True,True,False
+697,Liquid Foundation Bottle 17,Cosmetics & Beauty,11.8,4.0,3.9,0.234,4,True,True,True,False
+698,Eyeshadow Palette,Cosmetics & Beauty,14.8,10.1,2.0,0.243,3,False,True,False,False
+699,Eyeshadow Palette 2,Cosmetics & Beauty,14.8,9.7,2.0,0.239,3,False,True,False,False
+700,Eyeshadow Palette 3,Cosmetics & Beauty,15.3,9.5,2.0,0.254,3,False,True,False,False
+701,Eyeshadow Palette 4,Cosmetics & Beauty,15.1,10.8,2.0,0.237,3,False,True,False,False
+702,Eyeshadow Palette 5,Cosmetics & Beauty,15.0,9.5,2.0,0.24,3,False,True,False,False
+703,Eyeshadow Palette 6,Cosmetics & Beauty,15.4,9.8,2.0,0.242,3,False,True,False,False
+704,Eyeshadow Palette 7,Cosmetics & Beauty,15.8,9.9,2.1,0.26,3,False,True,False,False
+705,Eyeshadow Palette 8,Cosmetics & Beauty,15.2,10.1,2.0,0.226,3,False,True,False,False
+706,Eyeshadow Palette 9,Cosmetics & Beauty,14.9,10.3,2.0,0.232,3,False,True,False,False
+707,Eyeshadow Palette 10,Cosmetics & Beauty,15.0,10.5,2.1,0.249,3,False,True,False,False
+708,Eyeshadow Palette 11,Cosmetics & Beauty,15.4,9.9,1.9,0.238,3,False,True,False,False
+709,Eyeshadow Palette 12,Cosmetics & Beauty,15.7,9.9,2.0,0.246,3,False,True,False,False
+710,Eyeshadow Palette 13,Cosmetics & Beauty,15.9,10.5,2.1,0.248,3,False,True,False,False
+711,Eyeshadow Palette 14,Cosmetics & Beauty,15.1,9.5,2.1,0.235,3,False,True,False,False
+712,Eyeshadow Palette 15,Cosmetics & Beauty,15.1,9.7,2.0,0.24,3,False,True,False,False
+713,Eyeshadow Palette 16,Cosmetics & Beauty,14.7,9.8,2.0,0.26,3,False,True,False,False
+714,Eyeshadow Palette 17,Cosmetics & Beauty,14.5,10.1,2.1,0.244,3,False,True,False,False
+715,Lipstick Stick,Cosmetics & Beauty,9.8,3.0,3.1,0.05,3,False,True,False,False
+716,Lipstick Stick 2,Cosmetics & Beauty,9.8,3.0,2.9,0.052,3,False,True,False,False
+717,Lipstick Stick 3,Cosmetics & Beauty,10.1,3.0,2.9,0.048,3,False,True,False,False
+718,Lipstick Stick 4,Cosmetics & Beauty,10.2,3.1,2.9,0.051,3,False,True,False,False
+719,Lipstick Stick 5,Cosmetics & Beauty,9.4,2.9,3.0,0.048,3,False,True,False,False
+720,Lipstick Stick 6,Cosmetics & Beauty,9.7,2.9,3.0,0.05,3,False,True,False,False
+721,Lipstick Stick 7,Cosmetics & Beauty,9.3,2.8,2.9,0.051,3,False,True,False,False
+722,Lipstick Stick 8,Cosmetics & Beauty,9.2,3.0,3.0,0.053,3,False,True,False,False
+723,Lipstick Stick 9,Cosmetics & Beauty,9.9,3.0,3.0,0.045,3,False,True,False,False
+724,Lipstick Stick 10,Cosmetics & Beauty,10.2,3.0,3.0,0.057,3,False,True,False,False
+725,Lipstick Stick 11,Cosmetics & Beauty,9.4,3.2,3.0,0.051,3,False,True,False,False
+726,Lipstick Stick 12,Cosmetics & Beauty,10.0,3.0,2.9,0.051,3,False,True,False,False
+727,Lipstick Stick 13,Cosmetics & Beauty,9.5,3.1,3.0,0.047,3,False,True,False,False
+728,Lipstick Stick 14,Cosmetics & Beauty,9.9,3.1,3.0,0.051,3,False,True,False,False
+729,Lipstick Stick 15,Cosmetics & Beauty,9.8,3.1,3.1,0.055,3,False,True,False,False
+730,Lipstick Stick 16,Cosmetics & Beauty,9.9,3.1,3.0,0.053,3,False,True,False,False
+731,Lipstick Stick 17,Cosmetics & Beauty,9.8,3.1,3.0,0.05,3,False,True,False,False
+732,Face Serum 30ml,Cosmetics & Beauty,12.0,4.0,4.0,0.202,4,True,True,True,False
+733,Face Serum 30ml 2,Cosmetics & Beauty,12.6,4.1,4.1,0.195,4,True,True,True,False
+734,Face Serum 30ml 3,Cosmetics & Beauty,11.7,4.1,4.1,0.215,4,True,True,True,False
+735,Face Serum 30ml 4,Cosmetics & Beauty,11.8,4.0,3.8,0.196,4,True,True,True,False
+736,Face Serum 30ml 5,Cosmetics & Beauty,12.4,3.9,4.1,0.198,4,True,True,True,False
+737,Face Serum 30ml 6,Cosmetics & Beauty,12.1,3.9,4.0,0.17,4,True,True,True,False
+738,Face Serum 30ml 7,Cosmetics & Beauty,11.9,3.8,4.1,0.208,4,True,True,True,False
+739,Face Serum 30ml 8,Cosmetics & Beauty,12.2,4.2,3.9,0.217,4,True,True,True,False
+740,Face Serum 30ml 9,Cosmetics & Beauty,12.3,4.0,4.1,0.189,4,True,True,True,False
+741,Face Serum 30ml 10,Cosmetics & Beauty,11.7,3.9,3.9,0.189,4,True,True,True,False
+742,Face Serum 30ml 11,Cosmetics & Beauty,12.4,4.0,4.0,0.194,4,True,True,True,False
+743,Face Serum 30ml 12,Cosmetics & Beauty,11.3,4.0,3.8,0.199,4,True,True,True,False
+744,Face Serum 30ml 13,Cosmetics & Beauty,11.5,4.2,4.1,0.201,4,True,True,True,False
+745,Face Serum 30ml 14,Cosmetics & Beauty,12.5,3.9,4.1,0.202,4,True,True,True,False
+746,Face Serum 30ml 15,Cosmetics & Beauty,12.1,4.2,4.1,0.203,4,True,True,True,False
+747,Face Serum 30ml 16,Cosmetics & Beauty,11.4,3.9,4.0,0.201,4,True,True,True,False
+748,Face Serum 30ml 17,Cosmetics & Beauty,11.6,4.3,4.2,0.206,4,True,True,True,False
+749,Body Lotion 500ml Bottle,Cosmetics & Beauty,23.0,7.9,5.8,0.602,3,True,False,True,False
+750,Body Lotion 500ml Bottle 2,Cosmetics & Beauty,23.2,7.7,6.1,0.595,3,True,False,True,False
+751,Body Lotion 500ml Bottle 3,Cosmetics & Beauty,21.7,7.8,5.9,0.657,3,True,False,True,False
+752,Body Lotion 500ml Bottle 4,Cosmetics & Beauty,23.4,7.7,6.1,0.554,3,True,False,True,False
+753,Body Lotion 500ml Bottle 5,Cosmetics & Beauty,23.7,7.9,6.0,0.64,3,True,False,True,False
+754,Body Lotion 500ml Bottle 6,Cosmetics & Beauty,22.1,7.7,5.9,0.631,3,True,False,True,False
+755,Body Lotion 500ml Bottle 7,Cosmetics & Beauty,22.0,7.3,5.9,0.617,3,True,False,True,False
+756,Body Lotion 500ml Bottle 8,Cosmetics & Beauty,23.8,7.9,5.9,0.635,3,True,False,True,False
+757,Body Lotion 500ml Bottle 9,Cosmetics & Beauty,21.7,7.9,6.0,0.613,3,True,False,True,False
+758,Body Lotion 500ml Bottle 10,Cosmetics & Beauty,22.6,8.0,5.6,0.58,3,True,False,True,False
+759,Body Lotion 500ml Bottle 11,Cosmetics & Beauty,23.3,7.8,6.0,0.613,3,True,False,True,False
+760,Body Lotion 500ml Bottle 12,Cosmetics & Beauty,22.8,8.0,5.8,0.594,3,True,False,True,False
+761,Body Lotion 500ml Bottle 13,Cosmetics & Beauty,23.4,8.0,5.9,0.607,3,True,False,True,False
+762,Body Lotion 500ml Bottle 14,Cosmetics & Beauty,23.5,7.5,6.2,0.59,3,True,False,True,False
+763,Body Lotion 500ml Bottle 15,Cosmetics & Beauty,23.3,8.3,5.8,0.579,3,True,False,True,False
+764,Body Lotion 500ml Bottle 16,Cosmetics & Beauty,22.8,7.8,6.3,0.574,3,True,False,True,False
+765,Body Lotion 500ml Bottle 17,Cosmetics & Beauty,22.6,8.0,5.8,0.588,3,True,False,True,False
+766,Ceramic Coffee Mug,Home & Living,12.1,9.9,10.0,0.389,4,False,True,False,False
+767,Ceramic Coffee Mug 2,Home & Living,11.5,10.1,10.5,0.4,4,False,True,False,False
+768,Ceramic Coffee Mug 3,Home & Living,12.1,10.2,9.6,0.434,4,False,True,False,False
+769,Ceramic Coffee Mug 4,Home & Living,12.1,10.5,9.8,0.436,4,False,True,False,False
+770,Ceramic Coffee Mug 5,Home & Living,12.3,10.2,10.1,0.395,4,False,True,False,False
+771,Ceramic Coffee Mug 6,Home & Living,12.4,10.0,9.4,0.378,4,False,True,False,False
+772,Ceramic Coffee Mug 7,Home & Living,11.9,10.1,10.0,0.424,4,False,True,False,False
+773,Ceramic Coffee Mug 8,Home & Living,11.3,10.0,9.5,0.415,4,False,True,False,False
+774,Ceramic Coffee Mug 9,Home & Living,12.0,10.1,9.7,0.426,4,False,True,False,False
+775,Ceramic Coffee Mug 10,Home & Living,12.4,10.2,10.0,0.412,4,False,True,False,False
+776,Ceramic Coffee Mug 11,Home & Living,11.7,10.3,10.5,0.421,4,False,True,False,False
+777,Ceramic Coffee Mug 12,Home & Living,11.7,10.1,9.6,0.411,4,False,True,False,False
+778,Ceramic Coffee Mug 13,Home & Living,12.2,9.4,9.7,0.394,4,False,True,False,False
+779,Ceramic Coffee Mug 14,Home & Living,11.9,9.6,10.1,0.405,4,False,True,False,False
+780,Ceramic Coffee Mug 15,Home & Living,11.9,9.8,10.3,0.433,4,False,True,False,False
+781,Ceramic Coffee Mug 16,Home & Living,11.8,9.8,10.1,0.393,4,False,True,False,False
+782,Ceramic Coffee Mug 17,Home & Living,11.9,10.2,9.4,0.426,4,False,True,False,False
+783,Glass Water Bottle 1L,Home & Living,30.1,7.9,8.0,1.098,4,True,True,True,True
+784,Glass Water Bottle 1L 2,Home & Living,28.4,8.4,8.0,1.124,4,True,True,True,True
+785,Glass Water Bottle 1L 3,Home & Living,30.9,7.8,8.1,1.085,4,True,True,True,True
+786,Glass Water Bottle 1L 4,Home & Living,30.8,7.5,8.0,1.067,4,True,True,True,True
+787,Glass Water Bottle 1L 5,Home & Living,30.4,8.1,7.8,1.061,4,True,True,True,True
+788,Glass Water Bottle 1L 6,Home & Living,29.9,7.8,8.2,1.08,4,True,True,True,True
+789,Glass Water Bottle 1L 7,Home & Living,27.4,7.9,7.8,1.01,4,True,True,True,True
+790,Glass Water Bottle 1L 8,Home & Living,28.9,8.0,8.3,1.117,4,True,True,True,True
+791,Glass Water Bottle 1L 9,Home & Living,29.5,8.1,7.9,1.062,4,True,True,True,True
+792,Glass Water Bottle 1L 10,Home & Living,29.0,7.6,7.9,1.109,4,True,True,True,True
+793,Glass Water Bottle 1L 11,Home & Living,29.9,7.9,7.8,1.133,4,True,True,True,True
+794,Glass Water Bottle 1L 12,Home & Living,28.8,8.2,7.8,1.059,4,True,True,True,True
+795,Glass Water Bottle 1L 13,Home & Living,28.7,7.9,8.2,1.128,4,True,True,True,True
+796,Glass Water Bottle 1L 14,Home & Living,30.9,8.1,7.7,1.082,4,True,True,True,True
+797,Glass Water Bottle 1L 15,Home & Living,29.3,8.3,7.7,1.149,4,True,True,True,True
+798,Glass Water Bottle 1L 16,Home & Living,30.8,8.4,7.9,1.139,4,True,True,True,True
+799,Glass Water Bottle 1L 17,Home & Living,32.1,7.9,7.6,0.997,4,True,True,True,True
+800,Stainless Steel Pressure Cooker 5L,Home & Living,30.6,28.3,24.7,3.577,2,False,True,False,True
+801,Stainless Steel Pressure Cooker 5L 2,Home & Living,30.2,30.4,25.2,3.724,2,False,True,False,True
+802,Stainless Steel Pressure Cooker 5L 3,Home & Living,29.1,29.4,24.4,3.645,2,False,True,False,True
+803,Stainless Steel Pressure Cooker 5L 4,Home & Living,30.8,30.4,25.9,3.294,2,False,True,False,True
+804,Stainless Steel Pressure Cooker 5L 5,Home & Living,31.5,31.4,25.6,3.812,2,False,True,False,True
+805,Stainless Steel Pressure Cooker 5L 6,Home & Living,28.5,29.5,24.4,3.626,2,False,True,False,True
+806,Stainless Steel Pressure Cooker 5L 7,Home & Living,29.1,30.7,26.0,3.622,2,False,True,False,True
+807,Stainless Steel Pressure Cooker 5L 8,Home & Living,30.3,29.1,24.4,3.719,2,False,True,False,True
+808,Stainless Steel Pressure Cooker 5L 9,Home & Living,30.7,30.0,24.7,3.145,2,False,True,False,True
+809,Stainless Steel Pressure Cooker 5L 10,Home & Living,29.0,31.7,24.0,3.533,2,False,True,False,True
+810,Stainless Steel Pressure Cooker 5L 11,Home & Living,30.9,28.9,25.1,3.664,2,False,True,False,True
+811,Stainless Steel Pressure Cooker 5L 12,Home & Living,30.0,32.6,23.7,3.685,2,False,True,False,True
+812,Stainless Steel Pressure Cooker 5L 13,Home & Living,29.8,30.7,25.3,3.372,2,False,True,False,True
+813,Stainless Steel Pressure Cooker 5L 14,Home & Living,30.2,28.3,25.5,3.552,2,False,True,False,True
+814,Stainless Steel Pressure Cooker 5L 15,Home & Living,30.6,31.0,25.3,3.526,2,False,True,False,True
+815,Stainless Steel Pressure Cooker 5L 16,Home & Living,29.2,29.4,25.9,3.751,2,False,True,False,True
+816,Stainless Steel Pressure Cooker 5L 17,Home & Living,29.8,30.0,24.3,3.705,2,False,True,False,True
+817,Bedsheet Double Size Set,Home & Living,40.8,31.7,9.7,1.962,1,False,True,False,False
+818,Bedsheet Double Size Set 2,Home & Living,40.3,30.6,9.9,1.913,1,False,True,False,False
+819,Bedsheet Double Size Set 3,Home & Living,41.1,30.6,9.7,2.136,1,False,True,False,False
+820,Bedsheet Double Size Set 4,Home & Living,41.4,30.1,10.0,2.055,1,False,True,False,False
+821,Bedsheet Double Size Set 5,Home & Living,39.0,30.0,9.4,2.088,1,False,True,False,False
+822,Bedsheet Double Size Set 6,Home & Living,38.1,31.4,9.9,1.979,1,False,True,False,False
+823,Bedsheet Double Size Set 7,Home & Living,39.2,29.7,10.4,1.751,1,False,True,False,False
+824,Bedsheet Double Size Set 8,Home & Living,41.5,30.3,9.6,1.892,1,False,True,False,False
+825,Bedsheet Double Size Set 9,Home & Living,42.0,29.1,9.7,2.114,1,False,True,False,False
+826,Bedsheet Double Size Set 10,Home & Living,40.4,29.2,10.1,1.897,1,False,True,False,False
+827,Bedsheet Double Size Set 11,Home & Living,41.3,31.0,10.2,2.036,1,False,True,False,False
+828,Bedsheet Double Size Set 12,Home & Living,42.1,30.0,9.6,2.045,1,False,True,False,False
+829,Bedsheet Double Size Set 13,Home & Living,42.5,29.1,9.9,2.042,1,False,True,False,False
+830,Bedsheet Double Size Set 14,Home & Living,39.9,29.1,10.3,2.232,1,False,True,False,False
+831,Bedsheet Double Size Set 15,Home & Living,40.2,29.2,9.5,2.026,1,False,True,False,False
+832,Bedsheet Double Size Set 16,Home & Living,41.3,30.4,10.0,1.941,1,False,True,False,False
+833,Bedsheet Double Size Set 17,Home & Living,38.7,30.8,10.3,1.845,1,False,True,False,False
+834,Memory Foam Pillow,Home & Living,62.9,40.7,15.6,1.119,2,False,True,False,False
+835,Memory Foam Pillow 2,Home & Living,57.5,39.8,15.2,1.308,2,False,True,False,False
+836,Memory Foam Pillow 3,Home & Living,61.3,39.7,14.5,1.274,2,False,True,False,False
+837,Memory Foam Pillow 4,Home & Living,58.3,42.0,14.9,1.295,2,False,True,False,False
+838,Memory Foam Pillow 5,Home & Living,61.2,39.8,14.8,1.18,2,False,True,False,False
+839,Memory Foam Pillow 6,Home & Living,60.8,40.1,14.7,1.19,2,False,True,False,False
+840,Memory Foam Pillow 7,Home & Living,60.1,37.4,15.2,1.141,2,False,True,False,False
+841,Memory Foam Pillow 8,Home & Living,57.9,38.0,14.2,1.119,2,False,True,False,False
+842,Memory Foam Pillow 9,Home & Living,58.7,42.3,14.8,1.211,2,False,True,False,False
+843,Memory Foam Pillow 10,Home & Living,60.7,40.2,15.0,1.128,2,False,True,False,False
+844,Memory Foam Pillow 11,Home & Living,62.6,42.2,14.2,1.139,2,False,True,False,False
+845,Memory Foam Pillow 12,Home & Living,59.5,38.8,15.2,1.156,2,False,True,False,False
+846,Memory Foam Pillow 13,Home & Living,63.9,41.4,15.1,1.262,2,False,True,False,False
+847,Memory Foam Pillow 14,Home & Living,62.0,39.3,14.6,1.205,2,False,True,False,False
+848,Memory Foam Pillow 15,Home & Living,61.6,40.2,14.3,1.152,2,False,True,False,False
+849,Memory Foam Pillow 16,Home & Living,59.9,39.9,15.9,1.117,2,False,True,False,False
+850,Memory Foam Pillow 17,Home & Living,60.9,41.8,16.0,1.176,2,False,True,False,False
+851,LED Table Lamp,Home & Living,25.4,15.3,15.1,0.995,3,False,True,False,True
+852,LED Table Lamp 2,Home & Living,25.3,13.9,15.3,1.006,3,False,True,False,True
+853,LED Table Lamp 3,Home & Living,24.8,15.9,14.7,0.98,3,False,True,False,True
+854,LED Table Lamp 4,Home & Living,26.5,14.6,14.8,0.993,3,False,True,False,True
+855,LED Table Lamp 5,Home & Living,25.6,15.1,14.4,0.973,3,False,True,False,True
+856,LED Table Lamp 6,Home & Living,24.5,15.0,15.2,1.021,3,False,True,False,True
+857,LED Table Lamp 7,Home & Living,23.7,15.5,15.1,1.069,3,False,True,False,True
+858,LED Table Lamp 8,Home & Living,25.3,15.5,15.2,1.067,3,False,True,False,True
+859,LED Table Lamp 9,Home & Living,25.4,15.0,16.0,1.044,3,False,True,False,True
+860,LED Table Lamp 10,Home & Living,25.4,14.4,14.4,1.015,3,False,True,False,True
+861,LED Table Lamp 11,Home & Living,25.1,14.7,15.1,1.079,3,False,True,False,True
+862,LED Table Lamp 12,Home & Living,25.5,14.5,14.9,0.96,3,False,True,False,True
+863,LED Table Lamp 13,Home & Living,24.7,14.8,14.8,0.937,3,False,True,False,True
+864,LED Table Lamp 14,Home & Living,24.9,14.7,13.7,1.103,3,False,True,False,True
+865,LED Table Lamp 15,Home & Living,25.8,14.8,15.0,0.941,3,False,True,False,True
+866,LED Table Lamp 16,Home & Living,26.3,15.9,15.1,1.051,3,False,True,False,True
+867,LED Table Lamp 17,Home & Living,25.1,14.4,14.8,1.007,3,False,True,False,True
+868,Non-stick Frying Pan 28cm,Home & Living,44.4,27.8,10.0,1.494,3,False,True,False,True
+869,Non-stick Frying Pan 28cm 2,Home & Living,45.1,27.1,9.8,1.404,3,False,True,False,True
+870,Non-stick Frying Pan 28cm 3,Home & Living,46.3,26.2,10.3,1.604,3,False,True,False,True
+871,Non-stick Frying Pan 28cm 4,Home & Living,44.6,25.8,9.9,1.495,3,False,True,False,True
+872,Non-stick Frying Pan 28cm 5,Home & Living,43.6,27.6,10.5,1.55,3,False,True,False,True
+873,Non-stick Frying Pan 28cm 6,Home & Living,43.8,26.7,9.9,1.484,3,False,True,False,True
+874,Non-stick Frying Pan 28cm 7,Home & Living,45.7,27.6,10.2,1.645,3,False,True,False,True
+875,Non-stick Frying Pan 28cm 8,Home & Living,46.1,28.0,9.9,1.473,3,False,True,False,True
+876,Non-stick Frying Pan 28cm 9,Home & Living,46.6,27.5,10.0,1.504,3,False,True,False,True
+877,Non-stick Frying Pan 28cm 10,Home & Living,44.3,26.8,10.1,1.495,3,False,True,False,True
+878,Non-stick Frying Pan 28cm 11,Home & Living,45.7,27.6,10.4,1.434,3,False,True,False,True
+879,Non-stick Frying Pan 28cm 12,Home & Living,47.3,26.5,10.1,1.536,3,False,True,False,True
+880,Non-stick Frying Pan 28cm 13,Home & Living,43.9,28.4,10.4,1.334,3,False,True,False,True
+881,Non-stick Frying Pan 28cm 14,Home & Living,45.7,25.9,9.7,1.622,3,False,True,False,True
+882,Non-stick Frying Pan 28cm 15,Home & Living,44.2,27.0,9.9,1.655,3,False,True,False,True
+883,Non-stick Frying Pan 28cm 16,Home & Living,42.5,27.1,10.4,1.639,3,False,True,False,True
+884,Non-stick Frying Pan 28cm 17,Home & Living,44.9,27.0,10.6,1.62,3,False,True,False,True
+885,Microwave Oven 20L,Home & Living,49.0,37.1,30.0,13.888,3,False,True,False,True
+886,Microwave Oven 20L 2,Home & Living,48.5,39.7,30.8,13.246,3,False,True,False,True
+887,Microwave Oven 20L 3,Home & Living,50.0,38.4,30.6,15.027,3,False,True,False,True
+888,Microwave Oven 20L 4,Home & Living,46.4,38.0,29.5,12.902,3,False,True,False,True
+889,Microwave Oven 20L 5,Home & Living,48.5,40.9,28.3,13.977,3,False,True,False,True
+890,Microwave Oven 20L 6,Home & Living,48.9,38.1,29.9,13.091,3,False,True,False,True
+891,Microwave Oven 20L 7,Home & Living,48.3,37.1,28.0,14.836,3,False,True,False,True
+892,Microwave Oven 20L 8,Home & Living,49.4,38.1,30.2,14.752,3,False,True,False,True
+893,Microwave Oven 20L 9,Home & Living,48.3,39.0,29.7,14.918,3,False,True,False,True
+894,Microwave Oven 20L 10,Home & Living,48.5,38.2,28.9,14.201,3,False,True,False,True
+895,Microwave Oven 20L 11,Home & Living,46.8,37.3,29.3,13.254,3,False,True,False,True
+896,Microwave Oven 20L 12,Home & Living,51.1,39.5,31.7,13.144,3,False,True,False,True
+897,Microwave Oven 20L 13,Home & Living,48.1,36.5,29.4,13.357,3,False,True,False,True
+898,Microwave Oven 20L 14,Home & Living,49.8,37.5,31.0,14.423,3,False,True,False,True
+899,Microwave Oven 20L 15,Home & Living,51.3,36.3,31.1,14.803,3,False,True,False,True
+900,Microwave Oven 20L 16,Home & Living,46.6,39.1,30.3,13.841,3,False,True,False,True
+901,Microwave Oven 20L 17,Home & Living,46.8,37.2,31.8,14.0,3,False,True,False,True
+902,Induction Cooktop,Home & Living,40.9,34.2,9.8,3.162,3,False,True,False,True
+903,Induction Cooktop 2,Home & Living,38.4,34.6,10.0,3.017,3,False,True,False,True
+904,Induction Cooktop 3,Home & Living,39.8,35.4,10.2,3.11,3,False,True,False,True
+905,Induction Cooktop 4,Home & Living,38.8,34.7,10.4,3.134,3,False,True,False,True
+906,Induction Cooktop 5,Home & Living,38.4,35.4,9.4,3.007,3,False,True,False,True
+907,Induction Cooktop 6,Home & Living,42.3,34.0,9.7,3.115,3,False,True,False,True
+908,Induction Cooktop 7,Home & Living,38.1,34.3,10.2,2.905,3,False,True,False,True
+909,Induction Cooktop 8,Home & Living,39.7,35.8,10.1,3.04,3,False,True,False,True
+910,Induction Cooktop 9,Home & Living,39.6,35.4,10.0,3.069,3,False,True,False,True
+911,Induction Cooktop 10,Home & Living,39.4,34.8,9.7,2.995,3,False,True,False,True
+912,Induction Cooktop 11,Home & Living,39.0,33.8,10.1,3.032,3,False,True,False,True
+913,Induction Cooktop 12,Home & Living,40.9,34.5,10.1,3.083,3,False,True,False,True
+914,Induction Cooktop 13,Home & Living,40.5,34.1,10.0,3.055,3,False,True,False,True
+915,Induction Cooktop 14,Home & Living,40.0,32.8,10.0,3.332,3,False,True,False,True
+916,Induction Cooktop 15,Home & Living,39.6,34.2,10.1,3.047,3,False,True,False,True
+917,Induction Cooktop 16,Home & Living,41.4,33.7,10.2,3.089,3,False,True,False,True
+918,Induction Cooktop 17,Home & Living,39.8,35.4,10.3,3.131,3,False,True,False,True
+919,Industrial Bearing Medium,Industrial Goods,14.5,15.4,10.0,2.509,2,False,False,False,False
+920,Industrial Bearing Medium 2,Industrial Goods,15.0,14.9,10.4,2.49,2,False,False,False,False
+921,Industrial Bearing Medium 3,Industrial Goods,14.5,14.8,10.1,2.654,2,False,False,False,False
+922,Industrial Bearing Medium 4,Industrial Goods,15.3,14.6,10.7,2.533,2,False,False,False,False
+923,Industrial Bearing Medium 5,Industrial Goods,15.6,14.9,10.2,2.605,2,False,False,False,False
+924,Industrial Bearing Medium 6,Industrial Goods,15.5,15.5,10.3,2.461,2,False,False,False,False
+925,Industrial Bearing Medium 7,Industrial Goods,14.7,15.1,10.3,2.472,2,False,False,False,False
+926,Industrial Bearing Medium 8,Industrial Goods,15.5,15.7,9.7,2.395,2,False,False,False,False
+927,Industrial Bearing Medium 9,Industrial Goods,14.9,15.1,9.8,2.669,2,False,False,False,False
+928,Industrial Bearing Medium 10,Industrial Goods,15.2,15.0,9.6,2.336,2,False,False,False,False
+929,Industrial Bearing Medium 11,Industrial Goods,15.1,14.0,10.3,2.48,2,False,False,False,False
+930,Industrial Bearing Medium 12,Industrial Goods,16.5,16.0,9.9,2.487,2,False,False,False,False
+931,Industrial Bearing Medium 13,Industrial Goods,15.4,15.8,9.5,2.277,2,False,False,False,False
+932,Industrial Bearing Medium 14,Industrial Goods,14.7,15.3,10.1,2.634,2,False,False,False,False
+933,Industrial Bearing Medium 15,Industrial Goods,14.5,14.0,10.3,2.396,2,False,False,False,False
+934,Industrial Bearing Medium 16,Industrial Goods,14.1,15.1,10.2,2.485,2,False,False,False,False
+935,Industrial Bearing Medium 17,Industrial Goods,14.8,14.9,9.9,2.331,2,False,False,False,False
+936,Hydraulic Valve Block,Industrial Goods,24.5,20.3,15.1,4.034,3,False,False,False,True
+937,Hydraulic Valve Block 2,Industrial Goods,24.3,19.9,14.0,4.036,3,False,False,False,True
+938,Hydraulic Valve Block 3,Industrial Goods,26.1,19.1,14.7,4.066,3,False,False,False,True
+939,Hydraulic Valve Block 4,Industrial Goods,25.9,19.7,14.7,3.606,3,False,False,False,True
+940,Hydraulic Valve Block 5,Industrial Goods,25.1,21.2,15.1,3.996,3,False,False,False,True
+941,Hydraulic Valve Block 6,Industrial Goods,25.2,20.0,14.6,4.165,3,False,False,False,True
+942,Hydraulic Valve Block 7,Industrial Goods,25.2,20.0,14.6,4.261,3,False,False,False,True
+943,Hydraulic Valve Block 8,Industrial Goods,25.5,19.7,15.5,3.9,3,False,False,False,True
+944,Hydraulic Valve Block 9,Industrial Goods,24.4,19.5,14.2,4.094,3,False,False,False,True
+945,Hydraulic Valve Block 10,Industrial Goods,23.6,19.3,14.1,3.983,3,False,False,False,True
+946,Hydraulic Valve Block 11,Industrial Goods,24.9,19.8,14.5,3.766,3,False,False,False,True
+947,Hydraulic Valve Block 12,Industrial Goods,25.3,19.7,15.1,3.823,3,False,False,False,True
+948,Hydraulic Valve Block 13,Industrial Goods,25.1,20.8,15.3,3.918,3,False,False,False,True
+949,Hydraulic Valve Block 14,Industrial Goods,25.2,19.9,15.0,3.935,3,False,False,False,True
+950,Hydraulic Valve Block 15,Industrial Goods,24.9,20.1,14.6,3.797,3,False,False,False,True
+951,Hydraulic Valve Block 16,Industrial Goods,24.0,19.0,14.5,4.032,3,False,False,False,True
+952,Hydraulic Valve Block 17,Industrial Goods,24.3,20.3,15.0,3.606,3,False,False,False,True
+953,Three-phase Electric Motor 2HP,Industrial Goods,40.8,30.7,24.3,8.168,3,False,False,False,True
+954,Three-phase Electric Motor 2HP 2,Industrial Goods,39.0,30.1,24.1,7.283,3,False,False,False,True
+955,Three-phase Electric Motor 2HP 3,Industrial Goods,39.5,29.9,24.7,7.526,3,False,False,False,True
+956,Three-phase Electric Motor 2HP 4,Industrial Goods,39.5,30.2,25.0,8.073,3,False,False,False,True
+957,Three-phase Electric Motor 2HP 5,Industrial Goods,39.2,31.1,24.1,8.195,3,False,False,False,True
+958,Three-phase Electric Motor 2HP 6,Industrial Goods,41.4,30.4,24.8,7.789,3,False,False,False,True
+959,Three-phase Electric Motor 2HP 7,Industrial Goods,41.2,28.7,24.3,7.841,3,False,False,False,True
+960,Three-phase Electric Motor 2HP 8,Industrial Goods,41.5,30.3,24.3,7.876,3,False,False,False,True
+961,Three-phase Electric Motor 2HP 9,Industrial Goods,39.3,29.4,25.7,7.451,3,False,False,False,True
+962,Three-phase Electric Motor 2HP 10,Industrial Goods,41.9,30.7,25.8,7.815,3,False,False,False,True
+963,Three-phase Electric Motor 2HP 11,Industrial Goods,39.8,28.7,24.6,8.197,3,False,False,False,True
+964,Three-phase Electric Motor 2HP 12,Industrial Goods,41.6,29.0,24.7,7.939,3,False,False,False,True
+965,Three-phase Electric Motor 2HP 13,Industrial Goods,38.3,30.5,24.5,7.922,3,False,False,False,True
+966,Three-phase Electric Motor 2HP 14,Industrial Goods,39.5,29.3,25.0,7.914,3,False,False,False,True
+967,Three-phase Electric Motor 2HP 15,Industrial Goods,39.6,29.3,25.2,8.661,3,False,False,False,True
+968,Three-phase Electric Motor 2HP 16,Industrial Goods,40.2,30.9,24.0,8.063,3,False,False,False,True
+969,Three-phase Electric Motor 2HP 17,Industrial Goods,38.7,28.7,24.4,8.477,3,False,False,False,True
+970,Power Drill Kit,Industrial Goods,46.3,35.3,14.3,4.951,2,False,False,False,False
+971,Power Drill Kit 2,Industrial Goods,45.4,35.2,14.2,4.777,2,False,False,False,False
+972,Power Drill Kit 3,Industrial Goods,44.9,35.6,14.0,4.959,2,False,False,False,False
+973,Power Drill Kit 4,Industrial Goods,45.2,35.9,15.3,5.146,2,False,False,False,False
+974,Power Drill Kit 5,Industrial Goods,43.9,33.0,14.8,5.25,2,False,False,False,False
+975,Power Drill Kit 6,Industrial Goods,46.9,35.7,15.2,5.095,2,False,False,False,False
+976,Power Drill Kit 7,Industrial Goods,44.2,34.9,15.8,4.764,2,False,False,False,False
+977,Power Drill Kit 8,Industrial Goods,47.2,34.7,15.6,4.648,2,False,False,False,False
+978,Power Drill Kit 9,Industrial Goods,45.8,34.2,14.4,5.055,2,False,False,False,False
+979,Power Drill Kit 10,Industrial Goods,46.4,34.1,14.3,4.977,2,False,False,False,False
+980,Power Drill Kit 11,Industrial Goods,44.9,35.6,15.4,4.985,2,False,False,False,False
+981,Power Drill Kit 12,Industrial Goods,47.5,35.2,14.8,4.597,2,False,False,False,False
+982,Power Drill Kit 13,Industrial Goods,44.6,34.6,15.4,5.116,2,False,False,False,False
+983,Power Drill Kit 14,Industrial Goods,43.4,35.2,15.3,5.382,2,False,False,False,False
+984,Power Drill Kit 15,Industrial Goods,46.2,35.8,15.0,5.097,2,False,False,False,False
+985,Power Drill Kit 16,Industrial Goods,46.7,33.6,14.8,4.807,2,False,False,False,False
+986,Power Drill Kit 17,Industrial Goods,45.5,36.3,14.7,4.402,2,False,False,False,False
+987,Industrial Sensor Module,Industrial Goods,11.9,10.3,8.1,0.511,3,False,False,False,True
+988,Industrial Sensor Module 2,Industrial Goods,11.9,9.6,8.1,0.479,3,False,False,False,True
+989,Industrial Sensor Module 3,Industrial Goods,12.8,10.2,7.9,0.485,3,False,False,False,True
+990,Industrial Sensor Module 4,Industrial Goods,12.0,9.9,8.3,0.505,3,False,False,False,True
+991,Industrial Sensor Module 5,Industrial Goods,11.7,10.6,8.0,0.519,3,False,False,False,True
+992,Industrial Sensor Module 6,Industrial Goods,11.8,10.1,8.1,0.453,3,False,False,False,True
+993,Industrial Sensor Module 7,Industrial Goods,12.7,10.4,7.9,0.472,3,False,False,False,True
+994,Industrial Sensor Module 8,Industrial Goods,12.1,10.0,8.1,0.505,3,False,False,False,True
+995,Industrial Sensor Module 9,Industrial Goods,12.2,10.4,8.1,0.474,3,False,False,False,True
+996,Industrial Sensor Module 10,Industrial Goods,12.5,10.5,8.8,0.472,3,False,False,False,True
+997,Industrial Sensor Module 11,Industrial Goods,12.1,9.4,8.1,0.486,3,False,False,False,True
+998,Industrial Sensor Module 12,Industrial Goods,12.7,9.8,7.6,0.488,3,False,False,False,True
+999,Industrial Sensor Module 13,Industrial Goods,11.3,10.2,7.5,0.501,3,False,False,False,True
+1000,Industrial Sensor Module 14,Industrial Goods,11.3,9.9,8.4,0.509,3,False,False,False,True
+1001,Industrial Sensor Module 15,Industrial Goods,11.7,10.0,8.0,0.512,3,False,False,False,True
+1002,Industrial Sensor Module 16,Industrial Goods,11.5,10.2,7.4,0.484,3,False,False,False,True
+1003,Industrial Sensor Module 17,Industrial Goods,11.8,10.2,8.0,0.465,3,False,False,False,True
+1004,Gearbox Assembly Small,Industrial Goods,29.1,25.1,20.0,5.826,3,False,False,False,True
+1005,Gearbox Assembly Small 2,Industrial Goods,29.6,25.5,19.7,5.974,3,False,False,False,True
+1006,Gearbox Assembly Small 3,Industrial Goods,32.0,23.9,18.9,6.235,3,False,False,False,True
+1007,Gearbox Assembly Small 4,Industrial Goods,29.4,24.8,19.5,5.922,3,False,False,False,True
+1008,Gearbox Assembly Small 5,Industrial Goods,31.4,25.6,20.5,5.575,3,False,False,False,True
+1009,Gearbox Assembly Small 6,Industrial Goods,29.0,22.9,19.5,6.287,3,False,False,False,True
+1010,Gearbox Assembly Small 7,Industrial Goods,30.5,24.8,20.0,5.793,3,False,False,False,True
+1011,Gearbox Assembly Small 8,Industrial Goods,30.2,25.6,19.0,6.09,3,False,False,False,True
+1012,Gearbox Assembly Small 9,Industrial Goods,30.8,24.7,20.4,6.844,3,False,False,False,True
+1013,Gearbox Assembly Small 10,Industrial Goods,29.9,25.3,19.6,6.054,3,False,False,False,True
+1014,Gearbox Assembly Small 11,Industrial Goods,30.4,25.1,19.4,6.062,3,False,False,False,True
+1015,Gearbox Assembly Small 12,Industrial Goods,31.3,25.3,20.6,5.929,3,False,False,False,True
+1016,Gearbox Assembly Small 13,Industrial Goods,30.7,25.2,19.4,6.096,3,False,False,False,True
+1017,Gearbox Assembly Small 14,Industrial Goods,29.1,24.5,20.1,6.089,3,False,False,False,True
+1018,Gearbox Assembly Small 15,Industrial Goods,28.9,25.8,20.3,5.789,3,False,False,False,True
+1019,Gearbox Assembly Small 16,Industrial Goods,28.6,24.9,19.7,6.034,3,False,False,False,True
+1020,Gearbox Assembly Small 17,Industrial Goods,29.7,23.5,19.8,5.908,3,False,False,False,True
+1021,Tablet Blister Pack 10s,Pharmaceuticals,12.2,7.8,2.1,0.09,3,False,True,True,True
+1022,Tablet Blister Pack 10s 2,Pharmaceuticals,12.5,7.9,2.1,0.1,3,False,True,True,True
+1023,Tablet Blister Pack 10s 3,Pharmaceuticals,12.4,7.9,1.9,0.107,3,False,True,True,True
+1024,Tablet Blister Pack 10s 4,Pharmaceuticals,12.0,8.1,2.1,0.095,3,False,True,True,True
+1025,Tablet Blister Pack 10s 5,Pharmaceuticals,12.2,7.9,2.0,0.1,3,False,True,True,True
+1026,Tablet Blister Pack 10s 6,Pharmaceuticals,11.5,7.8,2.1,0.104,3,False,True,True,True
+1027,Tablet Blister Pack 10s 7,Pharmaceuticals,12.0,8.1,2.0,0.107,3,False,True,True,True
+1028,Tablet Blister Pack 10s 8,Pharmaceuticals,11.9,8.1,2.1,0.096,3,False,True,True,True
+1029,Tablet Blister Pack 10s 9,Pharmaceuticals,12.6,7.6,2.1,0.098,3,False,True,True,True
+1030,Tablet Blister Pack 10s 10,Pharmaceuticals,11.9,7.5,2.0,0.095,3,False,True,True,True
+1031,Tablet Blister Pack 10s 11,Pharmaceuticals,11.8,8.0,2.1,0.101,3,False,True,True,True
+1032,Tablet Blister Pack 10s 12,Pharmaceuticals,12.1,7.7,1.9,0.109,3,False,True,True,True
+1033,Tablet Blister Pack 10s 13,Pharmaceuticals,11.7,8.4,2.0,0.1,3,False,True,True,True
+1034,Tablet Blister Pack 10s 14,Pharmaceuticals,12.4,8.3,2.0,0.098,3,False,True,True,True
+1035,Tablet Blister Pack 10s 15,Pharmaceuticals,12.0,8.1,2.1,0.1,3,False,True,True,True
+1036,Tablet Blister Pack 10s 16,Pharmaceuticals,12.2,8.4,2.0,0.102,3,False,True,True,True
+1037,Tablet Blister Pack 10s 17,Pharmaceuticals,11.5,7.4,2.0,0.1,3,False,True,True,True
+1038,Syrup 100ml PET Bottle,Pharmaceuticals,11.8,5.0,5.0,0.264,3,True,False,True,True
+1039,Syrup 100ml PET Bottle 2,Pharmaceuticals,12.0,4.9,5.1,0.247,3,True,False,True,True
+1040,Syrup 100ml PET Bottle 3,Pharmaceuticals,12.2,4.9,4.9,0.251,3,True,False,True,True
+1041,Syrup 100ml PET Bottle 4,Pharmaceuticals,12.0,5.1,5.0,0.227,3,True,False,True,True
+1042,Syrup 100ml PET Bottle 5,Pharmaceuticals,11.8,5.1,5.0,0.247,3,True,False,True,True
+1043,Syrup 100ml PET Bottle 6,Pharmaceuticals,12.4,4.9,4.8,0.248,3,True,False,True,True
+1044,Syrup 100ml PET Bottle 7,Pharmaceuticals,11.8,4.9,5.0,0.256,3,True,False,True,True
+1045,Syrup 100ml PET Bottle 8,Pharmaceuticals,12.0,5.0,5.3,0.246,3,True,False,True,True
+1046,Syrup 100ml PET Bottle 9,Pharmaceuticals,12.1,4.9,4.9,0.243,3,True,False,True,True
+1047,Syrup 100ml PET Bottle 10,Pharmaceuticals,11.8,5.1,5.4,0.241,3,True,False,True,True
+1048,Syrup 100ml PET Bottle 11,Pharmaceuticals,11.9,5.0,5.1,0.253,3,True,False,True,True
+1049,Syrup 100ml PET Bottle 12,Pharmaceuticals,12.5,4.6,4.6,0.244,3,True,False,True,True
+1050,Syrup 100ml PET Bottle 13,Pharmaceuticals,12.4,4.8,4.5,0.257,3,True,False,True,True
+1051,Syrup 100ml PET Bottle 14,Pharmaceuticals,12.1,4.8,4.9,0.238,3,True,False,True,True
+1052,Syrup 100ml PET Bottle 15,Pharmaceuticals,12.0,4.9,5.1,0.214,3,True,False,True,True
+1053,Syrup 100ml PET Bottle 16,Pharmaceuticals,11.7,4.8,5.0,0.243,3,True,False,True,True
+1054,Syrup 100ml PET Bottle 17,Pharmaceuticals,12.3,4.7,5.0,0.257,3,True,False,True,True
+1055,Syrup 500ml PET Bottle,Pharmaceuticals,21.1,6.9,7.1,0.637,3,True,False,True,True
+1056,Syrup 500ml PET Bottle 2,Pharmaceuticals,18.6,7.2,7.0,0.741,3,True,False,True,True
+1057,Syrup 500ml PET Bottle 3,Pharmaceuticals,19.2,7.1,7.4,0.715,3,True,False,True,True
+1058,Syrup 500ml PET Bottle 4,Pharmaceuticals,20.2,7.0,6.7,0.747,3,True,False,True,True
+1059,Syrup 500ml PET Bottle 5,Pharmaceuticals,19.6,7.1,6.7,0.659,3,True,False,True,True
+1060,Syrup 500ml PET Bottle 6,Pharmaceuticals,20.9,6.9,7.3,0.697,3,True,False,True,True
+1061,Syrup 500ml PET Bottle 7,Pharmaceuticals,18.9,7.2,6.9,0.724,3,True,False,True,True
+1062,Syrup 500ml PET Bottle 8,Pharmaceuticals,20.0,6.7,7.0,0.777,3,True,False,True,True
+1063,Syrup 500ml PET Bottle 9,Pharmaceuticals,20.3,7.0,7.2,0.707,3,True,False,True,True
+1064,Syrup 500ml PET Bottle 10,Pharmaceuticals,20.1,6.8,7.0,0.736,3,True,False,True,True
+1065,Syrup 500ml PET Bottle 11,Pharmaceuticals,19.5,7.3,7.0,0.669,3,True,False,True,True
+1066,Syrup 500ml PET Bottle 12,Pharmaceuticals,20.6,6.9,7.2,0.69,3,True,False,True,True
+1067,Syrup 500ml PET Bottle 13,Pharmaceuticals,20.0,7.1,7.1,0.63,3,True,False,True,True
+1068,Syrup 500ml PET Bottle 14,Pharmaceuticals,19.3,7.2,7.0,0.682,3,True,False,True,True
+1069,Syrup 500ml PET Bottle 15,Pharmaceuticals,19.2,6.8,6.6,0.696,3,True,False,True,True
+1070,Syrup 500ml PET Bottle 16,Pharmaceuticals,19.6,6.8,7.0,0.713,3,True,False,True,True
+1071,Syrup 500ml PET Bottle 17,Pharmaceuticals,21.3,6.7,7.2,0.734,3,True,False,True,True
+1072,Vial Pack 10 units,Pharmaceuticals,19.5,10.1,5.9,0.505,4,False,True,True,True
+1073,Vial Pack 10 units 2,Pharmaceuticals,20.9,10.2,6.1,0.489,4,False,True,True,True
+1074,Vial Pack 10 units 3,Pharmaceuticals,19.1,9.9,6.2,0.462,4,False,True,True,True
+1075,Vial Pack 10 units 4,Pharmaceuticals,19.4,10.0,5.8,0.48,4,False,True,True,True
+1076,Vial Pack 10 units 5,Pharmaceuticals,19.7,9.6,5.8,0.518,4,False,True,True,True
+1077,Vial Pack 10 units 6,Pharmaceuticals,19.2,9.5,5.9,0.518,4,False,True,True,True
+1078,Vial Pack 10 units 7,Pharmaceuticals,19.9,9.9,6.0,0.456,4,False,True,True,True
+1079,Vial Pack 10 units 8,Pharmaceuticals,20.3,10.1,5.9,0.525,4,False,True,True,True
+1080,Vial Pack 10 units 9,Pharmaceuticals,19.3,10.3,6.0,0.492,4,False,True,True,True
+1081,Vial Pack 10 units 10,Pharmaceuticals,20.0,10.0,6.2,0.473,4,False,True,True,True
+1082,Vial Pack 10 units 11,Pharmaceuticals,19.5,10.3,5.9,0.523,4,False,True,True,True
+1083,Vial Pack 10 units 12,Pharmaceuticals,21.0,9.9,6.1,0.471,4,False,True,True,True
+1084,Vial Pack 10 units 13,Pharmaceuticals,20.5,10.1,6.1,0.484,4,False,True,True,True
+1085,Vial Pack 10 units 14,Pharmaceuticals,19.0,10.2,5.6,0.492,4,False,True,True,True
+1086,Vial Pack 10 units 15,Pharmaceuticals,20.6,10.1,6.4,0.526,4,False,True,True,True
+1087,Vial Pack 10 units 16,Pharmaceuticals,19.6,10.0,6.0,0.46,4,False,True,True,True
+1088,Vial Pack 10 units 17,Pharmaceuticals,19.4,9.8,5.6,0.501,4,False,True,True,True
+1089,Insulin Pen Pack,Pharmaceuticals,17.9,4.7,3.0,0.155,4,False,True,True,True
+1090,Insulin Pen Pack 2,Pharmaceuticals,18.1,5.0,3.1,0.155,4,False,True,True,True
+1091,Insulin Pen Pack 3,Pharmaceuticals,18.2,4.9,3.0,0.159,4,False,True,True,True
+1092,Insulin Pen Pack 4,Pharmaceuticals,17.7,5.3,3.0,0.15,4,False,True,True,True
+1093,Insulin Pen Pack 5,Pharmaceuticals,17.6,5.0,2.8,0.146,4,False,True,True,True
+1094,Insulin Pen Pack 6,Pharmaceuticals,17.4,5.0,3.1,0.155,4,False,True,True,True
+1095,Insulin Pen Pack 7,Pharmaceuticals,16.7,5.3,3.0,0.144,4,False,True,True,True
+1096,Insulin Pen Pack 8,Pharmaceuticals,18.1,5.0,2.9,0.151,4,False,True,True,True
+1097,Insulin Pen Pack 9,Pharmaceuticals,17.7,4.9,2.9,0.139,4,False,True,True,True
+1098,Insulin Pen Pack 10,Pharmaceuticals,18.1,5.1,3.0,0.156,4,False,True,True,True
+1099,Insulin Pen Pack 11,Pharmaceuticals,18.2,4.9,3.1,0.14,4,False,True,True,True
+1100,Insulin Pen Pack 12,Pharmaceuticals,17.5,4.9,3.1,0.157,4,False,True,True,True

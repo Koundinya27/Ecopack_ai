@@ -1,0 +1,1225 @@
+material_id,material_name,material_type,recommended_product_category,max_weight_capacity_kg,moisture_resistance_level,suitable_for_fragile,suitable_for_liquid,suitable_for_moisture_sensitive,suitable_for_temperature_sensitive,recyclable_percent,biodegradable_days,co2_per_kg,cost_per_kg_inr,suitability_score,strength_rating_per_kg
+1,Kraft Paper Variant 1-1,Kraft Paper,Industrial Goods,19.4,5,True,False,False,False,95,211,0.868,92.07,0.626,3.8
+2,Kraft Paper Variant 1-2,Kraft Paper,Food & Beverages,47.0,2,True,True,True,False,84,108,1.28,81.98,0.663,8.5
+3,Kraft Paper Variant 1-3,Kraft Paper,Apparel & Fashion,48.7,3,True,False,False,False,77,148,1.77,117.25,0.615,9.2
+4,Kraft Paper Variant 1-4,Kraft Paper,Apparel & Fashion,5.8,4,True,False,False,False,94,265,1.019,71.28,0.609,3.1
+5,PET Plastic Variant 2-1,PET Plastic,Industrial Goods,21.8,2,False,True,False,False,40,-1,2.221,247.5,0.373,5.1
+6,PET Plastic Variant 2-2,PET Plastic,Industrial Goods,3.2,5,True,True,False,True,54,-1,4.005,122.55,0.332,1.0
+7,PET Plastic Variant 2-3,PET Plastic,Home & Living,49.4,1,True,True,False,False,14,-1,3.628,248.21,0.364,10.0
+8,PET Plastic Variant 2-4,PET Plastic,Electronics,42.7,4,True,True,True,True,44,-1,2.687,194.61,0.467,9.3
+9,Air Cushion Film Variant 3-1,Air Cushion Film,Electronics,19.8,3,False,False,False,False,71,640,3.687,114.29,0.396,1.3
+10,Air Cushion Film Variant 3-2,Air Cushion Film,Electronics,28.6,4,False,True,False,False,65,704,1.869,93.09,0.533,6.5
+11,Air Cushion Film Variant 3-3,Air Cushion Film,Electronics,46.6,5,True,True,False,True,87,527,3.72,140.57,0.608,10.0
+12,Air Cushion Film Variant 3-4,Air Cushion Film,Apparel & Fashion,32.7,1,False,False,True,False,38,497,1.36,117.76,0.459,6.3
+13,Air Cushion Film Variant 3-5,Air Cushion Film,Apparel & Fashion,47.2,1,True,True,True,True,66,804,1.8,249.62,0.562,10.0
+14,Air Cushion Film Variant 3-6,Air Cushion Film,Home & Living,21.1,5,True,False,False,False,55,851,2.778,173.99,0.421,5.2
+15,Air Cushion Film Variant 3-7,Air Cushion Film,Home & Living,19.1,1,False,True,False,False,62,380,1.56,134.53,0.446,2.9
+16,Corrugated Cardboard Variant 4-1,Corrugated Cardboard,Apparel & Fashion,30.0,3,True,False,False,True,36,999,1.277,115.24,0.455,6.1
+17,Corrugated Cardboard Variant 4-2,Corrugated Cardboard,Industrial Goods,42.0,3,True,True,False,False,55,803,1.436,84.42,0.581,9.2
+18,Corrugated Cardboard Variant 4-3,Corrugated Cardboard,Industrial Goods,5.6,4,False,False,True,True,48,995,1.828,107.73,0.366,1.0
+19,Corrugated Cardboard Variant 4-4,Corrugated Cardboard,Industrial Goods,44.5,4,True,True,False,False,83,342,1.069,92.16,0.68,9.1
+20,Corrugated Cardboard Variant 4-5,Corrugated Cardboard,Home & Living,12.6,5,True,True,False,False,62,867,1.241,47.49,0.481,1.3
+21,Corrugated Cardboard Variant 4-6,Corrugated Cardboard,Cosmetics & Beauty,13.0,5,True,False,False,True,62,632,1.399,58.41,0.517,4.0
+22,Corrugated Cardboard Variant 4-7,Corrugated Cardboard,Apparel & Fashion,38.7,1,False,False,True,False,89,924,1.197,116.25,0.674,8.9
+23,Corrugated Cardboard Variant 4-8,Corrugated Cardboard,Cosmetics & Beauty,29.0,4,False,True,True,False,54,914,1.916,107.54,0.459,4.9
+24,Air Cushion Film Variant 5-1,Air Cushion Film,Pharmaceuticals,11.2,2,True,True,True,False,38,990,2.658,200.51,0.297,1.7
+25,Air Cushion Film Variant 5-2,Air Cushion Film,Pharmaceuticals,21.6,2,False,False,False,False,75,579,3.66,88.63,0.493,4.9
+26,Air Cushion Film Variant 5-3,Air Cushion Film,Electronics,29.4,3,True,False,True,False,51,484,3.468,86.35,0.467,7.0
+27,Air Cushion Film Variant 5-4,Air Cushion Film,Pharmaceuticals,7.2,1,False,True,False,False,59,226,1.415,198.92,0.388,1.0
+28,Air Cushion Film Variant 5-5,Air Cushion Film,Pharmaceuticals,48.5,2,True,False,True,False,84,525,3.888,84.31,0.622,10.0
+29,Air Cushion Film Variant 5-6,Air Cushion Film,Apparel & Fashion,35.1,5,True,False,False,True,68,883,2.835,174.24,0.499,7.2
+30,Glass Bottle Variant 6-1,Glass Bottle,Food & Beverages,13.1,3,False,True,True,True,96,-1,3.459,97.37,0.521,3.2
+31,Glass Bottle Variant 6-2,Glass Bottle,Apparel & Fashion,1.8,2,True,False,True,False,84,-1,2.022,166.4,0.466,2.0
+32,Glass Bottle Variant 6-3,Glass Bottle,Apparel & Fashion,46.7,1,False,False,False,False,81,-1,2.672,63.18,0.605,7.9
+33,Glass Bottle Variant 6-4,Glass Bottle,Pharmaceuticals,29.2,2,False,True,False,False,87,-1,1.892,168.64,0.579,7.0
+34,Glass Bottle Variant 6-5,Glass Bottle,Food & Beverages,5.9,2,True,False,True,False,89,-1,3.129,62.79,0.495,1.6
+35,Glass Bottle Variant 6-6,Glass Bottle,Electronics,6.8,5,True,False,True,False,84,-1,3.114,150.07,0.433,1.4
+36,Recycled Paper Variant 7-1,Recycled Paper,Electronics,21.2,2,True,False,False,False,71,242,1.705,100.07,0.518,4.7
+37,Recycled Paper Variant 7-2,Recycled Paper,Food & Beverages,45.2,4,False,True,False,True,73,282,1.488,116.05,0.608,8.8
+38,Recycled Paper Variant 7-3,Recycled Paper,Pharmaceuticals,23.0,3,False,False,True,False,75,116,1.917,49.08,0.542,4.0
+39,Recycled Paper Variant 7-4,Recycled Paper,Food & Beverages,49.8,2,True,False,True,True,76,312,1.311,107.08,0.654,10.0
+40,Recycled Paper Variant 7-5,Recycled Paper,Home & Living,20.4,3,False,True,True,False,60,204,1.983,115.78,0.443,3.5
+41,Recycled Paper Variant 7-6,Recycled Paper,Food & Beverages,19.4,3,False,False,False,False,72,301,0.868,77.49,0.567,3.9
+42,Recycled Paper Variant 7-7,Recycled Paper,Pharmaceuticals,6.8,1,False,False,True,False,84,176,0.815,117.06,0.529,1.0
+43,Paperboard Variant 8-1,Paperboard,Home & Living,3.1,5,True,False,False,True,100,364,1.345,95.66,0.55,1.0
+44,Paperboard Variant 8-2,Paperboard,Electronics,29.6,1,False,False,True,True,83,215,1.004,66.85,0.641,6.1
+45,Paperboard Variant 8-3,Paperboard,Cosmetics & Beauty,20.0,4,False,True,False,False,92,271,1.125,88.22,0.609,4.3
+46,Paperboard Variant 8-4,Paperboard,Electronics,4.7,2,True,False,False,True,89,301,0.998,84.13,0.582,2.8
+47,Paperboard Variant 8-5,Paperboard,Home & Living,39.1,2,False,True,False,True,94,65,1.441,95.34,0.661,7.7
+48,Paperboard Variant 8-6,Paperboard,Food & Beverages,45.7,5,False,False,True,True,68,60,1.527,116.32,0.615,10.0
+49,Paperboard Variant 8-7,Paperboard,Pharmaceuticals,33.9,2,True,True,False,False,71,113,0.906,117.44,0.6,6.9
+50,Paper Cushioning Variant 9-1,Paper Cushioning,Home & Living,29.9,5,False,False,True,True,93,353,1.564,88.65,0.652,7.5
+51,Paper Cushioning Variant 9-2,Paper Cushioning,Apparel & Fashion,5.5,2,True,False,False,True,64,344,1.912,51.77,0.469,2.1
+52,Paper Cushioning Variant 9-3,Paper Cushioning,Industrial Goods,13.7,5,False,False,True,False,70,170,0.954,50.31,0.559,3.1
+53,Paper Cushioning Variant 9-4,Paper Cushioning,Electronics,7.8,4,True,True,False,False,78,336,1.134,53.51,0.525,1.0
+54,Paper Cushioning Variant 9-5,Paper Cushioning,Electronics,5.3,1,False,True,False,True,85,360,0.911,65.73,0.565,1.6
+55,Paper Cushioning Variant 9-6,Paper Cushioning,Industrial Goods,34.7,3,False,True,True,False,74,362,1.381,69.64,0.59,6.2
+56,PLA Bioplastic Variant 10-1,PLA Bioplastic,Electronics,19.1,2,False,True,True,False,76,482,0.982,256.42,0.523,4.4
+57,PLA Bioplastic Variant 10-2,PLA Bioplastic,Pharmaceuticals,27.1,1,False,True,False,False,54,264,1.606,218.59,0.45,5.5
+58,PLA Bioplastic Variant 10-3,PLA Bioplastic,Apparel & Fashion,32.8,2,True,False,False,False,78,714,1.374,225.75,0.536,5.7
+59,PLA Bioplastic Variant 10-4,PLA Bioplastic,Pharmaceuticals,30.8,3,True,False,False,True,40,565,1.095,207.02,0.438,5.5
+60,PLA Bioplastic Variant 10-5,PLA Bioplastic,Electronics,4.9,3,True,False,False,False,49,194,2.189,323.1,0.308,1.0
+61,PLA Bioplastic Variant 10-6,PLA Bioplastic,Cosmetics & Beauty,9.4,3,False,False,False,False,55,237,1.139,292.19,0.384,1.4
+62,Starch-based Bioplastic Variant 11-1,Starch-based Bioplastic,Industrial Goods,27.0,1,False,True,False,True,65,378,1.372,160.36,0.516,5.9
+63,Starch-based Bioplastic Variant 11-2,Starch-based Bioplastic,Pharmaceuticals,4.1,4,True,False,True,True,64,725,2.246,171.34,0.422,3.2
+64,Starch-based Bioplastic Variant 11-3,Starch-based Bioplastic,Food & Beverages,21.0,5,False,False,True,True,69,439,2.231,264.89,0.427,3.6
+65,Starch-based Bioplastic Variant 11-4,Starch-based Bioplastic,Apparel & Fashion,40.0,4,True,True,False,False,74,161,2.188,228.49,0.493,5.8
+66,Starch-based Bioplastic Variant 11-5,Starch-based Bioplastic,Food & Beverages,19.5,3,False,False,False,False,46,344,1.704,228.3,0.396,4.3
+67,Starch-based Bioplastic Variant 11-6,Starch-based Bioplastic,Food & Beverages,12.2,3,True,True,False,False,56,539,2.079,349.54,0.392,4.1
+68,Starch-based Bioplastic Variant 11-7,Starch-based Bioplastic,Apparel & Fashion,39.2,1,True,False,False,False,62,237,0.988,314.25,0.541,7.8
+69,Starch-based Bioplastic Variant 12-1,Starch-based Bioplastic,Home & Living,7.2,5,False,False,False,False,65,411,1.818,293.24,0.382,1.5
+70,Starch-based Bioplastic Variant 12-2,Starch-based Bioplastic,Industrial Goods,48.0,2,False,True,False,False,54,579,2.362,170.44,0.515,9.5
+71,Starch-based Bioplastic Variant 12-3,Starch-based Bioplastic,Apparel & Fashion,2.1,2,False,True,True,True,65,301,1.365,317.5,0.39,1.0
+72,Starch-based Bioplastic Variant 12-4,Starch-based Bioplastic,Home & Living,12.1,5,True,False,True,False,55,694,2.268,232.9,0.355,1.9
+73,PLA Bioplastic Variant 13-1,PLA Bioplastic,Cosmetics & Beauty,23.8,3,False,False,True,False,36,299,2.355,233.79,0.347,4.5
+74,PLA Bioplastic Variant 13-2,PLA Bioplastic,Cosmetics & Beauty,29.4,2,True,False,True,False,78,267,0.945,232.92,0.56,5.6
+75,PLA Bioplastic Variant 13-3,PLA Bioplastic,Food & Beverages,25.6,1,True,True,False,False,78,548,2.222,225.55,0.483,4.7
+76,PLA Bioplastic Variant 13-4,PLA Bioplastic,Industrial Goods,15.4,3,True,False,False,False,67,383,2.408,322.36,0.356,1.0
+77,PLA Bioplastic Variant 13-5,PLA Bioplastic,Industrial Goods,14.3,2,True,True,True,False,32,562,1.812,251.1,0.316,2.8
+78,Bubble Wrap Variant 14-1,Bubble Wrap,Industrial Goods,28.9,3,False,True,True,True,43,467,3.491,225.47,0.373,5.8
+79,Bubble Wrap Variant 14-2,Bubble Wrap,Food & Beverages,33.7,5,True,True,True,False,77,560,2.929,229.0,0.516,7.4
+80,Bubble Wrap Variant 14-3,Bubble Wrap,Pharmaceuticals,45.6,5,True,True,True,False,41,711,2.228,186.11,0.478,9.6
+81,Bubble Wrap Variant 14-4,Bubble Wrap,Pharmaceuticals,22.4,4,True,False,False,True,52,307,2.454,110.96,0.434,4.8
+82,Bubble Wrap Variant 14-5,Bubble Wrap,Pharmaceuticals,37.3,2,False,True,True,False,33,845,1.515,169.37,0.443,7.5
+83,Paperboard Variant 15-1,Paperboard,Pharmaceuticals,1.9,2,False,False,False,True,71,146,0.968,48.53,0.52,1.0
+84,Paperboard Variant 15-2,Paperboard,Electronics,14.1,3,False,False,False,True,76,249,0.856,81.51,0.52,1.0
+85,Paperboard Variant 15-3,Paperboard,Pharmaceuticals,37.2,3,True,False,True,False,98,291,1.371,85.31,0.694,8.3
+86,Paperboard Variant 15-4,Paperboard,Food & Beverages,46.9,5,True,True,False,True,76,260,0.928,101.67,0.669,9.3
+87,Paperboard Variant 15-5,Paperboard,Cosmetics & Beauty,36.7,1,False,False,False,True,76,116,1.022,75.68,0.63,7.0
+88,Starch-based Bioplastic Variant 16-1,Starch-based Bioplastic,Apparel & Fashion,43.8,5,False,False,False,False,47,208,1.978,279.33,0.456,8.1
+89,Starch-based Bioplastic Variant 16-2,Starch-based Bioplastic,Home & Living,33.8,2,False,False,False,False,36,256,0.996,188.52,0.448,6.0
+90,Starch-based Bioplastic Variant 16-3,Starch-based Bioplastic,Industrial Goods,40.0,4,False,True,False,True,60,271,1.005,196.0,0.549,7.6
+91,Starch-based Bioplastic Variant 16-4,Starch-based Bioplastic,Food & Beverages,35.1,2,False,True,True,False,47,280,1.847,327.2,0.421,6.4
+92,LDPE Plastic Film Variant 17-1,LDPE Plastic Film,Cosmetics & Beauty,2.2,2,False,True,True,True,41,-1,4.495,227.81,0.269,1.5
+93,LDPE Plastic Film Variant 17-2,LDPE Plastic Film,Industrial Goods,38.6,5,True,False,False,True,48,-1,3.831,183.6,0.415,6.9
+94,LDPE Plastic Film Variant 17-3,LDPE Plastic Film,Cosmetics & Beauty,23.9,2,True,True,True,True,55,-1,2.274,107.22,0.445,4.6
+95,LDPE Plastic Film Variant 17-4,LDPE Plastic Film,Apparel & Fashion,7.1,3,False,False,True,False,34,-1,2.162,218.94,0.334,3.7
+96,LDPE Plastic Film Variant 17-5,LDPE Plastic Film,Food & Beverages,42.1,5,False,True,True,True,50,-1,3.949,129.83,0.454,7.8
+97,LDPE Plastic Film Variant 17-6,LDPE Plastic Film,Apparel & Fashion,3.8,1,False,False,False,True,26,-1,4.04,124.62,0.247,1.0
+98,LDPE Plastic Film Variant 17-7,LDPE Plastic Film,Apparel & Fashion,12.0,1,False,False,True,False,12,-1,3.192,143.67,0.302,5.6
+99,Bubble Wrap Variant 18-1,Bubble Wrap,Food & Beverages,42.8,2,False,False,False,True,37,430,2.488,202.98,0.399,6.8
+100,Bubble Wrap Variant 18-2,Bubble Wrap,Industrial Goods,11.8,5,False,False,True,False,58,294,2.043,220.2,0.357,1.1
+101,Bubble Wrap Variant 18-3,Bubble Wrap,Home & Living,28.7,5,False,False,False,True,42,542,3.79,120.58,0.389,5.5
+102,Bubble Wrap Variant 18-4,Bubble Wrap,Cosmetics & Beauty,35.3,4,True,False,False,True,52,605,2.005,101.91,0.491,6.8
+103,Bubble Wrap Variant 18-5,Bubble Wrap,Home & Living,8.9,4,False,False,True,True,70,196,2.13,99.69,0.436,1.5
+104,Bubble Wrap Variant 18-6,Bubble Wrap,Cosmetics & Beauty,41.1,3,False,False,False,True,89,514,1.308,238.44,0.608,7.6
+105,Bubble Wrap Variant 18-7,Bubble Wrap,Food & Beverages,34.7,2,False,True,False,False,85,389,3.92,228.16,0.501,6.2
+106,Bubble Wrap Variant 18-8,Bubble Wrap,Apparel & Fashion,37.7,3,False,True,True,False,76,258,1.758,219.19,0.549,7.5
+107,PET Plastic Variant 19-1,PET Plastic,Cosmetics & Beauty,8.8,2,False,False,False,True,41,-1,3.701,113.18,0.329,2.4
+108,PET Plastic Variant 19-2,PET Plastic,Electronics,14.4,1,False,True,False,False,46,-1,2.994,202.16,0.357,3.9
+109,PET Plastic Variant 19-3,PET Plastic,Pharmaceuticals,49.2,1,True,False,False,True,27,-1,3.183,238.3,0.412,10.0
+110,PET Plastic Variant 19-4,PET Plastic,Electronics,10.1,1,True,True,False,False,16,-1,2.328,200.2,0.259,2.7
+111,PET Plastic Variant 19-5,PET Plastic,Pharmaceuticals,46.1,3,True,False,True,False,18,-1,3.229,132.08,0.367,7.8
+112,PET Plastic Variant 19-6,PET Plastic,Electronics,29.5,5,False,False,False,True,30,-1,2.981,111.59,0.39,6.5
+113,PET Plastic Variant 19-7,PET Plastic,Apparel & Fashion,30.4,3,False,False,False,True,26,-1,3.427,116.45,0.34,5.1
+114,PET Plastic Variant 19-8,PET Plastic,Industrial Goods,24.6,4,False,False,True,True,11,-1,4.206,185.48,0.259,4.9
+115,HDPE Plastic Variant 20-1,HDPE Plastic,Home & Living,41.4,2,True,True,False,False,53,-1,3.591,116.73,0.471,7.7
+116,HDPE Plastic Variant 20-2,HDPE Plastic,Electronics,2.5,1,True,False,False,False,59,-1,3.959,200.05,0.326,1.1
+117,HDPE Plastic Variant 20-3,HDPE Plastic,Cosmetics & Beauty,24.7,3,False,False,False,False,51,-1,3.812,170.18,0.395,5.3
+118,HDPE Plastic Variant 20-4,HDPE Plastic,Cosmetics & Beauty,32.9,1,False,True,False,True,17,-1,3.084,239.49,0.359,8.8
+119,HDPE Plastic Variant 20-5,HDPE Plastic,Home & Living,8.9,2,False,True,False,False,38,-1,2.509,166.94,0.306,1.6
+120,HDPE Plastic Variant 20-6,HDPE Plastic,Cosmetics & Beauty,9.5,5,False,False,False,True,53,-1,3.262,222.84,0.313,1.1
+121,HDPE Plastic Variant 20-7,HDPE Plastic,Home & Living,26.2,1,True,False,False,False,51,-1,2.71,258.74,0.392,5.1
+122,Starch-based Bioplastic Variant 21-1,Starch-based Bioplastic,Pharmaceuticals,19.8,2,False,False,True,False,77,597,1.204,185.94,0.533,4.8
+123,Starch-based Bioplastic Variant 21-2,Starch-based Bioplastic,Electronics,9.9,5,True,False,True,False,49,249,1.909,169.05,0.394,3.5
+124,Starch-based Bioplastic Variant 21-3,Starch-based Bioplastic,Industrial Goods,20.6,3,False,True,False,True,74,422,2.302,196.93,0.498,5.9
+125,Starch-based Bioplastic Variant 21-4,Starch-based Bioplastic,Industrial Goods,17.2,5,True,False,False,True,49,403,2.052,157.33,0.421,4.9
+126,Starch-based Bioplastic Variant 21-5,Starch-based Bioplastic,Electronics,24.3,1,False,False,False,False,49,453,1.703,161.42,0.448,5.7
+127,Starch-based Bioplastic Variant 21-6,Starch-based Bioplastic,Industrial Goods,2.9,3,True,False,True,False,60,303,1.631,253.12,0.381,1.5
+128,Starch-based Bioplastic Variant 21-7,Starch-based Bioplastic,Home & Living,7.8,5,True,False,False,True,50,248,1.065,296.17,0.384,1.9
+129,Starch-based Bioplastic Variant 21-8,Starch-based Bioplastic,Pharmaceuticals,48.2,2,False,False,True,True,76,707,2.152,172.62,0.597,10.0
+130,Starch-based Bioplastic Variant 22-1,Starch-based Bioplastic,Electronics,30.4,5,False,False,True,True,35,694,1.492,345.43,0.382,5.6
+131,Starch-based Bioplastic Variant 22-2,Starch-based Bioplastic,Food & Beverages,39.3,5,True,True,False,False,63,713,1.339,325.58,0.518,7.7
+132,Starch-based Bioplastic Variant 22-3,Starch-based Bioplastic,Cosmetics & Beauty,19.4,1,True,False,False,False,48,724,1.204,239.74,0.431,4.6
+133,Starch-based Bioplastic Variant 22-4,Starch-based Bioplastic,Apparel & Fashion,12.1,2,False,True,False,False,37,569,0.844,245.84,0.444,5.6
+134,Starch-based Bioplastic Variant 22-5,Starch-based Bioplastic,Cosmetics & Beauty,19.6,2,False,True,False,True,52,445,2.016,299.38,0.386,4.0
+135,Starch-based Bioplastic Variant 22-6,Starch-based Bioplastic,Electronics,41.3,3,True,False,False,True,63,453,1.237,247.17,0.543,8.1
+136,Starch-based Bioplastic Variant 23-1,Starch-based Bioplastic,Pharmaceuticals,16.1,4,False,True,False,False,78,708,1.007,232.71,0.52,3.8
+137,Starch-based Bioplastic Variant 23-2,Starch-based Bioplastic,Apparel & Fashion,34.4,2,False,True,True,False,30,291,1.876,158.68,0.394,6.1
+138,Starch-based Bioplastic Variant 23-3,Starch-based Bioplastic,Home & Living,30.5,5,False,True,True,False,71,703,1.746,303.99,0.49,5.9
+139,Starch-based Bioplastic Variant 23-4,Starch-based Bioplastic,Electronics,15.8,3,False,False,False,False,34,680,2.267,297.37,0.302,2.9
+140,Starch-based Bioplastic Variant 23-5,Starch-based Bioplastic,Pharmaceuticals,5.7,5,False,False,False,True,43,196,1.645,268.9,0.317,1.0
+141,Starch-based Bioplastic Variant 23-6,Starch-based Bioplastic,Industrial Goods,7.7,5,False,False,False,False,67,673,2.113,331.1,0.382,1.9
+142,Starch-based Bioplastic Variant 23-7,Starch-based Bioplastic,Food & Beverages,32.6,4,True,True,True,True,33,680,1.938,316.37,0.403,7.7
+143,Starch-based Bioplastic Variant 23-8,Starch-based Bioplastic,Pharmaceuticals,32.4,2,False,True,False,True,67,328,1.559,349.1,0.489,6.3
+144,Molded Pulp Variant 24-1,Molded Pulp,Apparel & Fashion,29.4,2,False,True,False,True,75,165,1.34,47.73,0.597,5.4
+145,Molded Pulp Variant 24-2,Molded Pulp,Apparel & Fashion,18.0,4,False,False,True,True,60,180,0.912,93.72,0.53,4.5
+146,Molded Pulp Variant 24-3,Molded Pulp,Food & Beverages,39.6,1,False,False,True,True,95,210,1.232,61.05,0.718,8.7
+147,Molded Pulp Variant 24-4,Molded Pulp,Pharmaceuticals,46.9,1,False,False,True,False,96,303,1.917,56.68,0.712,9.7
+148,Molded Pulp Variant 24-5,Molded Pulp,Apparel & Fashion,41.1,3,False,False,False,True,66,73,1.284,46.47,0.658,9.6
+149,Molded Pulp Variant 24-6,Molded Pulp,Home & Living,35.1,2,False,False,False,False,90,329,1.878,51.14,0.609,5.1
+150,Molded Pulp Variant 24-7,Molded Pulp,Pharmaceuticals,16.6,3,True,True,True,True,93,84,0.896,58.6,0.625,3.1
+151,Molded Pulp Variant 24-8,Molded Pulp,Home & Living,7.0,4,True,False,False,True,61,119,1.264,69.18,0.454,1.0
+152,Corrugated Cardboard Variant 25-1,Corrugated Cardboard,Food & Beverages,10.4,1,True,False,True,False,38,262,0.89,53.65,0.457,2.7
+153,Corrugated Cardboard Variant 25-2,Corrugated Cardboard,Cosmetics & Beauty,14.0,4,False,False,True,True,65,303,1.669,107.84,0.448,2.2
+154,Corrugated Cardboard Variant 25-3,Corrugated Cardboard,Electronics,20.8,5,True,False,False,True,51,824,1.299,40.88,0.499,3.7
+155,Corrugated Cardboard Variant 25-4,Corrugated Cardboard,Electronics,1.9,5,False,True,False,True,64,676,1.345,83.84,0.449,1.0
+156,Corrugated Cardboard Variant 25-5,Corrugated Cardboard,Food & Beverages,5.8,2,True,False,True,False,64,924,1.831,89.13,0.438,1.7
+157,Corrugated Cardboard Variant 25-6,Corrugated Cardboard,Pharmaceuticals,47.9,1,False,False,True,False,39,421,1.882,43.07,0.521,8.0
+158,Corrugated Cardboard Variant 25-7,Corrugated Cardboard,Pharmaceuticals,32.2,2,True,False,True,False,52,352,1.685,52.01,0.519,6.0
+159,Corrugated Cardboard Variant 25-8,Corrugated Cardboard,Food & Beverages,34.3,5,True,False,False,False,60,545,1.965,119.33,0.46,4.4
+160,PLA Bioplastic Variant 26-1,PLA Bioplastic,Apparel & Fashion,39.4,3,True,True,False,False,39,669,1.675,166.52,0.466,8.1
+161,PLA Bioplastic Variant 26-2,PLA Bioplastic,Home & Living,39.3,1,False,False,True,True,54,497,2.323,245.65,0.462,7.6
+162,PLA Bioplastic Variant 26-3,PLA Bioplastic,Electronics,7.1,3,False,False,False,False,61,407,1.018,281.3,0.41,1.3
+163,PLA Bioplastic Variant 26-4,PLA Bioplastic,Electronics,46.5,1,True,False,False,False,75,232,1.286,279.16,0.591,9.1
+164,Wooden Crate Variant 27-1,Wooden Crate,Pharmaceuticals,43.2,1,True,False,False,True,37,481,2.553,167.42,0.438,8.4
+165,Wooden Crate Variant 27-2,Wooden Crate,Home & Living,9.7,3,True,False,False,True,79,786,1.301,138.61,0.477,1.3
+166,Wooden Crate Variant 27-3,Wooden Crate,Pharmaceuticals,21.3,5,False,False,True,False,58,209,2.273,184.8,0.426,4.5
+167,Wooden Crate Variant 27-4,Wooden Crate,Apparel & Fashion,8.8,2,False,False,False,False,71,670,2.485,117.31,0.411,1.0
+168,PET Plastic Variant 28-1,PET Plastic,Home & Living,31.1,2,True,False,False,True,35,-1,4.082,234.39,0.336,5.6
+169,PET Plastic Variant 28-2,PET Plastic,Apparel & Fashion,37.7,5,True,True,True,True,29,-1,2.543,224.86,0.367,6.7
+170,PET Plastic Variant 28-3,PET Plastic,Food & Beverages,33.5,5,True,True,True,True,26,-1,3.202,194.11,0.309,4.6
+171,PET Plastic Variant 28-4,PET Plastic,Home & Living,4.2,2,False,False,False,False,28,-1,2.193,179.72,0.269,1.0
+172,PET Plastic Variant 28-5,PET Plastic,Pharmaceuticals,17.4,2,False,False,False,False,45,-1,3.839,119.58,0.374,4.3
+173,PET Plastic Variant 28-6,PET Plastic,Home & Living,19.2,1,False,False,False,False,13,-1,2.446,179.39,0.254,2.8
+174,PET Plastic Variant 28-7,PET Plastic,Cosmetics & Beauty,49.6,4,True,False,False,True,19,-1,2.065,153.52,0.434,10.0
+175,LDPE Plastic Film Variant 29-1,LDPE Plastic Film,Pharmaceuticals,41.8,5,False,False,False,True,14,-1,2.465,234.71,0.346,7.9
+176,LDPE Plastic Film Variant 29-2,LDPE Plastic Film,Industrial Goods,23.5,5,False,False,True,False,44,-1,3.824,169.9,0.372,5.2
+177,LDPE Plastic Film Variant 29-3,LDPE Plastic Film,Industrial Goods,8.8,4,True,True,False,False,23,-1,2.68,139.93,0.254,1.0
+178,LDPE Plastic Film Variant 29-4,LDPE Plastic Film,Apparel & Fashion,23.0,5,True,True,False,True,27,-1,2.348,245.03,0.301,3.6
+179,LDPE Plastic Film Variant 29-5,LDPE Plastic Film,Industrial Goods,21.1,2,False,False,True,False,23,-1,4.453,216.93,0.295,5.4
+180,LDPE Plastic Film Variant 29-6,LDPE Plastic Film,Food & Beverages,33.1,2,True,True,True,False,21,-1,2.285,155.92,0.356,6.2
+181,LDPE Plastic Film Variant 29-7,LDPE Plastic Film,Cosmetics & Beauty,12.0,2,True,False,False,False,52,-1,3.77,110.83,0.352,1.9
+182,LDPE Plastic Film Variant 29-8,LDPE Plastic Film,Industrial Goods,5.0,2,True,True,False,False,11,-1,4.155,115.61,0.204,1.0
+183,Aluminum Foil Variant 30-1,Aluminum Foil,Home & Living,37.7,4,True,False,False,False,99,-1,7.792,286.21,0.521,6.9
+184,Aluminum Foil Variant 30-2,Aluminum Foil,Cosmetics & Beauty,1.9,5,False,True,True,False,87,-1,7.86,396.25,0.355,1.0
+185,Aluminum Foil Variant 30-3,Aluminum Foil,Electronics,4.2,3,False,False,False,True,97,-1,6.205,173.35,0.444,1.9
+186,Aluminum Foil Variant 30-4,Aluminum Foil,Apparel & Fashion,10.1,4,False,False,False,False,94,-1,8.485,198.96,0.431,2.5
+187,Aluminum Foil Variant 30-5,Aluminum Foil,Apparel & Fashion,22.9,4,True,False,True,False,80,-1,5.818,158.35,0.453,4.6
+188,Aluminum Foil Variant 30-6,Aluminum Foil,Electronics,41.2,5,True,False,True,False,91,-1,5.598,334.93,0.504,7.0
+189,Aluminum Foil Variant 30-7,Aluminum Foil,Food & Beverages,24.8,5,False,False,True,False,84,-1,6.637,289.94,0.419,3.8
+190,Corrugated Cardboard Variant 31-1,Corrugated Cardboard,Home & Living,44.6,5,False,True,True,False,35,390,1.986,100.77,0.479,8.7
+191,Corrugated Cardboard Variant 31-2,Corrugated Cardboard,Apparel & Fashion,32.9,1,True,False,False,True,85,397,1.088,48.05,0.676,7.1
+192,Corrugated Cardboard Variant 31-3,Corrugated Cardboard,Home & Living,18.0,2,False,False,False,True,34,799,1.975,77.7,0.371,2.8
+193,Corrugated Cardboard Variant 31-4,Corrugated Cardboard,Apparel & Fashion,7.2,2,True,False,True,True,37,938,1.571,62.34,0.371,1.0
+194,Corrugated Cardboard Variant 31-5,Corrugated Cardboard,Electronics,26.1,5,True,True,False,False,41,580,1.746,101.29,0.446,5.7
+195,Corrugated Cardboard Variant 31-6,Corrugated Cardboard,Electronics,13.8,1,False,True,True,True,82,881,1.972,70.43,0.492,1.4
+196,Corrugated Cardboard Variant 31-7,Corrugated Cardboard,Industrial Goods,21.7,1,True,True,False,True,86,262,1.791,117.82,0.533,3.8
+197,Corrugated Cardboard Variant 31-8,Corrugated Cardboard,Industrial Goods,42.1,5,False,False,True,False,43,299,1.449,96.29,0.535,9.1
+198,Paperboard Variant 32-1,Paperboard,Electronics,12.9,1,True,True,False,True,73,281,0.877,87.9,0.529,2.2
+199,Paperboard Variant 32-2,Paperboard,Electronics,44.0,5,False,False,True,True,89,327,1.995,86.62,0.664,9.5
+200,Paperboard Variant 32-3,Paperboard,Pharmaceuticals,26.6,5,True,True,False,False,68,94,1.855,106.34,0.5,4.7
+201,Paperboard Variant 32-4,Paperboard,Food & Beverages,26.4,4,False,False,True,True,80,97,1.643,87.34,0.558,4.9
+202,Paperboard Variant 32-5,Paperboard,Electronics,26.1,4,True,False,False,True,83,221,1.981,77.83,0.56,4.9
+203,Molded Pulp Variant 33-1,Molded Pulp,Food & Beverages,20.9,1,True,True,False,False,88,168,1.035,78.56,0.603,4.0
+204,Molded Pulp Variant 33-2,Molded Pulp,Industrial Goods,14.8,1,False,True,True,True,79,149,1.326,77.03,0.507,1.4
+205,Molded Pulp Variant 33-3,Molded Pulp,Cosmetics & Beauty,20.4,1,True,True,False,True,100,98,1.643,79.48,0.609,4.2
+206,Molded Pulp Variant 33-4,Molded Pulp,Apparel & Fashion,7.4,5,True,False,False,False,71,299,1.662,63.74,0.468,1.0
+207,Molded Pulp Variant 33-5,Molded Pulp,Home & Living,36.3,1,False,True,True,True,61,220,1.243,76.5,0.608,8.9
+208,PET Plastic Variant 34-1,PET Plastic,Home & Living,21.5,4,False,False,True,False,11,-1,3.697,206.97,0.266,5.2
+209,PET Plastic Variant 34-2,PET Plastic,Cosmetics & Beauty,30.1,2,False,True,True,True,11,-1,4.073,184.8,0.292,6.5
+210,PET Plastic Variant 34-3,PET Plastic,Apparel & Fashion,41.2,1,True,True,False,False,35,-1,4.02,245.62,0.367,7.2
+211,PET Plastic Variant 34-4,PET Plastic,Pharmaceuticals,23.9,1,True,True,False,False,47,-1,3.116,226.24,0.373,4.9
+212,PET Plastic Variant 34-5,PET Plastic,Cosmetics & Beauty,41.3,4,False,False,True,False,41,-1,3.503,159.39,0.417,7.5
+213,PET Plastic Variant 34-6,PET Plastic,Pharmaceuticals,34.7,2,True,False,True,False,38,-1,2.947,182.76,0.381,6.0
+214,PET Plastic Variant 34-7,PET Plastic,Cosmetics & Beauty,19.9,3,True,True,False,False,43,-1,3.451,234.68,0.326,3.5
+215,PET Plastic Variant 34-8,PET Plastic,Apparel & Fashion,6.2,1,True,False,True,False,36,-1,4.314,133.42,0.272,1.1
+216,Kraft Paper Variant 35-1,Kraft Paper,Industrial Goods,20.4,3,True,False,True,False,96,229,1.369,69.98,0.622,4.5
+217,Kraft Paper Variant 35-2,Kraft Paper,Cosmetics & Beauty,49.7,1,False,True,False,True,63,128,1.464,52.33,0.61,8.4
+218,Kraft Paper Variant 35-3,Kraft Paper,Food & Beverages,38.3,3,False,True,False,False,80,80,1.469,117.31,0.584,6.5
+219,Kraft Paper Variant 35-4,Kraft Paper,Cosmetics & Beauty,29.4,5,True,False,False,False,78,224,0.978,98.47,0.626,7.0
+220,Glass Bottle Variant 36-1,Glass Bottle,Pharmaceuticals,35.8,3,True,False,False,True,94,-1,1.761,164.4,0.648,9.1
+221,Glass Bottle Variant 36-2,Glass Bottle,Industrial Goods,7.1,1,False,False,True,False,91,-1,3.227,118.01,0.464,1.4
+222,Glass Bottle Variant 36-3,Glass Bottle,Electronics,19.4,3,True,False,True,False,98,-1,3.231,129.27,0.542,4.5
+223,Glass Bottle Variant 36-4,Glass Bottle,Industrial Goods,21.0,3,False,False,False,False,85,-1,1.562,90.73,0.541,3.2
+224,Glass Bottle Variant 36-5,Glass Bottle,Industrial Goods,11.8,2,True,False,False,False,89,-1,2.789,135.91,0.463,1.6
+225,Glass Bottle Variant 36-6,Glass Bottle,Industrial Goods,17.3,3,True,False,True,False,86,-1,1.588,60.28,0.587,4.4
+226,Glass Bottle Variant 36-7,Glass Bottle,Electronics,32.0,5,True,False,False,False,80,-1,2.727,161.51,0.535,6.9
+227,Paperboard Variant 37-1,Paperboard,Industrial Goods,24.9,4,True,True,True,True,99,204,1.753,80.05,0.579,3.1
+228,Paperboard Variant 37-2,Paperboard,Food & Beverages,3.5,2,False,False,True,False,62,274,1.286,114.34,0.431,1.0
+229,Paperboard Variant 37-3,Paperboard,Pharmaceuticals,16.8,5,False,False,True,True,84,273,1.664,55.03,0.554,3.0
+230,Paperboard Variant 37-4,Paperboard,Pharmaceuticals,23.2,4,False,True,False,True,87,112,1.463,104.32,0.547,3.3
+231,Paperboard Variant 37-5,Paperboard,Electronics,8.0,2,True,True,False,False,74,300,0.856,80.89,0.514,1.0
+232,Paperboard Variant 37-6,Paperboard,Apparel & Fashion,35.6,2,True,True,False,True,87,198,0.956,106.14,0.673,8.1
+233,Paperboard Variant 37-7,Paperboard,Apparel & Fashion,43.5,4,False,False,False,False,96,245,1.478,43.38,0.731,9.1
+234,LDPE Plastic Film Variant 38-1,LDPE Plastic Film,Cosmetics & Beauty,42.4,2,True,True,False,True,33,-1,4.377,221.77,0.385,8.4
+235,LDPE Plastic Film Variant 38-2,LDPE Plastic Film,Apparel & Fashion,15.6,5,True,False,False,True,50,-1,2.277,176.15,0.334,1.0
+236,LDPE Plastic Film Variant 38-3,LDPE Plastic Film,Cosmetics & Beauty,38.8,1,True,False,False,False,40,-1,2.928,215.14,0.414,7.7
+237,LDPE Plastic Film Variant 38-4,LDPE Plastic Film,Apparel & Fashion,36.8,1,False,False,True,True,10,-1,2.719,242.43,0.319,7.5
+238,LDPE Plastic Film Variant 38-5,LDPE Plastic Film,Food & Beverages,3.8,2,False,True,False,True,47,-1,2.048,153.98,0.338,1.0
+239,LDPE Plastic Film Variant 38-6,LDPE Plastic Film,Cosmetics & Beauty,21.3,1,False,True,False,True,35,-1,2.78,208.41,0.347,4.9
+240,LDPE Plastic Film Variant 38-7,LDPE Plastic Film,Apparel & Fashion,38.9,4,False,True,True,False,39,-1,2.454,158.84,0.443,8.1
+241,LDPE Plastic Film Variant 38-8,LDPE Plastic Film,Pharmaceuticals,17.3,1,False,False,True,True,56,-1,3.367,208.09,0.374,3.6
+242,Recycled Paper Variant 39-1,Recycled Paper,Pharmaceuticals,30.7,5,True,True,True,True,93,285,1.697,78.73,0.626,6.2
+243,Recycled Paper Variant 39-2,Recycled Paper,Pharmaceuticals,3.8,2,False,True,False,False,81,292,1.671,56.4,0.515,1.6
+244,Recycled Paper Variant 39-3,Recycled Paper,Pharmaceuticals,44.9,1,False,False,True,False,99,127,1.609,71.05,0.729,10.0
+245,Recycled Paper Variant 39-4,Recycled Paper,Home & Living,17.9,4,True,False,False,True,64,143,1.337,90.47,0.519,4.7
+246,Recycled Paper Variant 39-5,Recycled Paper,Electronics,47.9,3,False,True,False,False,65,353,1.713,114.29,0.599,10.0
+247,Recycled Paper Variant 39-6,Recycled Paper,Electronics,9.8,3,True,False,True,True,87,129,1.564,48.71,0.56,2.4
+248,Recycled Paper Variant 39-7,Recycled Paper,Industrial Goods,20.9,3,False,False,True,False,78,213,1.795,41.14,0.575,4.6
+249,Bubble Wrap Variant 40-1,Bubble Wrap,Electronics,18.4,1,False,False,False,False,61,674,2.375,119.45,0.435,3.6
+250,Bubble Wrap Variant 40-2,Bubble Wrap,Pharmaceuticals,48.0,2,False,False,True,True,66,691,3.414,173.84,0.507,8.4
+251,Bubble Wrap Variant 40-3,Bubble Wrap,Pharmaceuticals,40.6,2,False,False,True,True,74,189,1.461,233.24,0.584,9.0
+252,Bubble Wrap Variant 40-4,Bubble Wrap,Apparel & Fashion,47.8,1,True,False,True,True,82,785,3.853,236.13,0.553,9.3
+253,HDPE Plastic Variant 41-1,HDPE Plastic,Cosmetics & Beauty,18.5,2,False,True,False,False,10,-1,4.167,128.04,0.234,2.9
+254,HDPE Plastic Variant 41-2,HDPE Plastic,Cosmetics & Beauty,47.6,5,False,False,False,True,28,-1,3.075,123.01,0.447,10.0
+255,HDPE Plastic Variant 41-3,HDPE Plastic,Apparel & Fashion,42.4,5,True,False,False,False,50,-1,3.485,147.31,0.476,8.9
+256,HDPE Plastic Variant 41-4,HDPE Plastic,Pharmaceuticals,32.2,3,True,False,False,False,33,-1,2.119,232.28,0.357,5.1
+257,HDPE Plastic Variant 41-5,HDPE Plastic,Cosmetics & Beauty,38.9,2,False,False,False,True,40,-1,3.914,120.46,0.434,8.1
+258,HDPE Plastic Variant 41-6,HDPE Plastic,Electronics,21.4,5,False,True,True,True,29,-1,2.004,136.87,0.353,4.1
+259,HDPE Plastic Variant 41-7,HDPE Plastic,Apparel & Fashion,48.4,3,False,False,False,False,34,-1,2.679,140.45,0.439,8.6
+260,Steel Can Variant 42-1,Steel Can,Cosmetics & Beauty,17.5,4,False,False,True,False,96,-1,6.072,245.17,0.434,2.3
+261,Steel Can Variant 42-2,Steel Can,Food & Beverages,2.0,2,False,False,False,True,99,-1,4.65,308.04,0.421,1.1
+262,Steel Can Variant 42-3,Steel Can,Pharmaceuticals,39.3,1,True,False,False,True,94,-1,6.309,328.58,0.498,6.4
+263,Steel Can Variant 42-4,Steel Can,Pharmaceuticals,35.0,5,False,True,False,True,99,-1,4.594,189.33,0.534,5.7
+264,Glass Jar Variant 43-1,Glass Jar,Cosmetics & Beauty,33.9,5,False,False,True,True,83,-1,1.55,106.12,0.576,5.6
+265,Glass Jar Variant 43-2,Glass Jar,Industrial Goods,1.6,2,False,False,True,False,80,-1,1.603,176.04,0.472,2.2
+266,Glass Jar Variant 43-3,Glass Jar,Industrial Goods,36.2,5,False,False,False,True,90,-1,1.815,163.84,0.596,7.2
+267,Glass Jar Variant 43-4,Glass Jar,Pharmaceuticals,15.2,3,False,True,True,False,87,-1,2.598,66.22,0.499,1.7
+268,Glass Jar Variant 43-5,Glass Jar,Home & Living,16.0,3,True,False,False,False,84,-1,3.068,68.2,0.523,3.9
+269,Glass Jar Variant 43-6,Glass Jar,Industrial Goods,22.2,3,False,True,True,True,98,-1,2.702,154.23,0.532,3.9
+270,Wooden Crate Variant 44-1,Wooden Crate,Apparel & Fashion,16.9,2,False,True,False,False,31,697,2.958,145.73,0.324,3.7
+271,Wooden Crate Variant 44-2,Wooden Crate,Food & Beverages,10.3,4,True,True,True,True,45,693,2.314,114.5,0.359,2.0
+272,Wooden Crate Variant 44-3,Wooden Crate,Apparel & Fashion,30.6,3,True,False,True,True,73,582,2.297,154.84,0.482,4.7
+273,Wooden Crate Variant 44-4,Wooden Crate,Electronics,1.7,3,True,False,False,False,88,687,1.348,80.24,0.525,1.1
+274,Wooden Crate Variant 44-5,Wooden Crate,Home & Living,23.0,5,False,False,False,True,51,789,1.101,124.83,0.527,7.1
+275,Bubble Wrap Variant 45-1,Bubble Wrap,Industrial Goods,19.9,1,False,False,True,False,35,355,2.494,193.05,0.367,5.4
+276,Bubble Wrap Variant 45-2,Bubble Wrap,Food & Beverages,17.0,4,False,False,False,True,58,558,1.027,202.99,0.47,4.1
+277,Bubble Wrap Variant 45-3,Bubble Wrap,Electronics,31.1,1,False,False,True,False,87,340,1.243,194.39,0.567,5.2
+278,Bubble Wrap Variant 45-4,Bubble Wrap,Electronics,42.1,3,True,True,False,True,67,782,1.205,168.65,0.542,6.5
+279,Air Cushion Film Variant 46-1,Air Cushion Film,Home & Living,46.1,3,False,True,True,False,50,949,1.745,187.14,0.529,10.0
+280,Air Cushion Film Variant 46-2,Air Cushion Film,Pharmaceuticals,22.0,4,False,True,False,False,51,691,1.066,155.47,0.476,5.0
+281,Air Cushion Film Variant 46-3,Air Cushion Film,Home & Living,25.6,5,True,True,True,True,50,824,3.828,213.71,0.394,5.9
+282,Air Cushion Film Variant 46-4,Air Cushion Film,Apparel & Fashion,36.3,4,True,False,True,False,56,491,1.765,174.07,0.491,7.1
+283,Air Cushion Film Variant 46-5,Air Cushion Film,Electronics,4.8,1,False,True,False,False,87,986,1.956,119.4,0.474,1.0
+284,Air Cushion Film Variant 46-6,Air Cushion Film,Home & Living,4.8,5,False,True,False,False,46,255,3.245,225.99,0.318,2.4
+285,Air Cushion Film Variant 46-7,Air Cushion Film,Electronics,30.9,5,True,False,False,True,84,795,2.596,226.71,0.465,3.4
+286,HDPE Plastic Variant 47-1,HDPE Plastic,Home & Living,15.5,1,True,False,False,False,19,-1,3.455,201.54,0.245,2.7
+287,HDPE Plastic Variant 47-2,HDPE Plastic,Electronics,11.4,3,True,True,True,True,56,-1,4.179,220.62,0.354,3.3
+288,HDPE Plastic Variant 47-3,HDPE Plastic,Industrial Goods,21.2,2,True,False,False,False,43,-1,4.363,103.54,0.409,6.3
+289,HDPE Plastic Variant 47-4,HDPE Plastic,Pharmaceuticals,25.3,5,True,True,False,True,16,-1,4.379,223.68,0.284,5.9
+290,PLA Bioplastic Variant 48-1,PLA Bioplastic,Electronics,31.0,3,True,False,False,False,61,499,2.043,326.31,0.449,6.0
+291,PLA Bioplastic Variant 48-2,PLA Bioplastic,Home & Living,37.9,5,False,False,False,True,48,548,0.823,246.87,0.512,7.3
+292,PLA Bioplastic Variant 48-3,PLA Bioplastic,Apparel & Fashion,32.7,2,False,True,True,False,41,304,2.241,298.62,0.426,8.0
+293,PLA Bioplastic Variant 48-4,PLA Bioplastic,Home & Living,49.1,2,True,False,False,False,48,122,1.433,220.1,0.488,7.9
+294,PLA Bioplastic Variant 48-5,PLA Bioplastic,Home & Living,19.1,3,True,True,True,False,59,354,2.232,316.27,0.406,4.4
+295,PLA Bioplastic Variant 48-6,PLA Bioplastic,Electronics,32.0,2,False,False,True,False,74,599,1.039,253.6,0.582,7.8
+296,PLA Bioplastic Variant 48-7,PLA Bioplastic,Home & Living,31.4,5,True,False,True,True,46,519,1.815,301.74,0.428,6.7
+297,Recycled Paper Variant 49-1,Recycled Paper,Industrial Goods,44.6,5,False,False,True,False,99,118,1.52,54.83,0.707,8.1
+298,Recycled Paper Variant 49-2,Recycled Paper,Home & Living,43.6,2,False,True,True,False,71,338,1.755,92.76,0.626,10.0
+299,Recycled Paper Variant 49-3,Recycled Paper,Home & Living,34.9,3,False,False,True,True,72,337,1.732,45.05,0.616,7.6
+300,Recycled Paper Variant 49-4,Recycled Paper,Home & Living,23.6,4,False,False,True,True,96,122,1.298,61.12,0.619,3.8
+301,Recycled Paper Variant 49-5,Recycled Paper,Food & Beverages,41.4,4,True,False,True,False,88,163,0.913,93.34,0.684,8.0
+302,Recycled Paper Variant 49-6,Recycled Paper,Food & Beverages,40.8,5,True,True,False,True,90,150,1.83,104.53,0.652,8.9
+303,Recycled Paper Variant 49-7,Recycled Paper,Apparel & Fashion,12.8,5,True,False,False,False,94,145,1.717,41.15,0.582,2.4
+304,EPE Foam Variant 50-1,EPE Foam,Food & Beverages,38.4,3,True,False,False,False,28,-1,4.972,195.52,0.354,7.6
+305,EPE Foam Variant 50-2,EPE Foam,Cosmetics & Beauty,22.7,2,True,False,False,False,37,-1,2.635,188.6,0.325,3.1
+306,EPE Foam Variant 50-3,EPE Foam,Apparel & Fashion,49.1,4,False,False,False,False,41,-1,4.024,179.12,0.422,8.4
+307,EPE Foam Variant 50-4,EPE Foam,Industrial Goods,19.3,3,True,False,False,False,28,-1,4.431,217.21,0.252,2.5
+308,EPE Foam Variant 50-5,EPE Foam,Industrial Goods,11.0,2,False,False,True,True,57,-1,2.514,123.25,0.408,3.1
+309,EPS Foam Variant 51-1,EPS Foam,Food & Beverages,23.3,4,False,False,False,False,47,-1,2.236,203.54,0.398,4.9
+310,EPS Foam Variant 51-2,EPS Foam,Pharmaceuticals,5.7,3,True,True,False,True,29,-1,4.649,234.53,0.22,1.0
+311,EPS Foam Variant 51-3,EPS Foam,Electronics,11.4,5,False,False,True,False,26,-1,4.92,200.94,0.229,1.7
+312,EPS Foam Variant 51-4,EPS Foam,Electronics,42.5,4,True,False,True,False,51,-1,2.255,241.94,0.462,7.9
+313,EPS Foam Variant 51-5,EPS Foam,Cosmetics & Beauty,4.5,4,True,False,True,False,29,-1,4.278,246.5,0.222,1.0
+314,EPS Foam Variant 51-6,EPS Foam,Home & Living,22.5,3,True,True,True,True,48,-1,3.061,167.53,0.367,3.7
+315,EPS Foam Variant 51-7,EPS Foam,Home & Living,48.8,2,False,True,True,False,37,-1,2.468,200.24,0.42,7.8
+316,Kraft Paper Variant 52-1,Kraft Paper,Home & Living,39.2,3,True,True,False,False,90,165,1.237,62.55,0.681,7.7
+317,Kraft Paper Variant 52-2,Kraft Paper,Apparel & Fashion,18.0,2,False,False,False,True,76,91,1.246,111.16,0.552,4.8
+318,Kraft Paper Variant 52-3,Kraft Paper,Home & Living,25.0,1,True,False,False,True,94,107,1.194,72.54,0.637,5.1
+319,Kraft Paper Variant 52-4,Kraft Paper,Food & Beverages,38.4,5,False,False,False,False,63,98,1.69,114.59,0.57,8.8
+320,PET Plastic Variant 53-1,PET Plastic,Electronics,7.5,4,True,False,False,False,25,-1,4.318,145.71,0.243,1.5
+321,PET Plastic Variant 53-2,PET Plastic,Apparel & Fashion,29.0,1,False,True,False,False,38,-1,2.438,227.35,0.402,7.0
+322,PET Plastic Variant 53-3,PET Plastic,Food & Beverages,11.8,5,False,True,True,True,51,-1,3.568,226.82,0.31,1.5
+323,PET Plastic Variant 53-4,PET Plastic,Food & Beverages,8.5,1,False,True,True,True,56,-1,3.17,245.35,0.346,2.4
+324,PET Plastic Variant 53-5,PET Plastic,Apparel & Fashion,38.3,2,False,False,False,False,59,-1,4.069,163.66,0.468,7.8
+325,PET Plastic Variant 53-6,PET Plastic,Cosmetics & Beauty,2.5,5,True,False,True,False,32,-1,2.696,200.21,0.284,2.0
+326,Bubble Wrap Variant 54-1,Bubble Wrap,Home & Living,46.5,1,False,False,True,True,41,660,3.745,211.47,0.432,9.1
+327,Bubble Wrap Variant 54-2,Bubble Wrap,Pharmaceuticals,46.2,4,True,False,True,False,61,685,2.697,195.16,0.524,9.6
+328,Bubble Wrap Variant 54-3,Bubble Wrap,Industrial Goods,20.0,2,True,False,False,True,78,406,1.878,151.16,0.49,3.6
+329,Bubble Wrap Variant 54-4,Bubble Wrap,Home & Living,15.4,3,False,False,False,True,66,550,2.051,166.08,0.451,4.0
+330,Bubble Wrap Variant 54-5,Bubble Wrap,Electronics,17.6,5,True,False,False,False,75,262,2.02,133.02,0.45,2.0
+331,Bubble Wrap Variant 54-6,Bubble Wrap,Industrial Goods,22.7,1,True,False,False,False,67,671,1.72,108.03,0.497,4.5
+332,Bubble Wrap Variant 55-1,Bubble Wrap,Industrial Goods,14.4,5,True,False,True,False,71,252,3.262,207.7,0.42,3.6
+333,Bubble Wrap Variant 55-2,Bubble Wrap,Electronics,45.3,5,True,False,False,False,76,341,2.07,225.54,0.561,8.7
+334,Bubble Wrap Variant 55-3,Bubble Wrap,Apparel & Fashion,15.5,1,True,False,False,False,49,612,1.52,219.82,0.403,3.7
+335,Bubble Wrap Variant 55-4,Bubble Wrap,Food & Beverages,6.7,5,True,True,False,False,77,543,2.976,204.61,0.418,2.3
+336,Bubble Wrap Variant 55-5,Bubble Wrap,Electronics,41.2,3,True,False,False,True,40,752,1.296,212.6,0.481,8.3
+337,Bubble Wrap Variant 55-6,Bubble Wrap,Electronics,18.7,3,False,True,True,False,41,781,3.244,214.21,0.341,4.2
+338,Bubble Wrap Variant 56-1,Bubble Wrap,Food & Beverages,13.1,4,False,True,False,False,76,853,1.158,88.56,0.567,4.7
+339,Bubble Wrap Variant 56-2,Bubble Wrap,Food & Beverages,23.4,5,False,True,False,True,67,790,2.088,139.64,0.484,5.1
+340,Bubble Wrap Variant 56-3,Bubble Wrap,Home & Living,17.1,2,True,False,True,False,64,545,1.419,111.05,0.489,3.9
+341,Bubble Wrap Variant 56-4,Bubble Wrap,Apparel & Fashion,38.3,5,True,True,False,True,54,205,1.935,239.31,0.481,7.9
+342,Bubble Wrap Variant 56-5,Bubble Wrap,Industrial Goods,33.1,2,False,False,False,True,73,578,3.815,184.18,0.494,7.1
+343,EPE Foam Variant 57-1,EPE Foam,Industrial Goods,4.8,3,True,False,False,True,16,-1,2.318,153.19,0.237,1.0
+344,EPE Foam Variant 57-2,EPE Foam,Industrial Goods,21.2,2,False,True,True,True,49,-1,4.482,140.39,0.333,2.4
+345,EPE Foam Variant 57-3,EPE Foam,Pharmaceuticals,21.5,4,False,False,True,True,16,-1,4.749,241.46,0.263,5.2
+346,EPE Foam Variant 57-4,EPE Foam,Food & Beverages,31.9,3,True,True,True,False,48,-1,4.473,215.09,0.38,5.9
+347,EPE Foam Variant 57-5,EPE Foam,Home & Living,41.8,2,True,True,False,False,41,-1,4.705,155.67,0.39,6.8
+348,Wooden Crate Variant 58-1,Wooden Crate,Pharmaceuticals,44.3,3,False,False,False,True,46,988,2.714,105.31,0.484,8.4
+349,Wooden Crate Variant 58-2,Wooden Crate,Electronics,22.6,1,True,False,True,False,52,449,1.241,162.57,0.458,4.6
+350,Wooden Crate Variant 58-3,Wooden Crate,Electronics,9.9,3,False,False,False,False,54,416,1.885,147.85,0.379,1.6
+351,Wooden Crate Variant 58-4,Wooden Crate,Industrial Goods,36.5,2,True,False,True,True,40,702,2.897,179.62,0.403,6.7
+352,Wooden Crate Variant 58-5,Wooden Crate,Cosmetics & Beauty,14.0,2,False,False,True,True,78,934,1.057,127.15,0.52,2.6
+353,Wooden Crate Variant 58-6,Wooden Crate,Pharmaceuticals,1.6,4,True,True,False,True,55,462,2.503,147.93,0.351,1.0
+354,Starch-based Bioplastic Variant 59-1,Starch-based Bioplastic,Electronics,26.1,4,True,False,False,True,65,639,0.962,336.08,0.498,5.2
+355,Starch-based Bioplastic Variant 59-2,Starch-based Bioplastic,Food & Beverages,17.5,4,True,True,True,False,58,314,1.979,246.88,0.41,3.9
+356,Starch-based Bioplastic Variant 59-3,Starch-based Bioplastic,Pharmaceuticals,11.6,5,False,False,True,True,35,283,1.013,231.54,0.37,2.8
+357,Starch-based Bioplastic Variant 59-4,Starch-based Bioplastic,Apparel & Fashion,41.5,5,True,False,True,False,76,669,1.943,198.11,0.537,7.0
+358,Starch-based Bioplastic Variant 60-1,Starch-based Bioplastic,Industrial Goods,34.0,4,True,True,False,False,51,419,2.487,166.25,0.426,5.6
+359,Starch-based Bioplastic Variant 60-2,Starch-based Bioplastic,Cosmetics & Beauty,49.4,3,True,True,False,False,39,249,1.931,273.75,0.463,9.5
+360,Starch-based Bioplastic Variant 60-3,Starch-based Bioplastic,Home & Living,32.6,5,True,True,True,True,36,529,1.231,254.72,0.459,8.0
+361,Starch-based Bioplastic Variant 60-4,Starch-based Bioplastic,Industrial Goods,25.1,1,False,False,False,False,40,415,2.438,168.65,0.368,4.3
+362,Starch-based Bioplastic Variant 60-5,Starch-based Bioplastic,Cosmetics & Beauty,8.4,3,False,False,False,False,59,715,2.107,205.18,0.373,1.7
+363,Bubble Wrap Variant 61-1,Bubble Wrap,Electronics,34.9,1,False,False,True,True,49,933,3.202,87.65,0.471,7.3
+364,Bubble Wrap Variant 61-2,Bubble Wrap,Electronics,24.4,2,True,True,True,False,86,917,2.448,223.14,0.485,3.9
+365,Bubble Wrap Variant 61-3,Bubble Wrap,Industrial Goods,34.0,4,True,True,False,False,53,801,2.803,95.28,0.508,8.4
+366,Bubble Wrap Variant 61-4,Bubble Wrap,Apparel & Fashion,45.9,4,True,False,False,False,45,535,1.924,182.93,0.508,10.0
+367,Bubble Wrap Variant 62-1,Bubble Wrap,Pharmaceuticals,31.1,3,True,False,True,False,68,897,1.971,203.89,0.479,5.4
+368,Bubble Wrap Variant 62-2,Bubble Wrap,Food & Beverages,28.3,4,False,False,False,True,56,551,1.865,189.63,0.448,5.3
+369,Bubble Wrap Variant 62-3,Bubble Wrap,Home & Living,44.7,5,False,True,True,True,88,903,2.543,176.18,0.621,10.0
+370,Bubble Wrap Variant 62-4,Bubble Wrap,Home & Living,27.9,2,False,True,True,True,49,787,3.962,110.07,0.417,5.7
+371,PET Plastic Variant 63-1,PET Plastic,Apparel & Fashion,27.1,2,True,False,False,True,11,-1,3.705,207.6,0.23,3.4
+372,PET Plastic Variant 63-2,PET Plastic,Electronics,7.5,3,False,False,True,False,29,-1,4.182,220.56,0.231,1.2
+373,PET Plastic Variant 63-3,PET Plastic,Food & Beverages,36.8,5,False,False,False,True,52,-1,2.314,131.4,0.509,8.8
+374,PET Plastic Variant 63-4,PET Plastic,Food & Beverages,6.3,2,True,True,False,False,57,-1,3.464,116.88,0.354,1.2
+375,PET Plastic Variant 63-5,PET Plastic,Pharmaceuticals,12.5,2,True,False,False,True,58,-1,4.245,198.18,0.38,4.1
+376,PET Plastic Variant 63-6,PET Plastic,Pharmaceuticals,29.6,3,False,False,False,False,21,-1,4.278,157.38,0.284,4.3
+377,PET Plastic Variant 63-7,PET Plastic,Electronics,16.5,1,False,False,True,False,16,-1,3.031,172.67,0.274,3.9
+378,Aluminum Foil Variant 64-1,Aluminum Foil,Industrial Goods,13.3,2,False,False,True,True,98,-1,4.83,169.18,0.476,2.8
+379,Aluminum Foil Variant 64-2,Aluminum Foil,Apparel & Fashion,25.5,3,True,True,False,True,89,-1,7.082,303.49,0.452,4.9
+380,Aluminum Foil Variant 64-3,Aluminum Foil,Industrial Goods,20.5,1,False,False,False,True,89,-1,6.626,215.62,0.472,5.1
+381,Aluminum Foil Variant 64-4,Aluminum Foil,Electronics,43.5,1,True,True,True,False,88,-1,4.582,174.65,0.591,10.0
+382,Aluminum Foil Variant 64-5,Aluminum Foil,Food & Beverages,15.5,4,True,False,False,True,95,-1,8.35,289.59,0.454,4.3
+383,Bubble Wrap Variant 65-1,Bubble Wrap,Home & Living,31.1,2,True,False,True,True,36,432,3.625,101.14,0.368,4.8
+384,Bubble Wrap Variant 65-2,Bubble Wrap,Industrial Goods,9.7,4,True,False,False,False,66,721,2.444,194.28,0.373,1.0
+385,Bubble Wrap Variant 65-3,Bubble Wrap,Apparel & Fashion,47.6,3,True,False,True,True,31,871,1.349,84.1,0.481,7.6
+386,Bubble Wrap Variant 65-4,Bubble Wrap,Apparel & Fashion,10.3,2,True,True,False,True,87,702,2.764,220.48,0.461,2.9
+387,Bubble Wrap Variant 65-5,Bubble Wrap,Pharmaceuticals,40.2,2,False,False,False,False,43,858,1.661,182.87,0.484,8.6
+388,Bubble Wrap Variant 65-6,Bubble Wrap,Apparel & Fashion,29.0,5,False,False,False,True,88,509,2.121,172.31,0.548,5.7
+389,Bubble Wrap Variant 65-7,Bubble Wrap,Pharmaceuticals,1.6,3,True,True,True,True,48,246,3.517,145.07,0.312,1.0
+390,HDPE Plastic Variant 66-1,HDPE Plastic,Electronics,25.8,5,True,False,False,False,18,-1,4.399,189.26,0.233,2.7
+391,HDPE Plastic Variant 66-2,HDPE Plastic,Apparel & Fashion,5.8,2,True,False,False,True,21,-1,3.991,257.45,0.199,1.0
+392,HDPE Plastic Variant 66-3,HDPE Plastic,Industrial Goods,34.3,4,True,False,False,False,27,-1,2.228,248.49,0.363,6.6
+393,HDPE Plastic Variant 66-4,HDPE Plastic,Food & Beverages,33.9,1,True,True,False,False,13,-1,2.246,128.33,0.373,7.7
+394,HDPE Plastic Variant 66-5,HDPE Plastic,Pharmaceuticals,30.4,5,True,True,True,False,11,-1,2.281,194.03,0.35,7.9
+395,HDPE Plastic Variant 66-6,HDPE Plastic,Cosmetics & Beauty,39.3,5,True,True,False,False,54,-1,2.998,135.95,0.49,8.4
+396,HDPE Plastic Variant 66-7,HDPE Plastic,Pharmaceuticals,48.9,3,True,False,False,False,28,-1,2.17,183.5,0.437,9.4
+397,PLA Bioplastic Variant 67-1,PLA Bioplastic,Apparel & Fashion,47.9,3,True,False,False,False,45,659,1.473,285.09,0.502,9.7
+398,PLA Bioplastic Variant 67-2,PLA Bioplastic,Pharmaceuticals,8.8,5,True,True,False,True,52,471,1.809,221.56,0.361,1.8
+399,PLA Bioplastic Variant 67-3,PLA Bioplastic,Industrial Goods,8.9,1,True,True,True,True,36,169,1.989,158.66,0.31,1.2
+400,PLA Bioplastic Variant 67-4,PLA Bioplastic,Electronics,37.5,1,False,False,False,False,52,220,0.904,332.39,0.524,8.2
+401,PLA Bioplastic Variant 67-5,PLA Bioplastic,Cosmetics & Beauty,10.0,2,True,False,True,False,69,622,0.904,264.77,0.461,2.1
+402,PLA Bioplastic Variant 67-6,PLA Bioplastic,Pharmaceuticals,36.0,4,True,False,False,True,74,627,1.8,174.34,0.538,6.8
+403,Paperboard Variant 68-1,Paperboard,Apparel & Fashion,31.7,3,False,True,True,True,99,93,1.513,74.88,0.651,6.0
+404,Paperboard Variant 68-2,Paperboard,Apparel & Fashion,4.3,1,True,True,True,False,77,147,1.774,72.03,0.475,1.0
+405,Paperboard Variant 68-3,Paperboard,Pharmaceuticals,32.8,1,True,True,True,True,64,335,1.863,104.62,0.561,8.3
+406,Paperboard Variant 68-4,Paperboard,Cosmetics & Beauty,1.9,5,False,True,False,True,68,176,1.884,40.07,0.471,1.0
+407,Paperboard Variant 68-5,Paperboard,Food & Beverages,11.3,5,False,True,False,False,82,162,1.575,118.12,0.484,1.5
+408,Paperboard Variant 68-6,Paperboard,Food & Beverages,15.9,3,False,True,True,True,76,189,1.314,117.22,0.48,1.5
+409,Paperboard Variant 68-7,Paperboard,Pharmaceuticals,36.6,3,True,False,False,False,78,203,1.79,104.97,0.575,6.8
+410,PLA Bioplastic Variant 69-1,PLA Bioplastic,Electronics,16.9,3,False,True,False,True,48,424,1.626,162.49,0.374,2.0
+411,PLA Bioplastic Variant 69-2,PLA Bioplastic,Industrial Goods,13.2,4,False,False,False,False,65,637,2.407,288.06,0.395,3.0
+412,PLA Bioplastic Variant 69-3,PLA Bioplastic,Apparel & Fashion,17.2,1,False,True,True,True,57,194,1.033,322.28,0.442,3.8
+413,PLA Bioplastic Variant 69-4,PLA Bioplastic,Cosmetics & Beauty,17.1,3,False,False,True,False,37,431,1.862,279.37,0.345,3.8
+414,PLA Bioplastic Variant 69-5,PLA Bioplastic,Food & Beverages,16.1,3,False,True,True,True,40,417,1.122,259.78,0.367,2.5
+415,Starch-based Bioplastic Variant 70-1,Starch-based Bioplastic,Pharmaceuticals,26.0,1,True,False,False,False,60,214,2.033,325.86,0.454,6.4
+416,Starch-based Bioplastic Variant 70-2,Starch-based Bioplastic,Food & Beverages,21.0,2,True,False,False,False,37,710,2.401,199.76,0.372,5.3
+417,Starch-based Bioplastic Variant 70-3,Starch-based Bioplastic,Food & Beverages,39.0,5,True,True,False,False,58,217,1.586,183.49,0.489,6.4
+418,Starch-based Bioplastic Variant 70-4,Starch-based Bioplastic,Industrial Goods,7.0,1,True,False,True,True,43,720,1.506,269.07,0.323,1.0
+419,Molded Pulp Variant 71-1,Molded Pulp,Industrial Goods,39.5,3,False,False,False,True,89,140,1.322,119.66,0.649,8.1
+420,Molded Pulp Variant 71-2,Molded Pulp,Pharmaceuticals,17.9,1,False,False,False,True,95,273,1.001,99.38,0.617,4.1
+421,Molded Pulp Variant 71-3,Molded Pulp,Home & Living,4.3,2,False,True,False,True,91,220,0.933,97.5,0.549,1.0
+422,Molded Pulp Variant 71-4,Molded Pulp,Food & Beverages,49.7,2,True,True,True,True,77,241,1.333,67.3,0.677,9.9
+423,Molded Pulp Variant 71-5,Molded Pulp,Electronics,25.9,2,False,True,False,False,66,355,1.739,62.36,0.535,5.2
+424,Molded Pulp Variant 71-6,Molded Pulp,Electronics,20.5,2,True,False,True,True,71,357,1.783,58.78,0.535,4.4
+425,Molded Pulp Variant 71-7,Molded Pulp,Food & Beverages,41.5,1,False,True,False,True,94,121,1.851,70.15,0.657,7.6
+426,HDPE Plastic Variant 72-1,HDPE Plastic,Food & Beverages,25.2,1,False,False,True,False,26,-1,3.685,150.34,0.32,4.9
+427,HDPE Plastic Variant 72-2,HDPE Plastic,Electronics,45.9,3,False,True,True,False,38,-1,2.43,118.99,0.487,9.7
+428,HDPE Plastic Variant 72-3,HDPE Plastic,Electronics,37.2,4,True,False,True,True,45,-1,4.273,249.57,0.389,7.0
+429,HDPE Plastic Variant 72-4,HDPE Plastic,Home & Living,44.5,4,False,False,False,False,41,-1,2.419,210.6,0.447,8.6
+430,HDPE Plastic Variant 72-5,HDPE Plastic,Cosmetics & Beauty,25.7,1,False,True,False,True,27,-1,2.465,135.28,0.387,6.7
+431,HDPE Plastic Variant 72-6,HDPE Plastic,Food & Beverages,11.3,4,False,False,False,False,11,-1,2.272,222.16,0.239,2.6
+432,HDPE Plastic Variant 72-7,HDPE Plastic,Industrial Goods,19.7,5,True,False,True,True,50,-1,3.864,184.98,0.348,3.3
+433,HDPE Plastic Variant 72-8,HDPE Plastic,Pharmaceuticals,35.1,3,True,True,True,False,43,-1,3.38,210.21,0.382,6.0
+434,EPE Foam Variant 73-1,EPE Foam,Home & Living,21.9,3,True,True,False,False,50,-1,4.278,188.39,0.356,4.0
+435,EPE Foam Variant 73-2,EPE Foam,Home & Living,10.5,3,False,True,True,False,31,-1,3.727,129.4,0.312,3.4
+436,EPE Foam Variant 73-3,EPE Foam,Electronics,36.5,3,True,True,False,True,42,-1,4.732,131.67,0.389,6.2
+437,EPE Foam Variant 73-4,EPE Foam,Cosmetics & Beauty,24.7,1,True,True,False,False,27,-1,3.662,234.98,0.285,4.0
+438,EPE Foam Variant 73-5,EPE Foam,Home & Living,10.6,4,False,True,True,False,40,-1,3.506,120.5,0.335,2.9
+439,EPE Foam Variant 73-6,EPE Foam,Apparel & Fashion,29.4,4,True,True,False,True,34,-1,2.785,209.88,0.37,6.2
+440,EPE Foam Variant 73-7,EPE Foam,Food & Beverages,41.6,3,True,False,False,False,58,-1,4.175,160.58,0.479,8.5
+441,Paperboard Variant 74-1,Paperboard,Electronics,41.8,4,False,False,True,False,75,203,1.699,76.03,0.61,8.0
+442,Paperboard Variant 74-2,Paperboard,Home & Living,32.1,1,True,True,False,False,79,122,1.438,48.49,0.623,6.4
+443,Paperboard Variant 74-3,Paperboard,Pharmaceuticals,31.0,4,True,False,False,False,85,208,0.801,56.48,0.667,5.9
+444,Paperboard Variant 74-4,Paperboard,Home & Living,48.9,5,False,False,False,True,62,242,1.724,98.5,0.561,8.2
+445,Paperboard Variant 74-5,Paperboard,Industrial Goods,29.1,2,False,False,False,True,99,130,1.501,84.44,0.611,4.3
+446,Paperboard Variant 74-6,Paperboard,Industrial Goods,42.7,5,False,False,True,False,64,82,0.943,103.12,0.637,9.6
+447,Paperboard Variant 74-7,Paperboard,Industrial Goods,15.0,2,True,True,False,False,73,73,1.031,95.7,0.515,2.3
+448,LDPE Plastic Film Variant 75-1,LDPE Plastic Film,Cosmetics & Beauty,27.1,2,False,True,True,False,21,-1,2.436,109.17,0.392,7.3
+449,LDPE Plastic Film Variant 75-2,LDPE Plastic Film,Electronics,35.9,1,False,False,False,False,20,-1,3.506,199.74,0.311,5.9
+450,LDPE Plastic Film Variant 75-3,LDPE Plastic Film,Industrial Goods,26.9,3,True,False,False,True,45,-1,3.091,113.59,0.418,5.8
+451,LDPE Plastic Film Variant 75-4,LDPE Plastic Film,Food & Beverages,22.4,5,False,True,True,False,35,-1,2.092,217.94,0.325,3.0
+452,LDPE Plastic Film Variant 75-5,LDPE Plastic Film,Home & Living,17.5,2,True,False,True,True,17,-1,2.449,153.96,0.271,2.7
+453,LDPE Plastic Film Variant 75-6,LDPE Plastic Film,Food & Beverages,23.4,1,True,True,True,False,55,-1,2.945,232.48,0.381,4.0
+454,Kraft Paper Variant 76-1,Kraft Paper,Home & Living,23.8,2,True,False,True,False,66,291,1.101,115.5,0.518,4.2
+455,Kraft Paper Variant 76-2,Kraft Paper,Food & Beverages,20.3,4,True,False,False,True,69,236,1.964,117.3,0.468,3.4
+456,Kraft Paper Variant 76-3,Kraft Paper,Industrial Goods,30.4,1,True,False,False,False,82,310,1.182,62.55,0.623,5.8
+457,Kraft Paper Variant 76-4,Kraft Paper,Cosmetics & Beauty,3.8,2,False,False,False,True,71,167,1.252,117.09,0.472,1.7
+458,Kraft Paper Variant 76-5,Kraft Paper,Food & Beverages,4.9,5,True,False,True,True,68,91,1.445,52.85,0.478,1.0
+459,Kraft Paper Variant 76-6,Kraft Paper,Cosmetics & Beauty,36.2,1,True,True,True,False,74,299,1.248,52.39,0.647,8.0
+460,EPS Foam Variant 77-1,EPS Foam,Apparel & Fashion,35.1,5,True,True,False,True,36,-1,2.618,230.15,0.413,8.1
+461,EPS Foam Variant 77-2,EPS Foam,Apparel & Fashion,17.8,4,False,False,True,True,42,-1,3.615,131.27,0.317,2.0
+462,EPS Foam Variant 77-3,EPS Foam,Cosmetics & Beauty,20.0,3,True,False,False,False,57,-1,2.298,225.7,0.385,3.1
+463,EPS Foam Variant 77-4,EPS Foam,Industrial Goods,31.8,1,False,False,True,False,28,-1,2.61,151.49,0.371,6.2
+464,EPS Foam Variant 77-5,EPS Foam,Cosmetics & Beauty,46.0,4,False,True,False,False,27,-1,3.628,216.31,0.395,9.3
+465,EPS Foam Variant 77-6,EPS Foam,Industrial Goods,14.4,4,True,True,True,True,41,-1,3.2,166.12,0.31,2.0
+466,EPS Foam Variant 77-7,EPS Foam,Industrial Goods,29.6,2,False,True,True,False,13,-1,3.232,211.14,0.264,4.5
+467,EPS Foam Variant 77-8,EPS Foam,Apparel & Fashion,1.4,3,False,False,False,True,36,-1,3.425,179.4,0.289,2.1
+468,Paper Cushioning Variant 78-1,Paper Cushioning,Food & Beverages,48.4,1,True,False,False,True,80,255,1.045,110.22,0.682,10.0
+469,Paper Cushioning Variant 78-2,Paper Cushioning,Cosmetics & Beauty,28.3,4,True,False,False,False,73,121,1.658,81.06,0.58,6.9
+470,Paper Cushioning Variant 78-3,Paper Cushioning,Home & Living,10.9,1,True,True,False,True,69,101,0.863,66.34,0.562,3.7
+471,Paper Cushioning Variant 78-4,Paper Cushioning,Pharmaceuticals,13.5,3,False,True,True,False,80,108,1.729,41.75,0.529,1.9
+472,Paper Cushioning Variant 78-5,Paper Cushioning,Electronics,23.9,5,False,False,True,False,72,156,1.75,85.47,0.517,4.2
+473,Paper Cushioning Variant 78-6,Paper Cushioning,Food & Beverages,13.3,1,False,True,False,False,79,241,1.115,111.24,0.528,2.7
+474,Paper Cushioning Variant 78-7,Paper Cushioning,Food & Beverages,16.9,1,True,False,False,True,80,286,0.985,46.61,0.606,3.9
+475,Paper Cushioning Variant 78-8,Paper Cushioning,Apparel & Fashion,26.0,4,True,True,True,False,72,146,1.55,103.53,0.532,5.0
+476,Glass Bottle Variant 79-1,Glass Bottle,Home & Living,34.3,2,False,False,True,True,83,-1,1.926,149.84,0.578,7.3
+477,Glass Bottle Variant 79-2,Glass Bottle,Industrial Goods,47.8,1,False,True,True,True,93,-1,1.681,95.45,0.683,9.5
+478,Glass Bottle Variant 79-3,Glass Bottle,Food & Beverages,7.5,3,True,True,True,False,94,-1,2.172,63.89,0.527,1.4
+479,Glass Bottle Variant 79-4,Glass Bottle,Cosmetics & Beauty,40.0,5,False,True,True,False,97,-1,1.659,161.38,0.644,8.2
+480,Glass Bottle Variant 79-5,Glass Bottle,Cosmetics & Beauty,33.1,1,False,False,False,False,86,-1,1.763,106.65,0.639,8.8
+481,Glass Bottle Variant 79-6,Glass Bottle,Cosmetics & Beauty,29.5,1,True,False,False,True,99,-1,3.278,98.76,0.602,6.7
+482,Glass Bottle Variant 79-7,Glass Bottle,Industrial Goods,9.5,4,True,True,False,True,86,-1,2.482,97.88,0.477,1.6
+483,Glass Bottle Variant 79-8,Glass Bottle,Apparel & Fashion,10.4,4,False,False,False,False,86,-1,1.628,141.22,0.519,3.2
+484,Molded Pulp Variant 80-1,Molded Pulp,Pharmaceuticals,37.2,2,False,True,False,False,62,62,1.944,50.7,0.589,8.4
+485,Molded Pulp Variant 80-2,Molded Pulp,Pharmaceuticals,10.8,1,False,False,True,True,64,278,0.967,80.73,0.483,1.4
+486,Molded Pulp Variant 80-3,Molded Pulp,Industrial Goods,43.7,3,False,True,True,True,90,115,1.733,80.47,0.653,8.1
+487,Molded Pulp Variant 80-4,Molded Pulp,Apparel & Fashion,42.4,3,False,True,True,False,85,81,1.774,64.33,0.643,7.9
+488,Molded Pulp Variant 80-5,Molded Pulp,Industrial Goods,22.9,5,False,False,True,False,71,72,0.988,113.21,0.54,4.1
+489,Molded Pulp Variant 80-6,Molded Pulp,Electronics,28.8,5,True,True,False,False,93,126,1.079,44.09,0.68,5.9
+490,Molded Pulp Variant 80-7,Molded Pulp,Food & Beverages,16.2,1,True,False,True,False,71,258,1.346,63.84,0.503,2.0
+491,Molded Pulp Variant 81-1,Molded Pulp,Food & Beverages,15.9,2,False,False,False,True,92,337,1.102,104.54,0.613,4.8
+492,Molded Pulp Variant 81-2,Molded Pulp,Electronics,5.2,5,True,True,False,True,77,146,0.925,53.07,0.538,1.0
+493,Molded Pulp Variant 81-3,Molded Pulp,Pharmaceuticals,44.0,5,True,True,False,False,86,187,1.879,75.59,0.66,9.2
+494,Molded Pulp Variant 81-4,Molded Pulp,Pharmaceuticals,19.9,4,False,False,False,True,68,123,1.567,62.01,0.546,5.1
+495,Molded Pulp Variant 81-5,Molded Pulp,Apparel & Fashion,49.9,3,False,False,False,False,61,150,1.617,47.34,0.597,8.2
+496,Molded Pulp Variant 81-6,Molded Pulp,Industrial Goods,26.2,3,False,False,False,False,62,250,1.792,68.98,0.496,4.2
+497,Molded Pulp Variant 81-7,Molded Pulp,Food & Beverages,23.5,5,False,False,False,False,80,108,1.897,67.06,0.543,4.0
+498,Molded Pulp Variant 81-8,Molded Pulp,Apparel & Fashion,33.4,2,False,False,False,True,67,320,1.587,50.02,0.554,5.2
+499,LDPE Plastic Film Variant 82-1,LDPE Plastic Film,Electronics,30.3,4,False,False,False,False,35,-1,3.053,139.14,0.393,6.5
+500,LDPE Plastic Film Variant 82-2,LDPE Plastic Film,Electronics,44.0,1,False,True,True,False,30,-1,2.122,221.61,0.436,9.4
+501,LDPE Plastic Film Variant 82-3,LDPE Plastic Film,Apparel & Fashion,22.5,1,False,False,False,False,54,-1,2.143,129.48,0.447,5.1
+502,LDPE Plastic Film Variant 82-4,LDPE Plastic Film,Cosmetics & Beauty,42.2,4,True,True,False,False,36,-1,2.067,143.87,0.464,8.8
+503,LDPE Plastic Film Variant 82-5,LDPE Plastic Film,Home & Living,31.7,4,False,False,False,False,11,-1,4.147,208.19,0.302,7.3
+504,Recycled Paper Variant 83-1,Recycled Paper,Cosmetics & Beauty,31.8,4,True,True,False,True,61,141,0.867,106.76,0.546,5.3
+505,Recycled Paper Variant 83-2,Recycled Paper,Industrial Goods,42.7,4,False,True,False,True,70,275,1.393,58.83,0.607,7.3
+506,Recycled Paper Variant 83-3,Recycled Paper,Home & Living,11.4,2,False,False,False,True,76,302,0.988,58.63,0.557,2.6
+507,Recycled Paper Variant 83-4,Recycled Paper,Apparel & Fashion,30.1,2,True,False,False,False,82,98,1.119,113.22,0.581,5.0
+508,Recycled Paper Variant 83-5,Recycled Paper,Industrial Goods,6.1,2,False,True,False,False,95,347,1.162,94.15,0.547,1.0
+509,Recycled Paper Variant 83-6,Recycled Paper,Industrial Goods,15.9,4,True,True,False,False,95,223,1.084,46.94,0.605,2.0
+510,Recycled Paper Variant 83-7,Recycled Paper,Cosmetics & Beauty,7.1,2,False,False,False,False,98,344,1.347,43.12,0.602,2.0
+511,Wooden Crate Variant 84-1,Wooden Crate,Apparel & Fashion,28.9,1,True,True,True,True,87,674,1.55,186.45,0.602,7.7
+512,Wooden Crate Variant 84-2,Wooden Crate,Apparel & Fashion,43.0,2,True,False,False,False,64,568,2.872,171.46,0.509,8.3
+513,Wooden Crate Variant 84-3,Wooden Crate,Industrial Goods,9.6,5,True,False,False,False,35,811,2.361,174.96,0.297,1.5
+514,Wooden Crate Variant 84-4,Wooden Crate,Industrial Goods,23.4,1,False,True,False,False,71,499,2.159,85.54,0.49,3.7
+515,Wooden Crate Variant 84-5,Wooden Crate,Electronics,9.7,1,False,True,False,False,63,415,2.977,155.62,0.377,1.7
+516,Wooden Crate Variant 84-6,Wooden Crate,Pharmaceuticals,4.0,1,True,True,True,False,86,432,1.684,90.61,0.495,1.0
+517,Wooden Crate Variant 84-7,Wooden Crate,Pharmaceuticals,31.9,1,False,False,True,True,76,309,1.612,109.24,0.59,7.6
+518,Kraft Paper Variant 85-1,Kraft Paper,Apparel & Fashion,4.1,2,False,True,True,False,66,314,1.442,68.92,0.473,1.7
+519,Kraft Paper Variant 85-2,Kraft Paper,Apparel & Fashion,24.3,5,True,True,False,False,93,205,0.912,51.54,0.646,3.9
+520,Kraft Paper Variant 85-3,Kraft Paper,Pharmaceuticals,43.8,3,True,True,True,False,93,174,1.837,108.13,0.673,9.6
+521,Kraft Paper Variant 85-4,Kraft Paper,Industrial Goods,38.4,3,True,True,False,False,98,247,1.331,97.45,0.672,7.4
+522,Kraft Paper Variant 85-5,Kraft Paper,Home & Living,12.4,2,True,True,False,True,85,192,1.84,60.66,0.535,2.5
+523,Kraft Paper Variant 85-6,Kraft Paper,Cosmetics & Beauty,23.0,3,False,True,False,False,97,193,1.341,104.07,0.551,1.7
+524,Kraft Paper Variant 85-7,Kraft Paper,Electronics,29.7,4,True,False,True,False,81,305,1.44,116.18,0.584,6.3
+525,Bubble Wrap Variant 86-1,Bubble Wrap,Pharmaceuticals,27.6,2,False,False,True,True,54,960,3.798,238.71,0.394,5.5
+526,Bubble Wrap Variant 86-2,Bubble Wrap,Electronics,19.7,2,False,False,True,False,32,389,1.524,244.19,0.339,3.3
+527,Bubble Wrap Variant 86-3,Bubble Wrap,Cosmetics & Beauty,13.0,4,False,False,False,False,74,899,2.168,247.96,0.422,2.4
+528,Bubble Wrap Variant 86-4,Bubble Wrap,Apparel & Fashion,34.6,5,True,True,False,True,72,899,3.897,229.5,0.464,6.3
+529,Bubble Wrap Variant 86-5,Bubble Wrap,Pharmaceuticals,17.6,2,False,False,True,True,30,616,1.927,185.83,0.342,4.0
+530,Glass Jar Variant 87-1,Glass Jar,Home & Living,38.7,1,True,False,True,False,91,-1,3.295,118.07,0.615,9.0
+531,Glass Jar Variant 87-2,Glass Jar,Home & Living,5.3,4,True,False,True,False,80,-1,2.299,92.83,0.455,1.0
+532,Glass Jar Variant 87-3,Glass Jar,Food & Beverages,27.3,3,True,True,False,False,86,-1,2.183,131.92,0.568,6.5
+533,Glass Jar Variant 87-4,Glass Jar,Pharmaceuticals,45.3,4,True,True,False,False,82,-1,1.845,137.79,0.616,9.0
+534,Glass Jar Variant 87-5,Glass Jar,Cosmetics & Beauty,31.0,1,True,False,False,False,86,-1,3.107,90.38,0.592,7.8
+535,Glass Jar Variant 87-6,Glass Jar,Home & Living,49.0,5,True,False,True,False,91,-1,1.501,95.63,0.673,8.9
+536,Glass Jar Variant 87-7,Glass Jar,Pharmaceuticals,46.0,4,True,False,True,False,97,-1,1.693,143.61,0.67,9.3
+537,Glass Jar Variant 87-8,Glass Jar,Industrial Goods,16.7,2,False,True,False,False,97,-1,3.206,114.39,0.518,3.1
+538,Molded Pulp Variant 88-1,Molded Pulp,Pharmaceuticals,4.9,5,False,False,False,False,79,217,1.392,107.86,0.479,1.0
+539,Molded Pulp Variant 88-2,Molded Pulp,Home & Living,25.0,1,False,False,True,False,94,179,1.201,78.92,0.6,3.5
+540,Molded Pulp Variant 88-3,Molded Pulp,Cosmetics & Beauty,12.7,5,True,False,True,False,75,66,1.453,65.85,0.528,3.0
+541,Molded Pulp Variant 88-4,Molded Pulp,Apparel & Fashion,18.5,1,False,True,True,True,84,125,1.597,46.13,0.542,1.9
+542,Molded Pulp Variant 88-5,Molded Pulp,Industrial Goods,25.0,1,False,False,False,False,85,180,1.849,55.86,0.589,5.0
+543,Molded Pulp Variant 88-6,Molded Pulp,Pharmaceuticals,36.4,3,False,True,True,False,77,96,1.591,96.19,0.609,8.0
+544,Molded Pulp Variant 88-7,Molded Pulp,Cosmetics & Beauty,14.0,2,False,True,True,True,70,346,1.523,109.22,0.476,2.6
+545,Glass Jar Variant 89-1,Glass Jar,Pharmaceuticals,6.6,3,True,False,False,True,98,-1,2.223,115.96,0.52,2.0
+546,Glass Jar Variant 89-2,Glass Jar,Apparel & Fashion,43.9,5,False,True,True,False,88,-1,2.66,173.54,0.591,8.6
+547,Glass Jar Variant 89-3,Glass Jar,Pharmaceuticals,3.5,4,False,True,False,False,99,-1,1.998,96.14,0.519,1.0
+548,Glass Jar Variant 89-4,Glass Jar,Industrial Goods,13.5,1,True,False,False,True,87,-1,1.609,135.1,0.557,4.8
+549,Glass Jar Variant 89-5,Glass Jar,Food & Beverages,26.1,3,False,False,True,False,93,-1,3.105,62.64,0.571,4.8
+550,Glass Jar Variant 89-6,Glass Jar,Pharmaceuticals,15.6,3,True,False,False,False,94,-1,2.777,60.26,0.63,7.2
+551,Molded Pulp Variant 90-1,Molded Pulp,Industrial Goods,46.1,4,True,True,False,False,94,175,1.11,115.83,0.705,9.4
+552,Molded Pulp Variant 90-2,Molded Pulp,Apparel & Fashion,20.7,2,False,False,True,False,92,364,1.424,61.44,0.62,4.8
+553,Molded Pulp Variant 90-3,Molded Pulp,Food & Beverages,1.8,5,False,False,True,True,97,191,1.226,45.63,0.583,1.0
+554,Molded Pulp Variant 90-4,Molded Pulp,Cosmetics & Beauty,25.2,5,False,True,True,False,70,322,1.059,93.27,0.543,4.2
+555,Molded Pulp Variant 90-5,Molded Pulp,Electronics,36.7,1,False,False,True,False,78,98,1.205,53.92,0.638,6.9
+556,Molded Pulp Variant 90-6,Molded Pulp,Industrial Goods,20.6,3,True,False,False,False,69,345,1.029,81.57,0.553,4.4
+557,Molded Pulp Variant 90-7,Molded Pulp,Food & Beverages,45.2,4,False,True,True,False,61,284,1.954,106.84,0.573,9.6
+558,PLA Bioplastic Variant 91-1,PLA Bioplastic,Food & Beverages,31.5,1,False,True,False,False,56,376,1.153,292.72,0.48,6.1
+559,PLA Bioplastic Variant 91-2,PLA Bioplastic,Food & Beverages,43.5,1,True,True,False,False,75,271,0.83,224.35,0.603,7.6
+560,PLA Bioplastic Variant 91-3,PLA Bioplastic,Home & Living,2.1,3,False,True,False,True,69,665,2.175,255.19,0.388,1.5
+561,PLA Bioplastic Variant 91-4,PLA Bioplastic,Electronics,26.7,4,False,True,True,True,34,234,1.728,251.9,0.339,3.5
+562,PLA Bioplastic Variant 91-5,PLA Bioplastic,Apparel & Fashion,5.0,2,False,True,False,False,78,296,1.457,345.78,0.433,1.6
+563,PLA Bioplastic Variant 91-6,PLA Bioplastic,Apparel & Fashion,21.7,1,True,False,True,True,72,199,1.504,323.64,0.497,5.7
+564,PLA Bioplastic Variant 92-1,PLA Bioplastic,Industrial Goods,14.1,3,True,True,True,False,77,209,1.579,258.11,0.485,4.1
+565,PLA Bioplastic Variant 92-2,PLA Bioplastic,Apparel & Fashion,34.0,4,False,False,False,False,44,342,0.902,250.7,0.499,7.6
+566,PLA Bioplastic Variant 92-3,PLA Bioplastic,Industrial Goods,31.2,3,False,False,False,False,72,508,1.973,184.73,0.499,5.6
+567,PLA Bioplastic Variant 92-4,PLA Bioplastic,Apparel & Fashion,44.7,3,False,True,False,False,62,456,1.272,348.13,0.563,10.0
+568,PLA Bioplastic Variant 92-5,PLA Bioplastic,Electronics,17.1,4,False,False,False,True,49,647,2.311,161.95,0.4,4.3
+569,PLA Bioplastic Variant 92-6,PLA Bioplastic,Cosmetics & Beauty,16.4,5,True,False,True,True,68,515,2.05,304.99,0.412,3.0
+570,PLA Bioplastic Variant 92-7,PLA Bioplastic,Cosmetics & Beauty,14.2,4,True,True,True,False,34,329,2.133,227.45,0.311,2.6
+571,EPE Foam Variant 93-1,EPE Foam,Cosmetics & Beauty,9.9,3,True,False,True,False,38,-1,2.807,188.84,0.282,1.0
+572,EPE Foam Variant 93-2,EPE Foam,Cosmetics & Beauty,36.4,3,True,True,False,False,42,-1,3.655,128.27,0.454,8.8
+573,EPE Foam Variant 93-3,EPE Foam,Electronics,49.8,1,True,False,False,True,29,-1,2.796,165.15,0.421,9.0
+574,EPE Foam Variant 93-4,EPE Foam,Apparel & Fashion,47.5,2,True,False,False,True,58,-1,3.974,219.63,0.497,10.0
+575,EPE Foam Variant 93-5,EPE Foam,Pharmaceuticals,32.7,3,False,False,False,False,49,-1,3.447,197.02,0.446,8.2
+576,EPE Foam Variant 93-6,EPE Foam,Cosmetics & Beauty,1.5,2,True,False,True,True,54,-1,3.232,158.86,0.33,1.0
+577,EPE Foam Variant 93-7,EPE Foam,Cosmetics & Beauty,48.3,5,False,False,True,False,16,-1,2.03,181.68,0.414,9.8
+578,EPE Foam Variant 93-8,EPE Foam,Pharmaceuticals,40.6,4,False,True,True,False,33,-1,4.537,221.77,0.387,8.6
+579,Air Cushion Film Variant 94-1,Air Cushion Film,Pharmaceuticals,25.9,5,False,True,False,False,45,602,3.996,91.33,0.394,4.7
+580,Air Cushion Film Variant 94-2,Air Cushion Film,Pharmaceuticals,41.9,5,False,True,True,True,55,762,3.604,237.3,0.489,10.0
+581,Air Cushion Film Variant 94-3,Air Cushion Film,Home & Living,4.0,2,False,True,False,False,54,916,2.508,175.05,0.34,1.0
+582,Air Cushion Film Variant 94-4,Air Cushion Film,Cosmetics & Beauty,22.7,1,True,False,True,True,70,897,2.662,128.49,0.435,2.8
+583,Wooden Crate Variant 95-1,Wooden Crate,Food & Beverages,14.9,2,True,True,True,False,81,840,1.773,147.21,0.484,2.6
+584,Wooden Crate Variant 95-2,Wooden Crate,Food & Beverages,28.5,4,True,True,False,False,75,963,1.752,87.2,0.535,4.7
+585,Wooden Crate Variant 95-3,Wooden Crate,Pharmaceuticals,25.6,3,False,False,True,False,62,909,1.712,109.99,0.478,4.3
+586,Wooden Crate Variant 95-4,Wooden Crate,Cosmetics & Beauty,35.1,3,False,False,True,True,57,863,2.163,190.49,0.427,4.6
+587,Glass Bottle Variant 96-1,Glass Bottle,Industrial Goods,30.2,4,True,False,False,True,92,-1,2.846,66.85,0.582,5.4
+588,Glass Bottle Variant 96-2,Glass Bottle,Industrial Goods,33.5,1,True,False,False,True,85,-1,2.582,118.21,0.576,7.3
+589,Glass Bottle Variant 96-3,Glass Bottle,Home & Living,9.4,4,True,True,False,False,92,-1,2.779,122.96,0.487,2.1
+590,Glass Bottle Variant 96-4,Glass Bottle,Pharmaceuticals,45.4,5,True,False,False,False,85,-1,2.035,167.37,0.629,10.0
+591,Glass Bottle Variant 96-5,Glass Bottle,Home & Living,45.0,2,True,False,False,True,81,-1,2.336,88.72,0.579,7.0
+592,Glass Bottle Variant 96-6,Glass Bottle,Apparel & Fashion,16.7,2,False,False,True,False,100,-1,3.287,149.57,0.49,2.0
+593,Glass Bottle Variant 96-7,Glass Bottle,Cosmetics & Beauty,17.3,4,True,True,True,False,81,-1,2.811,123.31,0.453,2.1
+594,Glass Bottle Variant 96-8,Glass Bottle,Apparel & Fashion,43.4,3,False,False,False,True,90,-1,3.098,84.93,0.639,9.4
+595,Starch-based Bioplastic Variant 97-1,Starch-based Bioplastic,Cosmetics & Beauty,21.3,2,False,False,False,False,31,495,1.444,299.08,0.374,5.4
+596,Starch-based Bioplastic Variant 97-2,Starch-based Bioplastic,Electronics,23.5,1,False,True,True,True,74,571,1.546,249.64,0.481,4.2
+597,Starch-based Bioplastic Variant 97-3,Starch-based Bioplastic,Cosmetics & Beauty,7.4,1,True,False,True,False,68,330,0.86,299.15,0.463,2.4
+598,Starch-based Bioplastic Variant 97-4,Starch-based Bioplastic,Food & Beverages,39.5,5,False,False,False,True,72,624,1.064,233.33,0.583,8.1
+599,Starch-based Bioplastic Variant 97-5,Starch-based Bioplastic,Industrial Goods,35.7,5,True,True,False,True,68,513,1.955,348.91,0.496,7.3
+600,Starch-based Bioplastic Variant 97-6,Starch-based Bioplastic,Industrial Goods,49.6,1,False,True,False,False,52,355,2.223,239.92,0.488,9.0
+601,Starch-based Bioplastic Variant 97-7,Starch-based Bioplastic,Pharmaceuticals,50.0,4,True,False,False,True,43,283,2.298,196.46,0.487,10.0
+602,Steel Can Variant 98-1,Steel Can,Pharmaceuticals,6.5,4,False,True,False,False,85,-1,6.267,334.2,0.378,1.8
+603,Steel Can Variant 98-2,Steel Can,Cosmetics & Beauty,3.7,2,True,False,False,True,81,-1,8.253,351.27,0.362,2.1
+604,Steel Can Variant 98-3,Steel Can,Apparel & Fashion,41.5,4,True,True,False,True,95,-1,4.74,196.98,0.561,7.8
+605,Steel Can Variant 98-4,Steel Can,Home & Living,29.4,4,True,False,False,False,100,-1,4.898,291.21,0.51,5.4
+606,Steel Can Variant 98-5,Steel Can,Home & Living,3.7,3,False,False,True,True,82,-1,6.411,327.45,0.379,2.3
+607,Corrugated Cardboard Variant 99-1,Corrugated Cardboard,Home & Living,48.8,2,False,True,True,False,42,706,1.902,80.92,0.54,10.0
+608,Corrugated Cardboard Variant 99-2,Corrugated Cardboard,Home & Living,8.7,3,False,True,False,False,79,533,1.891,46.83,0.509,1.6
+609,Corrugated Cardboard Variant 99-3,Corrugated Cardboard,Industrial Goods,21.4,4,False,False,False,False,80,932,1.41,48.58,0.615,5.8
+610,Corrugated Cardboard Variant 99-4,Corrugated Cardboard,Electronics,49.6,3,False,True,False,False,55,605,1.164,82.59,0.593,9.0
+611,Corrugated Cardboard Variant 99-5,Corrugated Cardboard,Electronics,9.8,1,False,False,True,False,70,291,1.029,55.43,0.545,2.9
+612,Corrugated Cardboard Variant 99-6,Corrugated Cardboard,Industrial Goods,14.0,1,True,True,False,False,76,449,1.23,56.55,0.538,2.4
+613,Corrugated Cardboard Variant 99-7,Corrugated Cardboard,Cosmetics & Beauty,26.0,5,False,False,False,False,69,861,1.435,104.12,0.512,4.2
+614,PET Plastic Variant 100-1,PET Plastic,Apparel & Fashion,34.3,4,False,False,False,True,45,-1,4.129,228.31,0.39,6.8
+615,PET Plastic Variant 100-2,PET Plastic,Electronics,21.4,5,True,False,False,True,53,-1,3.03,198.46,0.402,5.1
+616,PET Plastic Variant 100-3,PET Plastic,Food & Beverages,3.4,5,False,False,False,False,13,-1,3.745,203.86,0.204,1.8
+617,PET Plastic Variant 100-4,PET Plastic,Cosmetics & Beauty,16.7,5,False,True,True,False,11,-1,2.775,179.67,0.252,3.4
+618,PET Plastic Variant 100-5,PET Plastic,Food & Beverages,43.5,5,True,True,True,False,22,-1,4.433,213.74,0.347,8.1
+619,PET Plastic Variant 100-6,PET Plastic,Apparel & Fashion,12.9,3,True,True,False,True,52,-1,2.798,181.43,0.396,4.5
+620,PET Plastic Variant 100-7,PET Plastic,Cosmetics & Beauty,46.7,2,True,True,False,True,24,-1,2.497,175.33,0.426,9.8
+621,EPE Foam Variant 101-1,EPE Foam,Pharmaceuticals,4.0,1,False,False,False,False,17,-1,2.977,165.85,0.222,1.0
+622,EPE Foam Variant 101-2,EPE Foam,Cosmetics & Beauty,44.0,5,True,True,True,False,24,-1,4.082,165.34,0.354,7.4
+623,EPE Foam Variant 101-3,EPE Foam,Food & Beverages,44.9,1,True,False,False,True,14,-1,3.052,219.68,0.337,7.9
+624,EPE Foam Variant 101-4,EPE Foam,Pharmaceuticals,27.1,5,True,False,True,True,50,-1,2.575,156.36,0.452,7.0
+625,EPE Foam Variant 101-5,EPE Foam,Pharmaceuticals,43.4,1,False,True,False,True,18,-1,3.205,211.06,0.346,7.8
+626,EPE Foam Variant 101-6,EPE Foam,Cosmetics & Beauty,36.9,4,True,True,False,True,29,-1,3.363,202.7,0.392,8.5
+627,Starch-based Bioplastic Variant 102-1,Starch-based Bioplastic,Cosmetics & Beauty,45.9,4,True,False,True,False,79,630,2.04,226.61,0.573,8.8
+628,Starch-based Bioplastic Variant 102-2,Starch-based Bioplastic,Electronics,11.1,1,True,False,True,False,38,725,2.165,173.95,0.326,2.2
+629,Starch-based Bioplastic Variant 102-3,Starch-based Bioplastic,Industrial Goods,45.1,2,True,True,True,False,44,191,1.063,249.51,0.499,8.2
+630,Starch-based Bioplastic Variant 102-4,Starch-based Bioplastic,Home & Living,18.9,4,True,False,True,False,33,503,2.287,334.23,0.354,5.9
+631,Paperboard Variant 103-1,Paperboard,Apparel & Fashion,1.4,4,True,False,False,True,74,325,0.909,46.86,0.545,1.5
+632,Paperboard Variant 103-2,Paperboard,Industrial Goods,34.8,1,True,True,True,False,97,290,0.811,111.18,0.721,8.5
+633,Paperboard Variant 103-3,Paperboard,Electronics,48.0,2,True,True,False,False,87,217,0.926,56.96,0.744,10.0
+634,Paperboard Variant 103-4,Paperboard,Pharmaceuticals,8.8,5,False,False,True,False,87,338,0.947,112.6,0.545,1.8
+635,Paperboard Variant 103-5,Paperboard,Industrial Goods,44.1,2,True,False,True,False,85,131,0.995,93.7,0.697,9.4
+636,Paperboard Variant 103-6,Paperboard,Electronics,37.2,1,True,False,False,False,94,336,1.118,101.97,0.657,6.7
+637,Corrugated Cardboard Variant 104-1,Corrugated Cardboard,Apparel & Fashion,36.3,5,True,True,False,True,44,769,1.182,80.68,0.542,8.1
+638,Corrugated Cardboard Variant 104-2,Corrugated Cardboard,Pharmaceuticals,15.1,4,False,False,False,False,38,814,0.958,89.94,0.423,2.5
+639,Corrugated Cardboard Variant 104-3,Corrugated Cardboard,Electronics,14.5,5,True,False,True,False,57,417,1.053,101.64,0.472,2.8
+640,Corrugated Cardboard Variant 104-4,Corrugated Cardboard,Home & Living,12.4,4,True,True,False,False,32,290,0.974,54.06,0.41,1.6
+641,Corrugated Cardboard Variant 104-5,Corrugated Cardboard,Apparel & Fashion,45.8,3,True,False,True,False,80,450,1.937,114.6,0.597,8.1
+642,PLA Bioplastic Variant 105-1,PLA Bioplastic,Cosmetics & Beauty,7.6,2,True,False,True,False,60,318,1.515,302.06,0.381,1.6
+643,PLA Bioplastic Variant 105-2,PLA Bioplastic,Industrial Goods,45.2,5,False,True,False,False,56,166,1.216,339.22,0.535,9.3
+644,PLA Bioplastic Variant 105-3,PLA Bioplastic,Electronics,15.8,4,False,False,True,False,47,674,1.552,151.86,0.404,3.3
+645,PLA Bioplastic Variant 105-4,PLA Bioplastic,Home & Living,27.7,4,True,False,False,False,77,475,1.284,256.39,0.554,6.8
+646,PLA Bioplastic Variant 105-5,PLA Bioplastic,Apparel & Fashion,33.8,2,True,True,False,False,75,514,1.739,214.13,0.528,6.5
+647,Glass Jar Variant 106-1,Glass Jar,Pharmaceuticals,3.2,5,True,True,True,False,94,-1,1.752,167.48,0.486,1.0
+648,Glass Jar Variant 106-2,Glass Jar,Food & Beverages,8.2,2,True,False,True,True,80,-1,2.818,179.11,0.41,1.0
+649,Glass Jar Variant 106-3,Glass Jar,Apparel & Fashion,6.1,4,False,True,False,False,80,-1,3.424,100.92,0.433,1.3
+650,Glass Jar Variant 106-4,Glass Jar,Home & Living,4.1,1,True,False,True,False,97,-1,1.758,136.73,0.504,1.0
+651,Glass Jar Variant 106-5,Glass Jar,Home & Living,14.5,1,False,True,True,False,84,-1,2.553,176.02,0.429,1.0
+652,Glass Jar Variant 106-6,Glass Jar,Industrial Goods,18.8,5,False,False,True,True,88,-1,2.564,89.52,0.52,3.3
+653,Kraft Paper Variant 107-1,Kraft Paper,Food & Beverages,35.4,3,True,True,False,True,100,296,0.897,44.5,0.711,5.7
+654,Kraft Paper Variant 107-2,Kraft Paper,Electronics,39.4,4,True,False,False,False,95,178,1.415,79.15,0.685,8.2
+655,Kraft Paper Variant 107-3,Kraft Paper,Home & Living,23.3,5,False,False,True,True,85,287,1.011,94.3,0.663,7.8
+656,Kraft Paper Variant 107-4,Kraft Paper,Electronics,35.6,4,True,False,False,False,97,144,1.495,79.46,0.661,6.9
+657,Kraft Paper Variant 107-5,Kraft Paper,Food & Beverages,45.1,2,False,True,False,True,89,200,0.907,87.1,0.697,8.3
+658,Air Cushion Film Variant 108-1,Air Cushion Film,Cosmetics & Beauty,9.6,2,False,False,False,True,43,259,2.046,84.12,0.364,1.4
+659,Air Cushion Film Variant 108-2,Air Cushion Film,Industrial Goods,4.9,4,False,False,True,True,46,786,2.407,105.59,0.343,1.0
+660,Air Cushion Film Variant 108-3,Air Cushion Film,Apparel & Fashion,29.7,3,False,False,True,False,55,490,2.548,140.48,0.473,7.0
+661,Air Cushion Film Variant 108-4,Air Cushion Film,Electronics,34.7,3,True,True,True,False,87,207,2.408,150.68,0.581,7.6
+662,Air Cushion Film Variant 108-5,Air Cushion Film,Home & Living,5.9,3,True,False,False,True,82,365,1.069,115.76,0.504,1.0
+663,Air Cushion Film Variant 108-6,Air Cushion Film,Industrial Goods,11.3,5,True,True,False,False,62,355,2.672,200.35,0.412,3.9
+664,Air Cushion Film Variant 108-7,Air Cushion Film,Pharmaceuticals,32.9,3,True,False,False,False,40,720,2.823,249.81,0.382,6.3
+665,PLA Bioplastic Variant 109-1,PLA Bioplastic,Industrial Goods,12.0,3,False,False,False,True,67,616,2.216,316.89,0.392,2.5
+666,PLA Bioplastic Variant 109-2,PLA Bioplastic,Pharmaceuticals,15.3,5,True,False,False,True,42,683,0.822,283.48,0.423,4.0
+667,PLA Bioplastic Variant 109-3,PLA Bioplastic,Food & Beverages,22.9,2,True,False,True,False,34,239,2.173,269.86,0.353,5.1
+668,PLA Bioplastic Variant 109-4,PLA Bioplastic,Pharmaceuticals,20.5,5,True,True,True,False,62,232,1.937,192.57,0.433,3.8
+669,Paper Cushioning Variant 110-1,Paper Cushioning,Pharmaceuticals,41.8,1,True,False,True,False,92,348,1.069,54.87,0.728,8.9
+670,Paper Cushioning Variant 110-2,Paper Cushioning,Home & Living,48.1,2,False,False,True,True,68,190,1.665,65.97,0.623,9.3
+671,Paper Cushioning Variant 110-3,Paper Cushioning,Pharmaceuticals,48.0,2,True,False,False,False,80,206,0.978,106.87,0.654,8.3
+672,Paper Cushioning Variant 110-4,Paper Cushioning,Electronics,25.1,5,False,True,False,True,84,317,1.301,101.74,0.598,5.8
+673,Aluminum Foil Variant 111-1,Aluminum Foil,Cosmetics & Beauty,48.1,1,False,True,False,False,83,-1,6.653,363.9,0.521,9.5
+674,Aluminum Foil Variant 111-2,Aluminum Foil,Industrial Goods,34.1,3,False,False,False,False,82,-1,5.748,307.71,0.488,7.4
+675,Aluminum Foil Variant 111-3,Aluminum Foil,Food & Beverages,20.2,3,False,True,False,True,93,-1,5.49,326.68,0.466,4.7
+676,Aluminum Foil Variant 111-4,Aluminum Foil,Electronics,12.0,4,False,False,False,False,100,-1,7.38,330.03,0.402,1.0
+677,Aluminum Foil Variant 111-5,Aluminum Foil,Home & Living,25.0,5,True,False,False,True,95,-1,4.588,373.69,0.489,5.4
+678,Aluminum Foil Variant 111-6,Aluminum Foil,Industrial Goods,11.3,3,True,False,True,True,97,-1,8.52,295.06,0.411,1.9
+679,Aluminum Foil Variant 111-7,Aluminum Foil,Food & Beverages,33.8,1,True,True,True,False,99,-1,4.253,309.64,0.509,5.3
+680,Aluminum Foil Variant 111-8,Aluminum Foil,Electronics,48.1,5,False,False,True,False,97,-1,4.728,243.22,0.582,9.0
+681,Glass Bottle Variant 112-1,Glass Bottle,Electronics,6.5,3,True,False,True,False,97,-1,1.613,134.8,0.511,1.0
+682,Glass Bottle Variant 112-2,Glass Bottle,Cosmetics & Beauty,23.1,1,True,True,True,False,83,-1,2.871,118.02,0.512,4.7
+683,Glass Bottle Variant 112-3,Glass Bottle,Food & Beverages,2.0,3,True,False,False,False,88,-1,1.577,137.07,0.493,1.4
+684,Glass Bottle Variant 112-4,Glass Bottle,Industrial Goods,39.1,1,True,False,True,False,89,-1,2.185,164.52,0.617,9.0
+685,Glass Bottle Variant 112-5,Glass Bottle,Pharmaceuticals,28.5,3,False,False,False,False,87,-1,2.56,172.51,0.513,4.7
+686,Glass Bottle Variant 112-6,Glass Bottle,Cosmetics & Beauty,24.6,5,True,True,True,False,87,-1,1.645,160.54,0.531,4.0
+687,Glass Bottle Variant 112-7,Glass Bottle,Industrial Goods,13.6,4,False,True,False,False,92,-1,3.002,179.6,0.47,2.4
+688,PET Plastic Variant 113-1,PET Plastic,Apparel & Fashion,18.4,4,False,True,True,False,40,-1,2.084,234.53,0.361,4.2
+689,PET Plastic Variant 113-2,PET Plastic,Industrial Goods,12.6,2,True,False,True,False,59,-1,2.444,165.18,0.396,2.8
+690,PET Plastic Variant 113-3,PET Plastic,Home & Living,28.8,2,True,True,False,False,52,-1,2.449,229.04,0.418,5.7
+691,PET Plastic Variant 113-4,PET Plastic,Industrial Goods,19.9,2,True,False,False,True,57,-1,2.334,207.87,0.394,3.4
+692,PET Plastic Variant 113-5,PET Plastic,Food & Beverages,49.5,2,False,True,False,True,10,-1,3.114,120.58,0.394,10.0
+693,PET Plastic Variant 113-6,PET Plastic,Home & Living,44.6,1,False,False,False,False,57,-1,2.979,114.03,0.512,8.6
+694,PET Plastic Variant 113-7,PET Plastic,Pharmaceuticals,33.3,1,False,False,False,False,32,-1,3.772,180.62,0.364,6.7
+695,Bubble Wrap Variant 114-1,Bubble Wrap,Cosmetics & Beauty,16.9,2,True,False,False,False,35,407,1.039,229.46,0.395,4.1
+696,Bubble Wrap Variant 114-2,Bubble Wrap,Cosmetics & Beauty,25.0,3,False,False,False,True,89,212,2.957,152.91,0.52,4.9
+697,Bubble Wrap Variant 114-3,Bubble Wrap,Pharmaceuticals,1.0,1,True,True,True,True,73,334,1.669,83.55,0.46,1.0
+698,Bubble Wrap Variant 114-4,Bubble Wrap,Industrial Goods,6.1,1,True,True,False,False,68,624,2.893,91.96,0.419,1.7
+699,Bubble Wrap Variant 114-5,Bubble Wrap,Home & Living,27.5,2,False,False,False,True,77,339,3.441,101.34,0.468,3.5
+700,Bubble Wrap Variant 114-6,Bubble Wrap,Food & Beverages,26.9,1,True,False,False,False,70,497,3.19,120.22,0.456,4.2
+701,Bubble Wrap Variant 114-7,Bubble Wrap,Food & Beverages,34.3,5,False,False,False,True,69,646,2.263,164.26,0.531,7.8
+702,PLA Bioplastic Variant 115-1,PLA Bioplastic,Food & Beverages,12.3,1,False,False,True,True,73,483,1.388,188.74,0.476,3.1
+703,PLA Bioplastic Variant 115-2,PLA Bioplastic,Cosmetics & Beauty,1.4,3,False,True,False,False,51,123,1.507,227.73,0.354,1.0
+704,PLA Bioplastic Variant 115-3,PLA Bioplastic,Apparel & Fashion,5.6,4,False,False,False,True,47,220,1.056,230.03,0.368,1.0
+705,PLA Bioplastic Variant 115-4,PLA Bioplastic,Pharmaceuticals,40.3,4,False,False,False,False,64,728,1.258,194.23,0.525,6.6
+706,Glass Jar Variant 116-1,Glass Jar,Home & Living,3.2,3,True,True,False,True,95,-1,2.326,165.68,0.47,1.0
+707,Glass Jar Variant 116-2,Glass Jar,Industrial Goods,3.4,1,False,False,False,False,86,-1,1.857,145.45,0.464,1.0
+708,Glass Jar Variant 116-3,Glass Jar,Cosmetics & Beauty,47.1,4,False,True,False,True,99,-1,3.039,158.62,0.643,9.7
+709,Glass Jar Variant 116-4,Glass Jar,Food & Beverages,17.5,1,True,False,False,True,89,-1,1.919,137.74,0.48,1.3
+710,Glass Jar Variant 116-5,Glass Jar,Electronics,45.3,5,False,False,False,True,83,-1,1.658,80.57,0.647,8.7
+711,Glass Jar Variant 116-6,Glass Jar,Cosmetics & Beauty,39.5,2,False,False,True,False,86,-1,2.697,116.22,0.56,6.4
+712,Glass Jar Variant 116-7,Glass Jar,Pharmaceuticals,14.5,5,True,False,False,False,82,-1,2.532,168.7,0.475,3.5
+713,Glass Jar Variant 116-8,Glass Jar,Food & Beverages,46.2,5,True,True,False,False,99,-1,2.146,117.94,0.662,8.9
+714,HDPE Plastic Variant 117-1,HDPE Plastic,Apparel & Fashion,15.6,5,True,False,False,False,59,-1,2.683,118.69,0.444,4.7
+715,HDPE Plastic Variant 117-2,HDPE Plastic,Food & Beverages,23.3,1,False,False,True,True,29,-1,3.734,141.18,0.313,4.0
+716,HDPE Plastic Variant 117-3,HDPE Plastic,Pharmaceuticals,42.1,4,False,True,False,False,17,-1,3.544,175.71,0.356,8.3
+717,HDPE Plastic Variant 117-4,HDPE Plastic,Food & Beverages,44.8,2,True,True,False,False,29,-1,3.311,136.42,0.405,8.2
+718,HDPE Plastic Variant 117-5,HDPE Plastic,Food & Beverages,18.3,2,True,False,False,False,12,-1,4.138,143.42,0.265,4.4
+719,HDPE Plastic Variant 117-6,HDPE Plastic,Food & Beverages,48.7,1,True,False,False,True,40,-1,4.175,104.99,0.476,10.0
+720,HDPE Plastic Variant 117-7,HDPE Plastic,Home & Living,7.2,1,False,False,False,False,15,-1,3.607,129.31,0.239,2.1
+721,Starch-based Bioplastic Variant 118-1,Starch-based Bioplastic,Electronics,43.1,4,True,False,True,False,78,647,1.77,239.82,0.573,8.6
+722,Starch-based Bioplastic Variant 118-2,Starch-based Bioplastic,Home & Living,21.3,2,True,True,True,False,44,161,1.333,247.21,0.396,3.9
+723,Starch-based Bioplastic Variant 118-3,Starch-based Bioplastic,Apparel & Fashion,11.5,4,False,False,False,False,51,196,1.796,238.66,0.357,1.9
+724,Starch-based Bioplastic Variant 118-4,Starch-based Bioplastic,Electronics,27.1,5,False,False,False,True,72,451,0.881,227.77,0.557,6.0
+725,Starch-based Bioplastic Variant 118-5,Starch-based Bioplastic,Apparel & Fashion,30.6,3,True,True,False,False,71,584,1.363,246.55,0.526,6.4
+726,Starch-based Bioplastic Variant 118-6,Starch-based Bioplastic,Industrial Goods,16.3,3,True,False,True,False,40,158,1.282,280.99,0.362,2.9
+727,Starch-based Bioplastic Variant 118-7,Starch-based Bioplastic,Cosmetics & Beauty,7.2,2,False,True,False,False,51,252,1.847,212.12,0.342,1.0
+728,Starch-based Bioplastic Variant 118-8,Starch-based Bioplastic,Cosmetics & Beauty,20.8,2,True,False,True,False,34,497,1.319,172.89,0.441,6.8
+729,Bubble Wrap Variant 119-1,Bubble Wrap,Industrial Goods,18.9,3,False,False,True,False,39,213,2.207,145.44,0.356,3.2
+730,Bubble Wrap Variant 119-2,Bubble Wrap,Cosmetics & Beauty,48.2,2,True,False,False,True,83,874,1.325,216.97,0.641,10.0
+731,Bubble Wrap Variant 119-3,Bubble Wrap,Industrial Goods,31.3,4,False,False,True,False,80,670,1.284,86.86,0.584,5.3
+732,Bubble Wrap Variant 119-4,Bubble Wrap,Industrial Goods,8.5,3,True,True,False,False,46,432,1.991,136.92,0.343,1.0
+733,Bubble Wrap Variant 119-5,Bubble Wrap,Cosmetics & Beauty,7.6,2,True,True,True,True,53,259,1.574,91.2,0.4,1.0
+734,Glass Jar Variant 120-1,Glass Jar,Electronics,46.9,5,True,False,False,False,81,-1,3.122,164.99,0.591,10.0
+735,Glass Jar Variant 120-2,Glass Jar,Food & Beverages,46.4,5,False,True,False,False,89,-1,3.109,171.45,0.576,8.1
+736,Glass Jar Variant 120-3,Glass Jar,Apparel & Fashion,13.2,1,True,False,False,False,85,-1,2.127,60.54,0.508,1.6
+737,Glass Jar Variant 120-4,Glass Jar,Cosmetics & Beauty,16.9,5,False,False,False,True,81,-1,2.166,109.41,0.521,4.4
+738,PLA Bioplastic Variant 121-1,PLA Bioplastic,Industrial Goods,11.6,5,True,True,False,False,59,363,2.493,199.44,0.4,3.5
+739,PLA Bioplastic Variant 121-2,PLA Bioplastic,Home & Living,9.9,1,True,True,False,False,41,476,1.983,272.3,0.335,2.9
+740,PLA Bioplastic Variant 121-3,PLA Bioplastic,Food & Beverages,6.3,5,False,False,False,False,60,472,1.184,185.86,0.407,1.0
+741,PLA Bioplastic Variant 121-4,PLA Bioplastic,Cosmetics & Beauty,36.4,2,False,True,False,False,49,681,0.959,306.91,0.493,7.2
+742,PLA Bioplastic Variant 121-5,PLA Bioplastic,Home & Living,42.0,2,False,False,True,False,68,256,1.208,252.74,0.583,9.3
+743,PLA Bioplastic Variant 121-6,PLA Bioplastic,Home & Living,29.7,3,True,False,False,False,52,430,1.092,165.73,0.463,4.4
+744,Aluminum Foil Variant 122-1,Aluminum Foil,Industrial Goods,6.2,1,False,True,False,True,98,-1,7.521,318.13,0.433,2.8
+745,Aluminum Foil Variant 122-2,Aluminum Foil,Home & Living,45.3,5,False,False,False,False,97,-1,6.879,301.99,0.559,9.0
+746,Aluminum Foil Variant 122-3,Aluminum Foil,Food & Beverages,7.1,2,False,False,False,True,86,-1,6.182,174.51,0.415,2.1
+747,Aluminum Foil Variant 122-4,Aluminum Foil,Food & Beverages,41.9,2,False,True,True,True,95,-1,6.267,208.35,0.545,7.7
+748,Aluminum Foil Variant 122-5,Aluminum Foil,Industrial Goods,38.4,1,False,False,True,True,99,-1,7.039,322.31,0.536,7.7
+749,Aluminum Foil Variant 122-6,Aluminum Foil,Cosmetics & Beauty,24.0,2,True,True,False,False,98,-1,8.148,166.67,0.472,3.5
+750,Aluminum Foil Variant 122-7,Aluminum Foil,Food & Beverages,33.9,4,True,False,True,False,85,-1,7.731,392.39,0.466,6.8
+751,EPS Foam Variant 123-1,EPS Foam,Apparel & Fashion,4.2,4,False,False,False,False,54,-1,3.069,230.02,0.328,1.6
+752,EPS Foam Variant 123-2,EPS Foam,Electronics,42.7,5,True,False,True,False,53,-1,3.357,165.54,0.473,8.5
+753,EPS Foam Variant 123-3,EPS Foam,Industrial Goods,3.3,4,True,True,False,True,35,-1,2.391,121.5,0.342,2.9
+754,EPS Foam Variant 123-4,EPS Foam,Apparel & Fashion,6.7,5,True,False,True,False,17,-1,3.492,154.61,0.216,1.0
+755,EPS Foam Variant 123-5,EPS Foam,Food & Beverages,10.4,4,True,False,False,True,34,-1,3.763,153.81,0.298,2.7
+756,EPS Foam Variant 123-6,EPS Foam,Electronics,49.3,1,False,False,True,False,22,-1,2.425,242.85,0.386,8.7
+757,Bubble Wrap Variant 124-1,Bubble Wrap,Apparel & Fashion,19.7,1,True,False,False,False,82,657,1.927,97.19,0.572,6.1
+758,Bubble Wrap Variant 124-2,Bubble Wrap,Apparel & Fashion,48.2,1,True,True,True,False,88,784,2.568,195.11,0.616,10.0
+759,Bubble Wrap Variant 124-3,Bubble Wrap,Industrial Goods,8.6,5,True,True,False,False,36,891,1.695,167.36,0.348,2.7
+760,Bubble Wrap Variant 124-4,Bubble Wrap,Cosmetics & Beauty,40.7,1,True,False,True,False,33,523,1.51,174.45,0.469,8.9
+761,Bubble Wrap Variant 124-5,Bubble Wrap,Food & Beverages,21.8,2,False,False,False,True,46,520,2.356,230.29,0.382,4.7
+762,Air Cushion Film Variant 125-1,Air Cushion Film,Home & Living,3.4,4,True,False,False,False,34,640,2.273,156.89,0.292,1.0
+763,Air Cushion Film Variant 125-2,Air Cushion Film,Food & Beverages,21.9,2,True,False,False,True,44,936,2.22,146.3,0.4,4.7
+764,Air Cushion Film Variant 125-3,Air Cushion Film,Electronics,8.5,4,True,False,False,False,53,888,3.578,101.69,0.36,1.8
+765,Air Cushion Film Variant 125-4,Air Cushion Film,Pharmaceuticals,17.4,4,False,False,True,False,78,456,3.978,108.4,0.458,3.4
+766,Air Cushion Film Variant 125-5,Air Cushion Film,Apparel & Fashion,18.5,4,False,False,True,False,82,748,2.456,229.92,0.475,4.1
+767,Air Cushion Film Variant 125-6,Air Cushion Film,Food & Beverages,46.0,5,True,True,False,False,75,886,1.804,249.88,0.563,8.7
+768,Air Cushion Film Variant 125-7,Air Cushion Film,Apparel & Fashion,33.3,1,True,True,False,False,60,740,1.414,216.79,0.491,6.2
+769,Air Cushion Film Variant 125-8,Air Cushion Film,Food & Beverages,40.1,3,False,True,False,False,66,372,2.562,139.12,0.532,8.3
+770,HDPE Plastic Variant 126-1,HDPE Plastic,Electronics,21.5,2,False,True,False,False,24,-1,3.22,112.72,0.357,6.0
+771,HDPE Plastic Variant 126-2,HDPE Plastic,Industrial Goods,19.1,5,True,False,False,True,10,-1,3.456,235.12,0.277,6.0
+772,HDPE Plastic Variant 126-3,HDPE Plastic,Home & Living,32.2,4,False,True,False,True,28,-1,2.6,174.76,0.372,6.6
+773,HDPE Plastic Variant 126-4,HDPE Plastic,Apparel & Fashion,27.6,5,True,False,False,False,33,-1,2.689,168.0,0.397,7.1
+774,HDPE Plastic Variant 126-5,HDPE Plastic,Food & Beverages,27.3,2,True,False,False,False,30,-1,3.032,131.51,0.391,7.0
+775,HDPE Plastic Variant 126-6,HDPE Plastic,Electronics,29.6,2,True,False,False,True,28,-1,2.089,165.93,0.374,5.9
+776,Paperboard Variant 127-1,Paperboard,Food & Beverages,28.2,2,True,True,False,True,78,87,1.415,57.69,0.611,6.3
+777,Paperboard Variant 127-2,Paperboard,Industrial Goods,2.7,2,False,True,True,False,87,319,1.171,91.88,0.523,1.0
+778,Paperboard Variant 127-3,Paperboard,Apparel & Fashion,26.7,2,False,True,True,False,76,149,1.507,117.03,0.566,6.3
+779,Paperboard Variant 127-4,Paperboard,Industrial Goods,29.1,4,True,False,False,False,74,145,1.668,45.42,0.596,6.2
+780,Paperboard Variant 127-5,Paperboard,Pharmaceuticals,15.2,2,False,False,False,True,87,224,1.788,112.05,0.529,3.3
+781,Paperboard Variant 127-6,Paperboard,Pharmaceuticals,35.3,4,True,False,False,False,70,72,1.768,52.24,0.58,6.5
+782,Paperboard Variant 127-7,Paperboard,Cosmetics & Beauty,48.9,1,False,True,True,True,80,170,1.303,87.95,0.649,8.6
+783,Paperboard Variant 127-8,Paperboard,Electronics,3.6,3,True,False,False,False,96,343,1.826,116.63,0.506,1.0
+784,Corrugated Cardboard Variant 128-1,Corrugated Cardboard,Food & Beverages,17.1,1,True,False,True,False,60,414,1.75,104.33,0.463,3.8
+785,Corrugated Cardboard Variant 128-2,Corrugated Cardboard,Cosmetics & Beauty,20.5,1,False,False,False,True,45,440,1.727,58.45,0.489,5.9
+786,Corrugated Cardboard Variant 128-3,Corrugated Cardboard,Cosmetics & Beauty,8.0,4,True,True,False,False,52,808,1.022,49.36,0.476,1.9
+787,Corrugated Cardboard Variant 128-4,Corrugated Cardboard,Cosmetics & Beauty,17.7,1,False,False,True,True,47,692,1.717,52.63,0.452,3.5
+788,Corrugated Cardboard Variant 128-5,Corrugated Cardboard,Food & Beverages,17.6,2,False,False,True,True,70,987,1.6,52.43,0.519,3.1
+789,Corrugated Cardboard Variant 128-6,Corrugated Cardboard,Apparel & Fashion,5.3,4,False,False,False,True,58,715,0.953,119.42,0.439,1.0
+790,Corrugated Cardboard Variant 128-7,Corrugated Cardboard,Electronics,44.0,2,True,True,False,False,82,614,1.664,72.86,0.668,9.7
+791,Corrugated Cardboard Variant 128-8,Corrugated Cardboard,Food & Beverages,47.2,5,False,False,True,False,54,885,1.679,41.52,0.595,9.0
+792,Wooden Crate Variant 129-1,Wooden Crate,Pharmaceuticals,33.2,1,False,True,False,False,46,444,1.882,190.43,0.455,7.2
+793,Wooden Crate Variant 129-2,Wooden Crate,Electronics,21.6,4,True,False,True,False,40,705,1.402,179.92,0.414,4.9
+794,Wooden Crate Variant 129-3,Wooden Crate,Cosmetics & Beauty,34.9,2,False,True,False,True,40,429,1.19,93.5,0.51,7.5
+795,Wooden Crate Variant 129-4,Wooden Crate,Cosmetics & Beauty,19.3,5,False,False,False,False,85,921,1.858,87.31,0.503,1.8
+796,Recycled Paper Variant 130-1,Recycled Paper,Industrial Goods,10.1,2,True,False,True,False,100,259,0.89,86.29,0.62,2.7
+797,Recycled Paper Variant 130-2,Recycled Paper,Industrial Goods,18.9,5,True,True,True,False,71,100,1.314,51.82,0.558,4.2
+798,Recycled Paper Variant 130-3,Recycled Paper,Electronics,2.4,2,True,False,True,False,71,300,0.933,98.8,0.493,1.2
+799,Recycled Paper Variant 130-4,Recycled Paper,Apparel & Fashion,42.1,1,False,True,False,False,95,162,1.601,53.71,0.698,8.4
+800,Recycled Paper Variant 130-5,Recycled Paper,Apparel & Fashion,32.5,5,False,True,False,False,94,81,1.119,104.81,0.657,6.8
+801,Recycled Paper Variant 130-6,Recycled Paper,Pharmaceuticals,41.4,5,True,False,True,False,96,127,1.474,42.13,0.716,8.3
+802,Recycled Paper Variant 130-7,Recycled Paper,Home & Living,17.7,4,True,False,False,False,84,184,1.438,104.29,0.541,3.4
+803,Recycled Paper Variant 130-8,Recycled Paper,Food & Beverages,21.9,1,False,False,True,True,81,136,1.199,91.5,0.582,4.9
+804,Recycled Paper Variant 131-1,Recycled Paper,Electronics,32.8,2,False,True,False,True,91,332,1.571,76.69,0.617,5.7
+805,Recycled Paper Variant 131-2,Recycled Paper,Home & Living,28.4,4,True,False,True,False,74,93,1.439,84.73,0.567,5.7
+806,Recycled Paper Variant 131-3,Recycled Paper,Pharmaceuticals,8.9,5,False,True,True,True,92,328,1.725,47.21,0.574,2.6
+807,Recycled Paper Variant 131-4,Recycled Paper,Cosmetics & Beauty,30.3,3,False,True,False,False,93,255,1.242,104.64,0.635,6.2
+808,Recycled Paper Variant 131-5,Recycled Paper,Home & Living,3.0,4,False,True,False,False,75,305,1.683,107.69,0.453,1.0
+809,Paper Cushioning Variant 132-1,Paper Cushioning,Apparel & Fashion,8.1,5,False,True,False,True,95,85,1.783,81.34,0.563,3.0
+810,Paper Cushioning Variant 132-2,Paper Cushioning,Pharmaceuticals,3.0,1,True,False,False,True,94,354,1.774,115.54,0.503,1.0
+811,Paper Cushioning Variant 132-3,Paper Cushioning,Home & Living,37.1,2,True,False,True,False,81,211,1.741,99.26,0.603,7.5
+812,Paper Cushioning Variant 132-4,Paper Cushioning,Cosmetics & Beauty,36.4,1,False,False,False,False,64,177,1.071,118.39,0.538,5.5
+813,Paper Cushioning Variant 132-5,Paper Cushioning,Cosmetics & Beauty,22.2,2,True,False,False,True,82,209,1.492,70.26,0.59,5.3
+814,Paper Cushioning Variant 132-6,Paper Cushioning,Cosmetics & Beauty,16.9,2,True,True,False,False,65,128,1.119,79.45,0.514,3.3
+815,Paper Cushioning Variant 132-7,Paper Cushioning,Food & Beverages,40.3,3,True,False,False,False,61,312,1.589,77.43,0.588,8.8
+816,Paper Cushioning Variant 132-8,Paper Cushioning,Pharmaceuticals,20.3,5,False,False,False,False,76,76,1.628,82.81,0.574,6.1
+817,Air Cushion Film Variant 133-1,Air Cushion Film,Food & Beverages,13.4,4,False,False,True,False,87,760,1.511,85.33,0.514,1.3
+818,Air Cushion Film Variant 133-2,Air Cushion Film,Home & Living,21.6,1,True,False,False,True,63,733,2.923,219.11,0.448,6.0
+819,Air Cushion Film Variant 133-3,Air Cushion Film,Home & Living,33.1,5,True,True,False,True,46,879,1.831,164.41,0.448,6.4
+820,Air Cushion Film Variant 133-4,Air Cushion Film,Electronics,18.1,5,True,True,False,True,72,452,1.6,126.57,0.502,4.1
+821,Air Cushion Film Variant 133-5,Air Cushion Film,Home & Living,40.1,5,True,False,False,True,85,806,1.932,118.57,0.633,9.2
+822,Air Cushion Film Variant 133-6,Air Cushion Film,Industrial Goods,41.8,4,True,False,False,False,56,427,3.88,205.59,0.483,9.4
+823,Air Cushion Film Variant 133-7,Air Cushion Film,Electronics,29.0,4,False,False,False,True,48,918,3.727,179.11,0.435,7.8
+824,LDPE Plastic Film Variant 134-1,LDPE Plastic Film,Food & Beverages,4.2,3,False,False,True,False,15,-1,2.319,235.45,0.215,1.0
+825,LDPE Plastic Film Variant 134-2,LDPE Plastic Film,Industrial Goods,29.9,1,True,False,False,False,36,-1,3.19,217.89,0.307,3.2
+826,LDPE Plastic Film Variant 134-3,LDPE Plastic Film,Electronics,46.5,3,False,True,True,True,36,-1,2.837,210.39,0.451,10.0
+827,LDPE Plastic Film Variant 134-4,LDPE Plastic Film,Apparel & Fashion,35.2,4,True,False,False,False,49,-1,3.792,164.29,0.413,6.4
+828,LDPE Plastic Film Variant 134-5,LDPE Plastic Film,Apparel & Fashion,11.6,3,False,True,False,True,32,-1,3.087,223.56,0.257,1.3
+829,HDPE Plastic Variant 135-1,HDPE Plastic,Electronics,9.8,1,True,True,True,True,14,-1,2.562,221.35,0.208,1.0
+830,HDPE Plastic Variant 135-2,HDPE Plastic,Apparel & Fashion,40.7,4,True,False,True,True,38,-1,4.063,182.14,0.384,7.0
+831,HDPE Plastic Variant 135-3,HDPE Plastic,Electronics,46.8,1,False,False,False,False,55,-1,3.434,174.77,0.493,9.4
+832,HDPE Plastic Variant 135-4,HDPE Plastic,Cosmetics & Beauty,33.8,5,False,False,False,True,45,-1,2.647,226.59,0.382,5.2
+833,HDPE Plastic Variant 135-5,HDPE Plastic,Cosmetics & Beauty,4.1,2,True,False,True,True,10,-1,3.388,158.86,0.218,2.1
+834,HDPE Plastic Variant 135-6,HDPE Plastic,Industrial Goods,40.4,1,False,True,True,False,25,-1,3.072,198.6,0.358,7.1
+835,HDPE Plastic Variant 135-7,HDPE Plastic,Home & Living,47.2,3,True,True,False,False,38,-1,2.923,122.04,0.463,9.1
+836,HDPE Plastic Variant 135-8,HDPE Plastic,Cosmetics & Beauty,9.5,2,False,True,False,False,18,-1,2.146,221.88,0.279,3.4
+837,EPS Foam Variant 136-1,EPS Foam,Apparel & Fashion,37.9,1,True,True,False,False,35,-1,4.364,130.17,0.412,8.2
+838,EPS Foam Variant 136-2,EPS Foam,Food & Beverages,9.0,2,False,False,False,False,33,-1,2.208,126.5,0.307,1.3
+839,EPS Foam Variant 136-3,EPS Foam,Industrial Goods,40.6,5,False,False,False,True,52,-1,4.768,205.01,0.434,8.0
+840,EPS Foam Variant 136-4,EPS Foam,Food & Beverages,2.4,3,True,False,True,False,16,-1,2.798,238.62,0.206,1.0
+841,Glass Jar Variant 137-1,Glass Jar,Industrial Goods,27.9,5,False,False,True,False,96,-1,2.553,75.48,0.616,6.5
+842,Glass Jar Variant 137-2,Glass Jar,Apparel & Fashion,9.8,3,False,True,True,False,96,-1,1.898,124.18,0.505,1.2
+843,Glass Jar Variant 137-3,Glass Jar,Food & Beverages,8.7,1,True,True,True,False,85,-1,1.516,160.1,0.511,3.0
+844,Glass Jar Variant 137-4,Glass Jar,Pharmaceuticals,31.2,1,False,True,False,False,95,-1,3.157,111.89,0.59,6.9
+845,Air Cushion Film Variant 138-1,Air Cushion Film,Cosmetics & Beauty,10.3,1,False,False,True,False,83,995,2.157,157.57,0.446,1.2
+846,Air Cushion Film Variant 138-2,Air Cushion Film,Electronics,4.4,4,True,False,False,True,43,359,3.663,214.76,0.285,1.4
+847,Air Cushion Film Variant 138-3,Air Cushion Film,Home & Living,22.5,4,True,False,False,True,33,503,1.776,157.8,0.363,3.9
+848,Air Cushion Film Variant 138-4,Air Cushion Film,Apparel & Fashion,36.4,5,False,True,False,False,62,682,2.782,133.69,0.537,9.3
+849,Air Cushion Film Variant 138-5,Air Cushion Film,Industrial Goods,20.4,1,True,True,True,True,64,617,1.017,186.04,0.517,5.3
+850,PET Plastic Variant 139-1,PET Plastic,Pharmaceuticals,5.9,4,False,True,True,True,14,-1,2.524,193.42,0.227,1.6
+851,PET Plastic Variant 139-2,PET Plastic,Apparel & Fashion,23.8,5,True,False,False,False,52,-1,2.19,185.17,0.402,4.1
+852,PET Plastic Variant 139-3,PET Plastic,Electronics,31.6,3,True,False,True,True,51,-1,4.415,178.5,0.41,6.5
+853,PET Plastic Variant 139-4,PET Plastic,Electronics,14.9,2,True,False,True,False,44,-1,2.052,136.11,0.371,2.8
+854,PET Plastic Variant 139-5,PET Plastic,Apparel & Fashion,33.9,1,True,False,True,True,37,-1,2.835,175.05,0.41,7.4
+855,PET Plastic Variant 139-6,PET Plastic,Pharmaceuticals,8.1,2,True,False,True,False,11,-1,3.606,139.75,0.23,2.4
+856,EPS Foam Variant 140-1,EPS Foam,Industrial Goods,25.9,2,False,False,True,False,30,-1,4.13,205.96,0.344,6.5
+857,EPS Foam Variant 140-2,EPS Foam,Pharmaceuticals,22.5,4,True,False,False,True,27,-1,2.757,140.5,0.304,3.0
+858,EPS Foam Variant 140-3,EPS Foam,Home & Living,47.7,3,True,True,False,False,33,-1,3.365,186.4,0.406,8.4
+859,EPS Foam Variant 140-4,EPS Foam,Food & Beverages,33.3,2,True,False,True,True,19,-1,3.196,151.45,0.34,6.6
+860,EPS Foam Variant 140-5,EPS Foam,Cosmetics & Beauty,38.9,5,True,False,True,False,13,-1,2.616,184.16,0.3,5.4
+861,EPS Foam Variant 140-6,EPS Foam,Electronics,35.3,5,False,True,False,False,33,-1,3.326,144.76,0.4,7.5
+862,EPS Foam Variant 140-7,EPS Foam,Cosmetics & Beauty,20.1,5,True,False,False,False,26,-1,3.156,126.19,0.323,4.2
+863,EPS Foam Variant 140-8,EPS Foam,Industrial Goods,35.1,2,False,True,True,False,59,-1,2.579,222.92,0.463,7.0
+864,EPS Foam Variant 141-1,EPS Foam,Food & Beverages,5.6,2,False,False,False,False,46,-1,2.486,157.35,0.322,1.0
+865,EPS Foam Variant 141-2,EPS Foam,Home & Living,12.0,5,False,True,False,False,18,-1,2.788,153.15,0.258,2.3
+866,EPS Foam Variant 141-3,EPS Foam,Home & Living,16.0,2,True,True,False,False,28,-1,4.057,186.96,0.283,3.5
+867,EPS Foam Variant 141-4,EPS Foam,Cosmetics & Beauty,21.8,4,False,False,True,False,26,-1,4.743,129.71,0.307,4.5
+868,EPS Foam Variant 141-5,EPS Foam,Cosmetics & Beauty,48.2,2,True,True,True,False,58,-1,3.979,134.22,0.472,7.6
+869,EPS Foam Variant 141-6,EPS Foam,Electronics,38.6,2,False,True,False,False,20,-1,3.506,238.51,0.352,8.3
+870,EPS Foam Variant 141-7,EPS Foam,Home & Living,47.1,2,True,True,True,False,49,-1,3.437,139.08,0.498,10.0
+871,Paperboard Variant 142-1,Paperboard,Industrial Goods,37.0,4,False,False,True,False,64,311,1.045,105.68,0.57,6.7
+872,Paperboard Variant 142-2,Paperboard,Food & Beverages,7.2,4,True,False,True,False,78,77,1.412,98.13,0.505,2.3
+873,Paperboard Variant 142-3,Paperboard,Home & Living,20.4,4,True,False,False,False,72,258,1.577,107.31,0.537,5.4
+874,Paperboard Variant 142-4,Paperboard,Food & Beverages,39.2,3,True,True,True,False,75,68,1.91,86.04,0.57,6.7
+875,Paperboard Variant 142-5,Paperboard,Electronics,48.6,1,False,True,False,True,67,172,1.011,67.1,0.648,8.9
+876,Paperboard Variant 142-6,Paperboard,Electronics,39.9,2,False,False,True,False,76,168,0.915,44.18,0.701,8.9
+877,Paperboard Variant 142-7,Paperboard,Apparel & Fashion,32.7,1,True,True,False,True,97,60,1.193,114.72,0.653,6.6
+878,Air Cushion Film Variant 143-1,Air Cushion Film,Electronics,12.6,1,True,True,False,False,39,826,3.959,186.29,0.267,1.0
+879,Air Cushion Film Variant 143-2,Air Cushion Film,Pharmaceuticals,6.5,2,True,False,False,False,33,407,3.165,190.27,0.26,1.0
+880,Air Cushion Film Variant 143-3,Air Cushion Film,Industrial Goods,24.3,3,False,False,False,True,30,931,1.748,82.06,0.453,7.2
+881,Air Cushion Film Variant 143-4,Air Cushion Film,Pharmaceuticals,30.6,5,True,True,False,True,71,680,3.37,195.7,0.463,5.7
+882,Air Cushion Film Variant 143-5,Air Cushion Film,Food & Beverages,5.2,3,True,True,False,False,41,250,3.849,222.55,0.295,2.4
+883,Air Cushion Film Variant 143-6,Air Cushion Film,Home & Living,24.7,5,True,False,True,False,66,699,1.864,85.87,0.526,5.8
+884,Air Cushion Film Variant 143-7,Air Cushion Film,Electronics,11.1,1,True,True,False,True,54,911,3.162,143.28,0.386,3.5
+885,Air Cushion Film Variant 143-8,Air Cushion Film,Pharmaceuticals,21.7,2,False,False,True,False,68,242,1.646,173.93,0.448,2.9
+886,HDPE Plastic Variant 144-1,HDPE Plastic,Home & Living,49.5,3,False,False,True,False,18,-1,4.156,135.24,0.379,9.1
+887,HDPE Plastic Variant 144-2,HDPE Plastic,Industrial Goods,21.3,3,True,False,True,False,29,-1,2.046,159.21,0.353,4.5
+888,HDPE Plastic Variant 144-3,HDPE Plastic,Cosmetics & Beauty,38.0,1,True,True,False,True,24,-1,2.695,169.43,0.393,8.3
+889,HDPE Plastic Variant 144-4,HDPE Plastic,Food & Beverages,30.6,5,False,True,False,False,45,-1,2.258,231.72,0.431,7.2
+890,HDPE Plastic Variant 144-5,HDPE Plastic,Apparel & Fashion,1.2,2,True,False,False,False,26,-1,2.199,131.83,0.278,1.0
+891,HDPE Plastic Variant 144-6,HDPE Plastic,Home & Living,4.9,4,True,True,True,False,35,-1,2.884,184.84,0.284,1.6
+892,HDPE Plastic Variant 144-7,HDPE Plastic,Cosmetics & Beauty,22.7,3,False,False,False,True,54,-1,3.925,225.87,0.318,1.7
+893,Wooden Crate Variant 145-1,Wooden Crate,Cosmetics & Beauty,1.0,4,False,False,True,False,49,533,2.66,138.24,0.333,1.0
+894,Wooden Crate Variant 145-2,Wooden Crate,Food & Beverages,32.1,4,False,False,False,False,83,867,1.958,106.4,0.561,5.7
+895,Wooden Crate Variant 145-3,Wooden Crate,Cosmetics & Beauty,16.9,1,False,False,False,False,86,997,1.5,132.26,0.526,3.1
+896,Wooden Crate Variant 145-4,Wooden Crate,Food & Beverages,37.4,2,True,False,False,False,38,793,2.526,157.26,0.431,7.7
+897,EPE Foam Variant 146-1,EPE Foam,Pharmaceuticals,44.4,4,False,False,True,False,30,-1,3.812,245.59,0.41,10.0
+898,EPE Foam Variant 146-2,EPE Foam,Apparel & Fashion,46.9,4,True,False,True,False,32,-1,2.607,195.32,0.393,7.3
+899,EPE Foam Variant 146-3,EPE Foam,Food & Beverages,25.7,3,False,False,False,True,39,-1,3.558,232.68,0.339,4.8
+900,EPE Foam Variant 146-4,EPE Foam,Cosmetics & Beauty,1.6,2,False,False,True,True,48,-1,4.956,218.43,0.277,1.0
+901,Wooden Crate Variant 147-1,Wooden Crate,Industrial Goods,23.6,5,True,False,True,True,48,568,1.075,110.98,0.487,5.2
+902,Wooden Crate Variant 147-2,Wooden Crate,Cosmetics & Beauty,12.3,5,False,False,False,False,76,682,2.615,192.36,0.419,2.0
+903,Wooden Crate Variant 147-3,Wooden Crate,Pharmaceuticals,15.9,3,True,True,False,True,54,203,1.064,139.64,0.455,3.2
+904,Wooden Crate Variant 147-4,Wooden Crate,Pharmaceuticals,36.1,2,True,True,False,True,61,303,2.957,138.42,0.493,7.5
+905,Wooden Crate Variant 147-5,Wooden Crate,Home & Living,21.4,1,True,True,False,False,83,327,1.522,106.71,0.499,1.7
+906,Wooden Crate Variant 147-6,Wooden Crate,Electronics,16.7,1,True,False,True,True,86,257,2.338,110.31,0.503,3.0
+907,Glass Jar Variant 148-1,Glass Jar,Food & Beverages,45.9,5,False,True,True,False,92,-1,3.175,77.46,0.637,8.8
+908,Glass Jar Variant 148-2,Glass Jar,Food & Beverages,32.7,2,True,False,False,True,83,-1,3.155,135.03,0.54,6.7
+909,Glass Jar Variant 148-3,Glass Jar,Food & Beverages,4.2,2,True,False,False,True,86,-1,2.06,88.83,0.482,1.0
+910,Glass Jar Variant 148-4,Glass Jar,Electronics,40.0,5,True,True,False,True,82,-1,2.732,126.42,0.599,9.2
+911,Steel Can Variant 149-1,Steel Can,Pharmaceuticals,20.2,3,True,False,False,False,98,-1,6.378,206.87,0.478,3.9
+912,Steel Can Variant 149-2,Steel Can,Electronics,43.2,2,False,False,False,False,95,-1,5.939,267.63,0.577,9.7
+913,Steel Can Variant 149-3,Steel Can,Industrial Goods,32.4,4,True,True,True,False,99,-1,8.646,206.73,0.563,8.5
+914,Steel Can Variant 149-4,Steel Can,Pharmaceuticals,38.4,3,True,False,False,True,98,-1,4.798,230.37,0.564,7.9
+915,Steel Can Variant 149-5,Steel Can,Home & Living,39.6,5,False,False,True,True,85,-1,4.832,275.58,0.536,8.8
+916,Steel Can Variant 149-6,Steel Can,Cosmetics & Beauty,15.3,2,False,False,True,True,81,-1,7.952,326.7,0.387,3.2
+917,Steel Can Variant 149-7,Steel Can,Cosmetics & Beauty,13.8,4,True,False,False,False,86,-1,5.07,286.52,0.395,1.8
+918,Steel Can Variant 149-8,Steel Can,Electronics,16.6,1,False,True,False,False,81,-1,5.265,324.76,0.368,1.5
+919,LDPE Plastic Film Variant 150-1,LDPE Plastic Film,Food & Beverages,20.7,4,False,True,False,True,22,-1,3.673,208.82,0.263,3.4
+920,LDPE Plastic Film Variant 150-2,LDPE Plastic Film,Home & Living,41.3,3,False,False,True,True,39,-1,3.081,161.47,0.415,7.4
+921,LDPE Plastic Film Variant 150-3,LDPE Plastic Film,Pharmaceuticals,5.3,3,True,False,True,False,24,-1,3.872,172.94,0.235,1.4
+922,LDPE Plastic Film Variant 150-4,LDPE Plastic Film,Cosmetics & Beauty,49.6,5,True,False,False,True,40,-1,2.791,101.16,0.499,10.0
+923,LDPE Plastic Film Variant 150-5,LDPE Plastic Film,Industrial Goods,24.7,3,False,False,True,True,12,-1,2.194,158.88,0.321,5.7
+924,LDPE Plastic Film Variant 150-6,LDPE Plastic Film,Cosmetics & Beauty,1.2,3,True,False,True,False,18,-1,2.482,246.03,0.218,1.0
+925,LDPE Plastic Film Variant 150-7,LDPE Plastic Film,Pharmaceuticals,47.1,2,False,True,False,False,25,-1,2.499,104.58,0.435,8.8
+926,LDPE Plastic Film Variant 150-8,LDPE Plastic Film,Electronics,21.3,1,True,False,False,False,33,-1,2.095,153.38,0.375,5.0
+927,LDPE Plastic Film Variant 151-1,LDPE Plastic Film,Home & Living,45.9,4,True,False,True,False,58,-1,3.22,169.54,0.511,9.6
+928,LDPE Plastic Film Variant 151-2,LDPE Plastic Film,Apparel & Fashion,26.5,2,False,True,True,False,34,-1,2.181,169.68,0.36,4.5
+929,LDPE Plastic Film Variant 151-3,LDPE Plastic Film,Food & Beverages,19.5,4,False,False,True,False,19,-1,2.916,230.97,0.24,2.3
+930,LDPE Plastic Film Variant 151-4,LDPE Plastic Film,Cosmetics & Beauty,30.7,4,False,False,True,True,52,-1,2.446,178.96,0.417,5.1
+931,LDPE Plastic Film Variant 151-5,LDPE Plastic Film,Industrial Goods,40.9,4,True,False,False,False,30,-1,4.233,238.93,0.364,7.9
+932,LDPE Plastic Film Variant 151-6,LDPE Plastic Film,Cosmetics & Beauty,27.5,2,True,False,False,True,33,-1,3.565,167.73,0.353,5.7
+933,Kraft Paper Variant 152-1,Kraft Paper,Industrial Goods,48.5,1,True,True,False,True,77,99,1.752,52.32,0.671,10.0
+934,Kraft Paper Variant 152-2,Kraft Paper,Home & Living,12.6,4,True,True,False,True,82,266,1.444,91.42,0.493,1.0
+935,Kraft Paper Variant 152-3,Kraft Paper,Pharmaceuticals,24.5,2,True,False,False,True,75,212,1.988,93.63,0.521,4.6
+936,Kraft Paper Variant 152-4,Kraft Paper,Apparel & Fashion,36.9,3,False,False,True,False,97,118,1.967,108.24,0.64,7.6
+937,HDPE Plastic Variant 153-1,HDPE Plastic,Home & Living,36.1,3,False,False,True,True,48,-1,4.036,244.46,0.376,5.7
+938,HDPE Plastic Variant 153-2,HDPE Plastic,Electronics,13.3,5,False,True,False,False,46,-1,4.279,255.84,0.319,3.4
+939,HDPE Plastic Variant 153-3,HDPE Plastic,Home & Living,19.1,1,True,True,False,False,35,-1,2.125,147.14,0.368,4.3
+940,HDPE Plastic Variant 153-4,HDPE Plastic,Cosmetics & Beauty,18.4,3,False,True,False,True,58,-1,2.025,235.8,0.425,4.6
+941,HDPE Plastic Variant 153-5,HDPE Plastic,Electronics,31.8,2,True,True,False,False,43,-1,2.745,194.42,0.383,5.3
+942,HDPE Plastic Variant 153-6,HDPE Plastic,Apparel & Fashion,2.8,3,True,False,True,False,30,-1,3.282,172.48,0.265,1.6
+943,Kraft Paper Variant 154-1,Kraft Paper,Electronics,14.4,1,False,True,False,False,65,232,1.441,96.47,0.526,5.3
+944,Kraft Paper Variant 154-2,Kraft Paper,Industrial Goods,43.8,3,True,False,False,False,86,89,1.698,42.46,0.682,8.6
+945,Kraft Paper Variant 154-3,Kraft Paper,Pharmaceuticals,47.7,4,True,False,True,True,97,199,1.686,89.0,0.701,9.6
+946,Kraft Paper Variant 154-4,Kraft Paper,Apparel & Fashion,45.4,3,False,False,False,True,78,146,1.7,86.67,0.644,9.6
+947,Kraft Paper Variant 154-5,Kraft Paper,Cosmetics & Beauty,6.1,2,True,False,True,True,68,250,1.914,74.73,0.449,1.4
+948,Kraft Paper Variant 154-6,Kraft Paper,Industrial Goods,31.9,3,True,True,False,False,87,105,1.145,108.49,0.625,6.4
+949,Kraft Paper Variant 154-7,Kraft Paper,Food & Beverages,19.6,1,True,False,False,True,98,321,1.512,85.05,0.578,2.8
+950,Molded Pulp Variant 155-1,Molded Pulp,Cosmetics & Beauty,25.3,5,False,False,False,True,95,252,1.285,112.9,0.598,4.4
+951,Molded Pulp Variant 155-2,Molded Pulp,Pharmaceuticals,32.8,5,False,True,False,False,87,95,1.92,112.9,0.58,6.1
+952,Molded Pulp Variant 155-3,Molded Pulp,Cosmetics & Beauty,1.3,2,False,False,False,False,81,273,1.386,44.45,0.537,1.5
+953,Molded Pulp Variant 155-4,Molded Pulp,Cosmetics & Beauty,31.2,5,True,False,False,False,95,106,1.303,53.43,0.674,6.4
+954,Molded Pulp Variant 155-5,Molded Pulp,Apparel & Fashion,13.6,2,True,True,False,False,64,226,1.813,106.16,0.456,3.0
+955,Molded Pulp Variant 155-6,Molded Pulp,Cosmetics & Beauty,19.7,4,True,False,True,False,76,304,1.655,81.0,0.541,4.5
+956,Bubble Wrap Variant 156-1,Bubble Wrap,Cosmetics & Beauty,32.9,2,True,False,True,False,56,260,1.042,110.86,0.558,7.4
+957,Bubble Wrap Variant 156-2,Bubble Wrap,Apparel & Fashion,43.9,4,False,False,False,True,78,644,2.163,97.68,0.586,7.8
+958,Bubble Wrap Variant 156-3,Bubble Wrap,Home & Living,42.5,4,False,True,False,True,68,424,3.904,217.61,0.49,8.1
+959,Bubble Wrap Variant 156-4,Bubble Wrap,Home & Living,36.6,1,True,True,True,True,48,545,2.987,171.47,0.435,7.1
+960,Bubble Wrap Variant 156-5,Bubble Wrap,Industrial Goods,28.2,3,False,True,False,True,43,385,2.735,241.53,0.368,5.0
+961,PET Plastic Variant 157-1,PET Plastic,Food & Beverages,47.5,2,True,False,False,False,49,-1,4.452,183.91,0.43,7.9
+962,PET Plastic Variant 157-2,PET Plastic,Pharmaceuticals,2.2,2,False,False,True,True,33,-1,2.562,177.83,0.275,1.0
+963,PET Plastic Variant 157-3,PET Plastic,Pharmaceuticals,9.1,4,True,False,True,False,31,-1,2.803,215.62,0.273,1.9
+964,PET Plastic Variant 157-4,PET Plastic,Pharmaceuticals,15.0,1,False,True,False,True,26,-1,4.336,129.77,0.255,1.7
+965,Glass Bottle Variant 158-1,Glass Bottle,Pharmaceuticals,37.2,1,False,False,False,True,95,-1,2.367,143.8,0.654,9.9
+966,Glass Bottle Variant 158-2,Glass Bottle,Home & Living,11.5,5,False,False,True,False,82,-1,2.221,98.11,0.476,1.8
+967,Glass Bottle Variant 158-3,Glass Bottle,Food & Beverages,32.0,1,True,False,True,False,90,-1,1.892,140.6,0.605,7.4
+968,Glass Bottle Variant 158-4,Glass Bottle,Pharmaceuticals,13.4,4,False,True,True,False,95,-1,2.69,173.66,0.483,2.2
+969,Glass Bottle Variant 158-5,Glass Bottle,Electronics,4.1,3,True,False,False,False,84,-1,2.655,144.67,0.436,1.0
+970,Glass Bottle Variant 158-6,Glass Bottle,Food & Beverages,35.3,4,False,True,False,True,88,-1,2.512,143.7,0.579,7.4
+971,EPS Foam Variant 159-1,EPS Foam,Home & Living,46.3,1,True,False,True,True,25,-1,3.725,245.63,0.382,9.3
+972,EPS Foam Variant 159-2,EPS Foam,Industrial Goods,32.9,4,True,False,False,False,14,-1,4.566,136.75,0.322,7.1
+973,EPS Foam Variant 159-3,EPS Foam,Cosmetics & Beauty,44.6,2,False,False,False,False,38,-1,4.126,192.38,0.417,8.8
+974,EPS Foam Variant 159-4,EPS Foam,Pharmaceuticals,40.9,2,True,True,False,False,27,-1,4.261,125.03,0.371,7.2
+975,EPS Foam Variant 159-5,EPS Foam,Apparel & Fashion,19.1,2,False,False,False,False,54,-1,2.301,190.69,0.38,2.9
+976,EPS Foam Variant 159-6,EPS Foam,Cosmetics & Beauty,19.4,5,False,False,True,False,28,-1,2.703,203.83,0.325,4.7
+977,EPS Foam Variant 159-7,EPS Foam,Home & Living,13.6,5,True,False,True,False,28,-1,3.766,186.87,0.263,2.3
+978,EPS Foam Variant 159-8,EPS Foam,Cosmetics & Beauty,33.2,4,True,False,False,False,20,-1,3.301,143.4,0.338,6.3
+979,Aluminum Foil Variant 160-1,Aluminum Foil,Home & Living,15.4,2,False,False,True,True,81,-1,5.624,298.73,0.39,2.6
+980,Aluminum Foil Variant 160-2,Aluminum Foil,Pharmaceuticals,37.8,1,True,False,False,True,83,-1,5.858,365.91,0.53,9.7
+981,Aluminum Foil Variant 160-3,Aluminum Foil,Home & Living,39.0,5,True,False,True,True,93,-1,8.83,230.94,0.526,7.8
+982,Aluminum Foil Variant 160-4,Aluminum Foil,Cosmetics & Beauty,47.5,3,True,False,True,False,99,-1,8.375,170.21,0.589,9.3
+983,Aluminum Foil Variant 160-5,Aluminum Foil,Cosmetics & Beauty,20.8,2,True,False,False,True,90,-1,4.829,372.86,0.456,4.6
+984,Aluminum Foil Variant 160-6,Aluminum Foil,Food & Beverages,29.3,4,True,True,False,True,83,-1,6.241,335.04,0.458,6.1
+985,LDPE Plastic Film Variant 161-1,LDPE Plastic Film,Home & Living,37.1,4,False,True,False,False,40,-1,2.094,134.21,0.434,6.6
+986,LDPE Plastic Film Variant 161-2,LDPE Plastic Film,Cosmetics & Beauty,43.6,5,False,True,False,True,50,-1,3.888,233.71,0.413,7.1
+987,LDPE Plastic Film Variant 161-3,LDPE Plastic Film,Apparel & Fashion,26.4,3,False,True,False,True,12,-1,2.23,258.98,0.309,6.2
+988,LDPE Plastic Film Variant 161-4,LDPE Plastic Film,Pharmaceuticals,44.0,1,True,False,False,False,41,-1,2.078,242.72,0.461,9.1
+989,LDPE Plastic Film Variant 161-5,LDPE Plastic Film,Pharmaceuticals,3.5,4,False,False,False,False,15,-1,3.223,213.09,0.2,1.0
+990,Glass Bottle Variant 162-1,Glass Bottle,Food & Beverages,1.8,2,False,False,False,False,91,-1,3.051,170.9,0.441,1.0
+991,Glass Bottle Variant 162-2,Glass Bottle,Industrial Goods,35.1,5,False,True,False,True,87,-1,2.999,152.1,0.527,5.6
+992,Glass Bottle Variant 162-3,Glass Bottle,Cosmetics & Beauty,43.4,2,True,False,False,True,96,-1,1.678,150.6,0.62,7.0
+993,Glass Bottle Variant 162-4,Glass Bottle,Industrial Goods,40.8,5,False,True,True,True,100,-1,2.237,169.39,0.635,8.4
+994,Steel Can Variant 163-1,Steel Can,Industrial Goods,15.7,4,True,False,False,True,91,-1,6.209,188.98,0.416,1.6
+995,Steel Can Variant 163-2,Steel Can,Pharmaceuticals,19.7,4,True,False,True,False,91,-1,5.662,160.0,0.495,5.0
+996,Steel Can Variant 163-3,Steel Can,Pharmaceuticals,16.4,4,False,True,True,False,95,-1,7.833,368.75,0.444,4.1
+997,Steel Can Variant 163-4,Steel Can,Industrial Goods,37.0,5,False,False,True,False,83,-1,6.117,388.27,0.456,6.2
+998,Steel Can Variant 163-5,Steel Can,Apparel & Fashion,41.0,1,False,False,False,False,94,-1,7.231,242.07,0.553,8.8
+999,Steel Can Variant 163-6,Steel Can,Cosmetics & Beauty,44.6,5,False,True,False,False,82,-1,8.701,387.24,0.482,8.2
+1000,Steel Can Variant 163-7,Steel Can,Electronics,22.9,2,False,False,False,False,96,-1,4.421,201.11,0.52,5.5
+1001,PET Plastic Variant 164-1,PET Plastic,Home & Living,8.2,1,True,False,False,True,59,-1,3.553,138.34,0.347,1.0
+1002,PET Plastic Variant 164-2,PET Plastic,Food & Beverages,38.1,2,False,False,True,True,53,-1,3.246,101.9,0.507,8.9
+1003,PET Plastic Variant 164-3,PET Plastic,Pharmaceuticals,29.4,1,True,False,True,False,19,-1,3.483,189.87,0.315,6.1
+1004,PET Plastic Variant 164-4,PET Plastic,Electronics,14.7,5,True,True,True,False,48,-1,3.678,193.41,0.336,3.0
+1005,PET Plastic Variant 164-5,PET Plastic,Pharmaceuticals,5.4,2,True,False,False,True,10,-1,3.423,130.19,0.217,1.6
+1006,PET Plastic Variant 164-6,PET Plastic,Pharmaceuticals,39.4,2,True,True,False,False,55,-1,3.094,101.29,0.47,6.6
+1007,PET Plastic Variant 164-7,PET Plastic,Cosmetics & Beauty,6.9,4,True,True,False,False,30,-1,4.33,168.39,0.241,1.0
+1008,PET Plastic Variant 164-8,PET Plastic,Electronics,21.9,2,False,False,False,False,54,-1,2.026,234.72,0.377,2.8
+1009,Molded Pulp Variant 165-1,Molded Pulp,Electronics,20.3,3,False,True,False,True,70,273,1.135,77.0,0.608,7.2
+1010,Molded Pulp Variant 165-2,Molded Pulp,Industrial Goods,43.8,4,True,False,True,True,80,249,1.515,67.72,0.677,9.9
+1011,Molded Pulp Variant 165-3,Molded Pulp,Apparel & Fashion,49.2,1,False,True,False,True,64,89,1.163,61.85,0.654,10.0
+1012,Molded Pulp Variant 165-4,Molded Pulp,Cosmetics & Beauty,22.5,4,False,False,True,False,89,98,0.908,51.99,0.64,4.2
+1013,Molded Pulp Variant 165-5,Molded Pulp,Pharmaceuticals,6.6,3,True,True,False,False,79,155,1.856,40.66,0.504,1.0
+1014,Molded Pulp Variant 165-6,Molded Pulp,Industrial Goods,47.4,2,True,False,True,False,61,291,1.824,57.92,0.616,10.0
+1015,Molded Pulp Variant 165-7,Molded Pulp,Apparel & Fashion,16.0,1,True,False,True,False,73,207,1.934,63.65,0.511,3.4
+1016,Recycled Paper Variant 166-1,Recycled Paper,Pharmaceuticals,24.2,5,True,False,False,False,74,112,1.727,91.19,0.507,3.5
+1017,Recycled Paper Variant 166-2,Recycled Paper,Food & Beverages,1.6,5,True,False,False,True,88,204,1.356,80.23,0.522,1.0
+1018,Recycled Paper Variant 166-3,Recycled Paper,Food & Beverages,29.9,3,True,True,True,True,71,134,1.942,69.05,0.567,6.7
+1019,Recycled Paper Variant 166-4,Recycled Paper,Home & Living,8.1,5,False,False,True,False,82,138,1.962,102.56,0.512,3.3
+1020,Recycled Paper Variant 166-5,Recycled Paper,Industrial Goods,2.8,2,True,False,True,True,97,220,1.105,84.63,0.562,1.0
+1021,Recycled Paper Variant 166-6,Recycled Paper,Cosmetics & Beauty,11.7,2,False,False,False,False,77,103,1.176,70.68,0.528,2.1
+1022,Recycled Paper Variant 166-7,Recycled Paper,Industrial Goods,1.9,2,True,False,True,False,90,346,0.813,72.55,0.591,2.0
+1023,Recycled Paper Variant 167-1,Recycled Paper,Pharmaceuticals,33.0,5,True,False,True,False,99,180,1.309,117.64,0.643,6.2
+1024,Recycled Paper Variant 167-2,Recycled Paper,Industrial Goods,3.6,5,False,False,False,False,69,289,0.919,45.82,0.52,1.0
+1025,Recycled Paper Variant 167-3,Recycled Paper,Pharmaceuticals,16.0,1,True,False,False,False,99,248,0.809,93.9,0.656,4.5
+1026,Recycled Paper Variant 167-4,Recycled Paper,Home & Living,10.4,4,False,True,False,False,74,96,0.941,47.91,0.556,2.2
+1027,Recycled Paper Variant 167-5,Recycled Paper,Cosmetics & Beauty,48.0,1,True,False,False,False,98,160,1.578,74.46,0.725,10.0
+1028,Recycled Paper Variant 167-6,Recycled Paper,Food & Beverages,12.3,4,False,False,True,True,84,91,1.607,66.91,0.513,1.3
+1029,Wooden Crate Variant 168-1,Wooden Crate,Electronics,7.5,2,True,False,True,True,74,762,2.15,174.03,0.41,1.0
+1030,Wooden Crate Variant 168-2,Wooden Crate,Home & Living,21.5,5,False,True,False,True,39,401,1.965,171.33,0.39,4.9
+1031,Wooden Crate Variant 168-3,Wooden Crate,Electronics,15.4,2,False,True,True,False,51,499,2.995,163.64,0.346,2.1
+1032,Wooden Crate Variant 168-4,Wooden Crate,Apparel & Fashion,26.2,2,False,True,True,True,72,874,2.71,151.79,0.48,5.2
+1033,Wooden Crate Variant 168-5,Wooden Crate,Industrial Goods,37.3,4,True,False,False,False,45,675,2.425,176.48,0.477,9.1
+1034,Wooden Crate Variant 168-6,Wooden Crate,Industrial Goods,17.5,3,False,False,False,False,49,761,1.252,188.15,0.406,2.8
+1035,Wooden Crate Variant 168-7,Wooden Crate,Food & Beverages,42.7,4,False,False,False,True,87,674,1.603,135.47,0.613,7.6
+1036,Wooden Crate Variant 168-8,Wooden Crate,Apparel & Fashion,3.1,4,False,False,True,False,74,423,2.214,161.5,0.412,1.0
+1037,Recycled Paper Variant 169-1,Recycled Paper,Electronics,43.2,5,True,True,True,True,74,106,1.131,100.35,0.657,9.7
+1038,Recycled Paper Variant 169-2,Recycled Paper,Pharmaceuticals,5.3,4,False,True,False,False,73,215,0.828,80.13,0.514,1.0
+1039,Recycled Paper Variant 169-3,Recycled Paper,Industrial Goods,37.3,2,False,False,True,False,81,330,1.847,63.55,0.615,7.2
+1040,Recycled Paper Variant 169-4,Recycled Paper,Industrial Goods,26.2,1,False,True,False,True,68,166,1.644,44.38,0.6,7.2
+1041,Recycled Paper Variant 169-5,Recycled Paper,Pharmaceuticals,32.2,3,True,True,True,False,84,145,1.186,102.86,0.602,5.7
+1042,Recycled Paper Variant 169-6,Recycled Paper,Electronics,46.0,1,True,True,True,True,72,197,1.383,100.84,0.611,8.5
+1043,Recycled Paper Variant 169-7,Recycled Paper,Cosmetics & Beauty,21.5,2,True,True,True,False,76,91,1.406,105.8,0.556,5.3
+1044,HDPE Plastic Variant 170-1,HDPE Plastic,Electronics,44.4,2,True,True,False,True,19,-1,3.252,161.0,0.396,9.6
+1045,HDPE Plastic Variant 170-2,HDPE Plastic,Electronics,38.3,5,False,False,False,True,30,-1,4.284,242.69,0.373,8.4
+1046,HDPE Plastic Variant 170-3,HDPE Plastic,Food & Beverages,3.1,3,False,False,True,True,22,-1,2.582,123.12,0.259,1.0
+1047,HDPE Plastic Variant 170-4,HDPE Plastic,Pharmaceuticals,2.8,3,False,False,True,True,29,-1,4.032,145.16,0.248,1.0
+1048,HDPE Plastic Variant 170-5,HDPE Plastic,Electronics,38.0,1,True,False,True,False,21,-1,4.213,238.36,0.3,6.0
+1049,HDPE Plastic Variant 170-6,HDPE Plastic,Food & Beverages,9.2,3,False,False,True,True,32,-1,3.59,123.74,0.271,1.0
+1050,Aluminum Foil Variant 171-1,Aluminum Foil,Cosmetics & Beauty,49.8,1,False,False,True,False,95,-1,5.344,245.98,0.588,9.9
+1051,Aluminum Foil Variant 171-2,Aluminum Foil,Apparel & Fashion,7.6,5,True,True,True,False,97,-1,4.967,393.48,0.468,4.3
+1052,Aluminum Foil Variant 171-3,Aluminum Foil,Apparel & Fashion,28.5,1,True,False,True,True,100,-1,8.026,376.04,0.483,5.4
+1053,Aluminum Foil Variant 171-4,Aluminum Foil,Home & Living,44.1,1,False,True,True,False,94,-1,5.22,160.7,0.575,8.4
+1054,Aluminum Foil Variant 171-5,Aluminum Foil,Cosmetics & Beauty,27.1,5,True,False,False,False,95,-1,8.196,352.55,0.478,5.8
+1055,Aluminum Foil Variant 171-6,Aluminum Foil,Home & Living,26.0,5,True,False,False,False,97,-1,4.051,163.05,0.57,7.2
+1056,HDPE Plastic Variant 172-1,HDPE Plastic,Apparel & Fashion,1.4,2,True,True,False,True,14,-1,2.4,106.8,0.247,1.0
+1057,HDPE Plastic Variant 172-2,HDPE Plastic,Electronics,11.7,5,False,False,False,False,53,-1,4.116,167.69,0.312,1.0
+1058,HDPE Plastic Variant 172-3,HDPE Plastic,Home & Living,36.9,3,True,False,True,False,35,-1,3.95,259.55,0.405,9.2
+1059,HDPE Plastic Variant 172-4,HDPE Plastic,Pharmaceuticals,14.6,5,False,True,False,True,17,-1,2.555,230.63,0.246,2.5
+1060,HDPE Plastic Variant 172-5,HDPE Plastic,Cosmetics & Beauty,38.9,4,True,False,False,False,30,-1,2.327,228.95,0.389,7.4
+1061,Paper Cushioning Variant 173-1,Paper Cushioning,Cosmetics & Beauty,12.9,2,False,False,False,False,64,105,1.007,47.47,0.541,3.2
+1062,Paper Cushioning Variant 173-2,Paper Cushioning,Home & Living,30.1,1,False,True,False,False,89,180,1.146,117.88,0.627,6.4
+1063,Paper Cushioning Variant 173-3,Paper Cushioning,Apparel & Fashion,44.2,2,False,False,False,False,84,248,1.649,106.23,0.626,8.2
+1064,Paper Cushioning Variant 173-4,Paper Cushioning,Apparel & Fashion,29.6,3,True,True,False,False,79,203,1.198,71.84,0.626,6.8
+1065,Paper Cushioning Variant 173-5,Paper Cushioning,Cosmetics & Beauty,41.5,4,True,False,True,True,63,264,0.943,77.7,0.63,8.7
+1066,Starch-based Bioplastic Variant 174-1,Starch-based Bioplastic,Food & Beverages,48.0,4,True,False,True,False,44,602,1.649,174.79,0.496,8.9
+1067,Starch-based Bioplastic Variant 174-2,Starch-based Bioplastic,Industrial Goods,15.5,3,True,False,False,False,73,414,2.492,341.46,0.418,3.4
+1068,Starch-based Bioplastic Variant 174-3,Starch-based Bioplastic,Electronics,12.1,4,False,False,False,False,47,227,0.882,172.96,0.464,4.5
+1069,Starch-based Bioplastic Variant 174-4,Starch-based Bioplastic,Pharmaceuticals,12.9,5,False,True,True,True,43,559,1.809,321.33,0.327,2.2
+1070,Starch-based Bioplastic Variant 174-5,Starch-based Bioplastic,Cosmetics & Beauty,37.4,5,True,True,False,False,60,321,0.954,246.87,0.573,9.1
+1071,Starch-based Bioplastic Variant 174-6,Starch-based Bioplastic,Food & Beverages,12.7,5,False,True,True,True,51,585,0.834,286.78,0.402,1.7
+1072,Starch-based Bioplastic Variant 174-7,Starch-based Bioplastic,Industrial Goods,42.4,3,False,False,False,False,31,579,2.24,343.56,0.393,8.1
+1073,Bubble Wrap Variant 175-1,Bubble Wrap,Electronics,10.6,5,True,False,True,True,31,786,2.868,145.82,0.288,1.8
+1074,Bubble Wrap Variant 175-2,Bubble Wrap,Cosmetics & Beauty,43.2,1,False,False,True,True,37,402,1.321,170.47,0.492,8.9
+1075,Bubble Wrap Variant 175-3,Bubble Wrap,Food & Beverages,29.9,3,True,False,False,True,54,335,1.24,191.23,0.493,6.4
+1076,Bubble Wrap Variant 175-4,Bubble Wrap,Home & Living,38.9,3,True,True,False,False,60,768,1.987,243.17,0.491,7.6
+1077,Bubble Wrap Variant 175-5,Bubble Wrap,Food & Beverages,42.5,1,True,True,True,False,47,195,3.923,225.34,0.429,8.3
+1078,Glass Bottle Variant 176-1,Glass Bottle,Cosmetics & Beauty,4.0,4,True,True,False,True,80,-1,3.014,100.64,0.442,1.4
+1079,Glass Bottle Variant 176-2,Glass Bottle,Pharmaceuticals,44.0,3,True,False,False,True,90,-1,2.953,114.4,0.585,7.3
+1080,Glass Bottle Variant 176-3,Glass Bottle,Food & Beverages,20.4,3,False,True,True,True,86,-1,2.953,167.9,0.517,5.4
+1081,Glass Bottle Variant 176-4,Glass Bottle,Apparel & Fashion,20.8,4,True,True,False,False,88,-1,1.564,82.75,0.58,4.5
+1082,Glass Bottle Variant 176-5,Glass Bottle,Cosmetics & Beauty,20.7,1,False,True,False,True,88,-1,3.251,108.52,0.54,5.5
+1083,Glass Bottle Variant 176-6,Glass Bottle,Pharmaceuticals,27.8,1,False,True,False,False,82,-1,2.755,94.67,0.517,4.4
+1084,Wooden Crate Variant 177-1,Wooden Crate,Apparel & Fashion,31.0,5,True,True,True,False,47,376,2.746,101.27,0.432,5.6
+1085,Wooden Crate Variant 177-2,Wooden Crate,Cosmetics & Beauty,33.3,5,True,True,True,False,30,520,2.908,196.19,0.344,5.5
+1086,Wooden Crate Variant 177-3,Wooden Crate,Home & Living,46.7,1,True,True,False,False,75,302,1.599,185.32,0.611,10.0
+1087,Wooden Crate Variant 177-4,Wooden Crate,Food & Beverages,8.6,2,False,True,False,False,33,364,1.227,112.9,0.408,4.0
+1088,Air Cushion Film Variant 178-1,Air Cushion Film,Industrial Goods,18.0,4,False,True,False,False,39,831,1.526,193.93,0.362,2.9
+1089,Air Cushion Film Variant 178-2,Air Cushion Film,Food & Beverages,32.8,2,False,False,False,False,76,937,1.883,181.34,0.549,7.3
+1090,Air Cushion Film Variant 178-3,Air Cushion Film,Electronics,4.8,2,False,False,False,False,43,993,2.842,138.45,0.311,1.0
+1091,Air Cushion Film Variant 178-4,Air Cushion Film,Pharmaceuticals,37.9,1,True,True,True,True,88,768,2.176,152.19,0.612,8.7
+1092,Air Cushion Film Variant 178-5,Air Cushion Film,Industrial Goods,40.7,4,False,False,False,False,32,966,2.917,237.05,0.402,8.5
+1093,Air Cushion Film Variant 178-6,Air Cushion Film,Cosmetics & Beauty,3.9,5,False,True,False,False,66,819,3.908,237.09,0.338,1.0
+1094,Starch-based Bioplastic Variant 179-1,Starch-based Bioplastic,Home & Living,9.6,5,False,True,True,False,31,694,1.195,220.37,0.312,1.0
+1095,Starch-based Bioplastic Variant 179-2,Starch-based Bioplastic,Pharmaceuticals,25.9,3,False,False,False,True,44,464,0.97,243.34,0.407,3.2
+1096,Starch-based Bioplastic Variant 179-3,Starch-based Bioplastic,Industrial Goods,19.6,4,True,False,True,False,54,234,1.161,172.26,0.464,4.5
+1097,Starch-based Bioplastic Variant 179-4,Starch-based Bioplastic,Pharmaceuticals,48.5,5,True,False,True,True,68,396,2.156,257.01,0.555,10.0
+1098,Paperboard Variant 180-1,Paperboard,Industrial Goods,16.4,4,False,False,False,False,69,286,1.732,47.98,0.532,4.0
+1099,Paperboard Variant 180-2,Paperboard,Cosmetics & Beauty,2.9,2,False,False,False,True,68,134,1.576,115.6,0.433,1.0
+1100,Paperboard Variant 180-3,Paperboard,Pharmaceuticals,36.7,4,True,True,False,False,89,305,1.865,70.37,0.637,7.4
+1101,Paperboard Variant 180-4,Paperboard,Food & Beverages,31.6,2,True,False,False,False,64,211,1.169,64.93,0.59,6.9
+1102,Paperboard Variant 180-5,Paperboard,Pharmaceuticals,24.0,4,True,False,False,True,67,337,1.221,94.37,0.533,4.7
+1103,Paperboard Variant 180-6,Paperboard,Pharmaceuticals,34.5,5,True,True,True,False,61,337,1.041,86.99,0.585,7.4
+1104,Paperboard Variant 180-7,Paperboard,Apparel & Fashion,39.4,2,False,True,True,True,92,174,1.026,48.45,0.715,7.8
+1105,Paperboard Variant 180-8,Paperboard,Home & Living,39.9,5,False,True,True,False,91,279,0.862,40.45,0.763,9.3
+1106,Aluminum Foil Variant 181-1,Aluminum Foil,Industrial Goods,45.5,3,True,True,False,True,98,-1,7.951,270.81,0.561,9.0
+1107,Aluminum Foil Variant 181-2,Aluminum Foil,Apparel & Fashion,39.4,3,True,False,True,False,88,-1,7.825,255.15,0.518,8.2
+1108,Aluminum Foil Variant 181-3,Aluminum Foil,Home & Living,42.6,3,True,True,False,False,99,-1,6.636,328.67,0.547,8.2
+1109,Aluminum Foil Variant 181-4,Aluminum Foil,Food & Beverages,16.3,2,True,True,False,False,80,-1,8.704,320.69,0.39,3.6
+1110,Aluminum Foil Variant 181-5,Aluminum Foil,Industrial Goods,43.7,5,False,False,True,True,95,-1,6.64,335.93,0.56,9.5
+1111,PET Plastic Variant 182-1,PET Plastic,Industrial Goods,14.2,4,True,True,False,False,21,-1,2.253,122.85,0.269,1.2
+1112,PET Plastic Variant 182-2,PET Plastic,Industrial Goods,29.1,1,False,False,False,False,33,-1,3.698,174.55,0.362,6.3
+1113,PET Plastic Variant 182-3,PET Plastic,Electronics,23.5,1,False,False,False,True,34,-1,4.387,140.34,0.333,4.6
+1114,PET Plastic Variant 182-4,PET Plastic,Food & Beverages,17.3,2,True,True,True,False,22,-1,2.303,137.11,0.297,2.8
+1115,Glass Jar Variant 183-1,Glass Jar,Home & Living,25.9,4,True,False,False,False,97,-1,1.799,96.06,0.654,7.7
+1116,Glass Jar Variant 183-2,Glass Jar,Food & Beverages,24.0,2,False,False,False,False,82,-1,1.99,95.51,0.521,3.6
+1117,Glass Jar Variant 183-3,Glass Jar,Industrial Goods,7.7,4,False,False,True,True,83,-1,2.362,108.11,0.474,2.0
+1118,Glass Jar Variant 183-4,Glass Jar,Apparel & Fashion,23.3,2,True,True,True,False,82,-1,2.287,85.38,0.555,5.5
+1119,Recycled Paper Variant 184-1,Recycled Paper,Food & Beverages,12.1,5,True,False,False,True,84,212,1.719,83.37,0.533,3.1
+1120,Recycled Paper Variant 184-2,Recycled Paper,Industrial Goods,40.5,4,True,False,True,False,97,360,1.284,46.41,0.725,8.3
+1121,Recycled Paper Variant 184-3,Recycled Paper,Cosmetics & Beauty,14.3,3,False,False,False,False,63,170,1.875,77.16,0.462,2.8
+1122,Recycled Paper Variant 184-4,Recycled Paper,Apparel & Fashion,45.9,4,True,True,False,True,63,100,1.478,66.65,0.618,9.4
+1123,Recycled Paper Variant 184-5,Recycled Paper,Apparel & Fashion,20.4,5,False,False,True,True,91,321,0.921,60.54,0.632,3.9
+1124,Recycled Paper Variant 184-6,Recycled Paper,Apparel & Fashion,34.3,4,False,False,False,True,79,85,1.62,82.48,0.583,6.1
+1125,Bubble Wrap Variant 185-1,Bubble Wrap,Home & Living,44.2,3,False,True,False,False,87,873,2.745,90.12,0.646,10.0
+1126,Bubble Wrap Variant 185-2,Bubble Wrap,Home & Living,48.4,1,True,True,False,True,40,992,2.716,96.78,0.484,9.1
+1127,Bubble Wrap Variant 185-3,Bubble Wrap,Food & Beverages,8.9,1,True,False,False,True,32,587,1.701,193.39,0.339,3.2
+1128,Bubble Wrap Variant 185-4,Bubble Wrap,Pharmaceuticals,20.2,2,False,False,True,False,45,555,1.832,174.8,0.416,5.1
+1129,Bubble Wrap Variant 185-5,Bubble Wrap,Apparel & Fashion,24.1,4,True,True,False,False,59,699,3.118,205.49,0.405,4.5
+1130,Bubble Wrap Variant 185-6,Bubble Wrap,Food & Beverages,26.6,1,True,True,False,False,55,444,1.605,239.91,0.439,5.0
+1131,Wooden Crate Variant 186-1,Wooden Crate,Industrial Goods,12.8,1,True,False,True,True,49,919,1.33,91.48,0.444,3.2
+1132,Wooden Crate Variant 186-2,Wooden Crate,Pharmaceuticals,42.3,5,False,False,False,False,43,804,2.368,108.92,0.446,6.6
+1133,Wooden Crate Variant 186-3,Wooden Crate,Food & Beverages,13.0,2,True,True,True,False,80,268,2.078,80.94,0.48,1.6
+1134,Wooden Crate Variant 186-4,Wooden Crate,Pharmaceuticals,14.0,5,False,False,True,False,78,208,1.206,118.55,0.502,2.0
+1135,Wooden Crate Variant 186-5,Wooden Crate,Electronics,5.6,1,True,True,False,True,87,342,1.795,169.73,0.48,1.9
+1136,Wooden Crate Variant 186-6,Wooden Crate,Cosmetics & Beauty,26.5,4,False,False,False,True,73,806,2.975,107.31,0.513,6.1
+1137,Recycled Paper Variant 187-1,Recycled Paper,Pharmaceuticals,35.1,4,False,True,False,False,70,165,1.666,100.36,0.562,7.0
+1138,Recycled Paper Variant 187-2,Recycled Paper,Apparel & Fashion,44.0,2,True,True,False,False,73,261,0.911,74.93,0.644,7.7
+1139,Recycled Paper Variant 187-3,Recycled Paper,Pharmaceuticals,39.1,5,False,False,True,False,62,176,1.794,104.92,0.553,8.1
+1140,Recycled Paper Variant 187-4,Recycled Paper,Industrial Goods,16.0,3,True,False,False,False,61,119,1.681,85.61,0.479,3.8
+1141,Recycled Paper Variant 187-5,Recycled Paper,Industrial Goods,5.1,3,False,False,False,True,67,233,0.823,65.73,0.506,1.0
+1142,Steel Can Variant 188-1,Steel Can,Food & Beverages,40.8,1,True,True,False,False,99,-1,7.337,317.46,0.553,8.6
+1143,Steel Can Variant 188-2,Steel Can,Electronics,18.8,4,False,False,False,False,80,-1,4.808,227.32,0.471,5.9
+1144,Steel Can Variant 188-3,Steel Can,Pharmaceuticals,29.7,3,True,True,False,False,89,-1,7.812,381.11,0.477,6.7
+1145,Steel Can Variant 188-4,Steel Can,Cosmetics & Beauty,34.3,5,True,True,False,False,85,-1,4.812,394.23,0.443,4.8
+1146,Steel Can Variant 188-5,Steel Can,Electronics,25.1,5,False,False,False,False,82,-1,6.154,211.05,0.438,4.3
+1147,Steel Can Variant 188-6,Steel Can,Food & Beverages,37.5,2,False,False,True,True,87,-1,4.503,302.87,0.565,10.0
+1148,Steel Can Variant 188-7,Steel Can,Home & Living,25.9,3,True,False,False,False,89,-1,6.755,186.71,0.469,4.7
+1149,Steel Can Variant 188-8,Steel Can,Electronics,30.9,1,False,True,True,False,91,-1,5.867,193.38,0.491,5.3
+1150,Glass Jar Variant 189-1,Glass Jar,Industrial Goods,15.7,3,True,False,False,False,89,-1,3.284,88.78,0.511,3.4
+1151,Glass Jar Variant 189-2,Glass Jar,Industrial Goods,39.5,1,False,True,False,False,86,-1,2.555,165.22,0.604,9.3
+1152,Glass Jar Variant 189-3,Glass Jar,Industrial Goods,11.2,3,True,False,False,False,100,-1,1.779,153.73,0.531,2.2
+1153,Glass Jar Variant 189-4,Glass Jar,Food & Beverages,20.6,5,True,False,False,False,91,-1,2.607,123.24,0.522,3.8
+1154,Glass Jar Variant 189-5,Glass Jar,Home & Living,31.6,2,True,False,False,False,88,-1,1.668,73.67,0.636,7.2
+1155,Glass Jar Variant 189-6,Glass Jar,Cosmetics & Beauty,16.2,3,True,False,False,False,99,-1,3.248,119.26,0.479,1.0
+1156,Aluminum Foil Variant 190-1,Aluminum Foil,Industrial Goods,1.5,5,True,False,True,False,86,-1,6.872,299.06,0.366,1.0
+1157,Aluminum Foil Variant 190-2,Aluminum Foil,Apparel & Fashion,39.5,4,False,False,False,True,98,-1,8.71,283.04,0.535,7.9
+1158,Aluminum Foil Variant 190-3,Aluminum Foil,Cosmetics & Beauty,32.6,5,True,False,False,True,98,-1,4.627,152.96,0.58,7.7
+1159,Aluminum Foil Variant 190-4,Aluminum Foil,Electronics,28.7,4,True,False,False,False,94,-1,7.408,349.27,0.456,4.7
+1160,Paper Cushioning Variant 191-1,Paper Cushioning,Food & Beverages,6.4,3,False,True,False,True,95,129,1.539,107.95,0.519,1.0
+1161,Paper Cushioning Variant 191-2,Paper Cushioning,Home & Living,21.6,2,True,False,False,False,75,155,1.577,54.45,0.565,4.7
+1162,Paper Cushioning Variant 191-3,Paper Cushioning,Apparel & Fashion,29.9,3,False,False,False,True,88,279,1.664,90.63,0.6,5.9
+1163,Paper Cushioning Variant 191-4,Paper Cushioning,Industrial Goods,32.0,4,True,False,True,False,61,138,1.734,64.85,0.556,7.1
+1164,Paper Cushioning Variant 191-5,Paper Cushioning,Electronics,41.8,3,False,False,True,True,95,136,1.486,78.58,0.68,8.1
+1165,Paper Cushioning Variant 191-6,Paper Cushioning,Industrial Goods,39.7,4,True,True,False,False,62,63,0.843,73.18,0.628,8.2
+1166,Paper Cushioning Variant 191-7,Paper Cushioning,Pharmaceuticals,38.4,4,False,False,False,False,79,269,1.319,59.37,0.62,6.4
+1167,Paper Cushioning Variant 191-8,Paper Cushioning,Cosmetics & Beauty,44.3,1,False,True,False,True,94,171,1.672,69.26,0.666,7.7
+1168,EPS Foam Variant 192-1,EPS Foam,Electronics,27.8,3,False,False,False,False,10,-1,3.682,143.02,0.27,4.7
+1169,EPS Foam Variant 192-2,EPS Foam,Apparel & Fashion,26.4,2,False,False,True,True,48,-1,3.732,151.99,0.421,6.7
+1170,EPS Foam Variant 192-3,EPS Foam,Electronics,9.1,5,True,False,True,False,24,-1,3.145,131.39,0.251,1.0
+1171,EPS Foam Variant 192-4,EPS Foam,Electronics,14.2,1,False,False,True,True,16,-1,2.509,155.48,0.248,1.8
+1172,EPS Foam Variant 192-5,EPS Foam,Food & Beverages,35.4,5,True,True,False,False,58,-1,2.759,155.67,0.49,7.9
+1173,EPS Foam Variant 192-6,EPS Foam,Cosmetics & Beauty,43.3,3,False,False,True,True,13,-1,4.473,175.72,0.33,8.2
+1174,EPS Foam Variant 192-7,EPS Foam,Electronics,19.4,5,False,True,False,False,22,-1,2.137,124.17,0.289,1.9
+1175,Kraft Paper Variant 193-1,Kraft Paper,Home & Living,5.3,1,False,False,True,False,61,106,0.827,48.4,0.502,1.0
+1176,Kraft Paper Variant 193-2,Kraft Paper,Apparel & Fashion,28.7,4,True,False,True,False,61,128,1.994,92.3,0.505,5.9
+1177,Kraft Paper Variant 193-3,Kraft Paper,Cosmetics & Beauty,1.2,3,True,False,True,True,82,363,1.115,100.96,0.507,1.0
+1178,Kraft Paper Variant 193-4,Kraft Paper,Cosmetics & Beauty,1.1,2,True,False,False,True,74,171,1.71,63.93,0.475,1.0
+1179,Kraft Paper Variant 193-5,Kraft Paper,Food & Beverages,27.7,5,False,False,True,False,72,174,1.748,98.07,0.576,7.5
+1180,Bubble Wrap Variant 194-1,Bubble Wrap,Home & Living,20.0,3,True,True,False,True,51,764,1.561,98.97,0.465,4.7
+1181,Bubble Wrap Variant 194-2,Bubble Wrap,Industrial Goods,42.6,1,False,False,False,False,73,304,3.55,174.98,0.516,7.9
+1182,Bubble Wrap Variant 194-3,Bubble Wrap,Industrial Goods,25.9,3,False,True,False,True,30,397,2.626,119.39,0.364,5.0
+1183,Bubble Wrap Variant 194-4,Bubble Wrap,Apparel & Fashion,32.9,5,True,True,False,False,88,871,3.822,113.85,0.552,6.6
+1184,Bubble Wrap Variant 194-5,Bubble Wrap,Cosmetics & Beauty,35.1,5,False,False,False,False,48,404,3.148,150.02,0.42,6.2
+1185,Bubble Wrap Variant 194-6,Bubble Wrap,Industrial Goods,14.3,5,True,False,True,False,88,410,1.509,137.13,0.546,3.9
+1186,Bubble Wrap Variant 194-7,Bubble Wrap,Electronics,24.7,4,True,False,False,False,83,255,1.141,222.12,0.569,5.9
+1187,Wooden Crate Variant 195-1,Wooden Crate,Cosmetics & Beauty,7.3,1,False,True,False,False,48,990,2.918,168.64,0.335,2.0
+1188,Wooden Crate Variant 195-2,Wooden Crate,Food & Beverages,9.2,1,True,False,False,False,79,815,2.708,130.56,0.443,1.9
+1189,Wooden Crate Variant 195-3,Wooden Crate,Electronics,4.2,2,True,False,False,False,30,597,1.228,143.9,0.327,1.0
+1190,Wooden Crate Variant 195-4,Wooden Crate,Industrial Goods,1.1,2,False,False,True,False,71,712,2.297,148.41,0.405,1.0
+1191,Wooden Crate Variant 195-5,Wooden Crate,Food & Beverages,44.2,4,False,False,False,False,77,264,2.0,156.36,0.577,8.4
+1192,Wooden Crate Variant 195-6,Wooden Crate,Apparel & Fashion,10.7,1,False,False,False,True,54,909,2.318,133.69,0.358,1.0
+1193,Wooden Crate Variant 195-7,Wooden Crate,Cosmetics & Beauty,25.2,1,False,False,False,False,30,656,2.713,169.26,0.339,4.7
+1194,Wooden Crate Variant 195-8,Wooden Crate,Cosmetics & Beauty,20.2,5,True,True,True,False,73,539,2.08,132.35,0.484,4.1
+1195,PLA Bioplastic Variant 196-1,PLA Bioplastic,Electronics,22.1,2,False,False,False,False,47,687,1.191,268.27,0.398,3.3
+1196,PLA Bioplastic Variant 196-2,PLA Bioplastic,Industrial Goods,20.9,2,True,True,False,True,67,625,1.61,312.48,0.462,4.9
+1197,PLA Bioplastic Variant 196-3,PLA Bioplastic,Food & Beverages,13.1,1,False,False,False,False,66,424,1.073,166.76,0.472,2.7
+1198,PLA Bioplastic Variant 196-4,PLA Bioplastic,Home & Living,22.1,4,True,False,False,False,31,470,1.193,216.07,0.387,4.7
+1199,PLA Bioplastic Variant 196-5,PLA Bioplastic,Industrial Goods,3.7,3,False,False,True,False,57,507,1.581,287.38,0.359,1.0
+1200,PLA Bioplastic Variant 196-6,PLA Bioplastic,Food & Beverages,35.0,1,False,True,False,True,75,283,1.039,157.44,0.578,6.4
+1201,Paperboard Variant 197-1,Paperboard,Food & Beverages,23.5,5,False,False,False,True,63,118,1.756,109.58,0.507,5.7
+1202,Paperboard Variant 197-2,Paperboard,Apparel & Fashion,38.9,1,False,True,False,True,80,169,1.202,116.79,0.606,6.9
+1203,Paperboard Variant 197-3,Paperboard,Electronics,42.9,1,True,False,True,True,74,293,1.577,103.98,0.63,9.7
+1204,Paperboard Variant 197-4,Paperboard,Pharmaceuticals,13.4,3,True,False,False,True,91,291,1.136,119.25,0.567,3.1
+1205,Paperboard Variant 197-5,Paperboard,Pharmaceuticals,9.9,3,False,True,True,True,93,151,1.359,82.17,0.542,1.3
+1206,Paperboard Variant 197-6,Paperboard,Cosmetics & Beauty,20.0,2,True,True,True,False,65,126,0.841,103.48,0.534,3.9
+1207,Paperboard Variant 197-7,Paperboard,Electronics,43.4,3,False,False,False,False,66,288,1.626,92.93,0.582,8.3
+1208,LDPE Plastic Film Variant 198-1,LDPE Plastic Film,Electronics,2.7,1,False,True,True,False,11,-1,3.264,139.22,0.207,1.0
+1209,LDPE Plastic Film Variant 198-2,LDPE Plastic Film,Electronics,32.7,5,False,False,False,True,36,-1,3.826,219.61,0.371,6.9
+1210,LDPE Plastic Film Variant 198-3,LDPE Plastic Film,Pharmaceuticals,27.9,2,False,False,False,True,25,-1,2.323,138.94,0.353,5.2
+1211,LDPE Plastic Film Variant 198-4,LDPE Plastic Film,Food & Beverages,28.4,4,True,False,True,True,34,-1,2.757,162.99,0.372,5.7
+1212,LDPE Plastic Film Variant 198-5,LDPE Plastic Film,Apparel & Fashion,13.3,2,True,True,True,True,15,-1,2.132,239.81,0.256,2.8
+1213,LDPE Plastic Film Variant 198-6,LDPE Plastic Film,Apparel & Fashion,11.7,3,False,True,False,False,37,-1,2.541,229.81,0.286,1.5
+1214,LDPE Plastic Film Variant 198-7,LDPE Plastic Film,Pharmaceuticals,20.6,4,False,True,False,True,30,-1,2.79,218.07,0.308,3.8
+1215,LDPE Plastic Film Variant 198-8,LDPE Plastic Film,Home & Living,40.9,1,True,False,False,False,32,-1,3.481,204.89,0.393,8.2
+1216,LDPE Plastic Film Variant 199-1,LDPE Plastic Film,Pharmaceuticals,49.8,4,True,True,True,False,27,-1,3.013,157.43,0.433,10.0
+1217,LDPE Plastic Film Variant 199-2,LDPE Plastic Film,Pharmaceuticals,8.8,3,True,True,False,False,15,-1,2.609,188.8,0.229,1.6
+1218,LDPE Plastic Film Variant 199-3,LDPE Plastic Film,Home & Living,47.0,1,True,False,False,True,24,-1,3.449,241.61,0.398,10.0
+1219,LDPE Plastic Film Variant 199-4,LDPE Plastic Film,Apparel & Fashion,16.2,3,False,False,True,True,29,-1,2.937,258.44,0.317,4.9
+1220,Air Cushion Film Variant 200-1,Air Cushion Film,Pharmaceuticals,6.6,1,True,False,False,False,37,909,1.145,183.58,0.345,1.2
+1221,Air Cushion Film Variant 200-2,Air Cushion Film,Pharmaceuticals,21.5,1,True,True,False,False,39,909,3.022,117.73,0.379,4.8
+1222,Air Cushion Film Variant 200-3,Air Cushion Film,Apparel & Fashion,23.2,3,True,True,True,True,48,740,2.348,195.91,0.407,5.3
+1223,Air Cushion Film Variant 200-4,Air Cushion Film,Food & Beverages,1.1,5,False,False,False,False,60,698,2.827,122.45,0.368,1.0
+1224,Air Cushion Film Variant 200-5,Air Cushion Film,Pharmaceuticals,24.1,3,False,True,True,False,82,577,3.7,249.63,0.443,3.8
