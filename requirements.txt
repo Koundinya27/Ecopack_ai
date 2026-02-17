@@ -12,7 +12,7 @@ scikit-learn==1.5.2
 xgboost==2.1.4
 
 # Database driver (adjust if you use something else)
-psycopg2-binary==2.9.9  # for PostgreSQL
+psycopg2-binary  # for PostgreSQL
 
 # Optional: gunicorn if you deploy on Linux server
 gunicorn==23.0.0
