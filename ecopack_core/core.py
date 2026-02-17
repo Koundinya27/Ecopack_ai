@@ -69,7 +69,7 @@ TRADITIONAL_BASELINES = {
 
 # ---------- STEP 1: LOAD & FEATURE ENGINEERING ----------
 
-materials = pd.read_csv("ecopack_core/data/materials_100_plus.csv")
+materials = pd.read_csv("ecopack_core/data/materials_generated1.csv")
 products = pd.read_csv("ecopack_core/data/products_1000_plus.csv")
 
 num_mat = [
