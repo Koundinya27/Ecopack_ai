@@ -1,0 +1,54 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Databases and instance data
+instance/
+*.db
+*.sqlite3
+
+# Data / generated (tune if needed)
+data/
+materials_generated*/
+products_1000_*/
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+*.out
+*.err
+
+# Tests / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# OneDrive temp
+~$*

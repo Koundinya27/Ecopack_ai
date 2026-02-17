@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en" class="h-full">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ecopack Admin Dashboard</title>
+
+<!-- Tailwind (CDN) -->
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+
+<!-- DM Sans font -->
+<link
+  href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap"
+  rel="stylesheet"
+/>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+<style>
+html,body{ height:100%; width:100%;  box-sizing: border-box; margin:0; padding:0; }
+    body { box-sizing: border-box; }
+    * { font-family: 'Plus Jakarta Sans', sans-serif; }
+    .nature-bg { position: relative; overflow: hidden; }
+    .nature-bg::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 400' opacity='0.08'%3E%3Cpath d='M50 380 Q60 320 80 340 Q100 360 90 380 Z' fill='%2310b981'/%3E%3Cpath d='M70 380 Q90 280 120 320 Q150 360 130 380 Z' fill='%2310b981'/%3E%3Cpath d='M100 380 Q130 250 170 300 Q210 350 180 380 Z' fill='%2310b981'/%3E%3Cpath d='M600 380 Q620 300 650 330 Q680 360 660 380 Z' fill='%2310b981'/%3E%3Cpath d='M630 380 Q660 260 700 310 Q740 360 710 380 Z' fill='%2310b981'/%3E%3Cpath d='M680 380 Q720 220 770 290 Q820 360 780 380 Z' fill='%2310b981'/%3E%3Cpath d='M150 120 Q155 115 160 118 Q165 121 162 125 Q159 129 154 127 Q149 125 150 120 Z' fill='%2310b981'/%3E%3Cpath d='M160 122 L175 115' stroke='%2310b981' stroke-width='1' fill='none'/%3E%3Cpath d='M155 125 L145 135' stroke='%2310b981' stroke-width='1' fill='none'/%3E%3Cpath d='M580 80 Q585 75 590 78 Q595 81 592 85 Q589 89 584 87 Q579 85 580 80 Z' fill='%2310b981'/%3E%3Cpath d='M590 82 L605 75' stroke='%2310b981' stroke-width='1' fill='none'/%3E%3Cpath d='M585 85 L575 95' stroke='%2310b981' stroke-width='1' fill='none'/%3E%3Cpath d='M720 140 Q725 135 730 138 Q735 141 732 145 Q729 149 724 147 Q719 145 720 140 Z' fill='%2310b981'/%3E%3Cpath d='M730 142 L745 135' stroke='%2310b981' stroke-width='1' fill='none'/%3E%3Cellipse cx='90' cy='370' rx='40' ry='10' fill='%2310b981' opacity='0.3'/%3E%3Cellipse cx='680' cy='370' rx='50' ry='12' fill='%2310b981' opacity='0.3'/%3E%3C/svg%3E");
+      background-size: cover;
+      background-position: center bottom;
+      pointer-events: none;
+    }
+    @keyframes slideDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+    .animate-slide-down { animation: slideDown 0.5s ease-out forwards; }
+    .animate-fade-in { animation: fadeIn 0.6s ease-out forwards; }
+    .chart-card { animation: slideDown 0.5s ease-out forwards; }
+    .chart-card:nth-child(2) { animation-delay: 0.1s; }
+    .chart-card:nth-child(3) { animation-delay: 0.2s; }
+</style>
+</head>
+
+<body class="min-h-screen bg-white">
+  <div class="min-h-screen bg-gradient-to-b from-emerald-50 to-white">
+    <div id="app-container" class="w-full min-h-full overflow-auto">
+      <div class="max-w-6xl mx-auto px-6 py-10">
+    <!-- Header -->
+    <header class="mb-12 text-center">
+  <h1 id="dashboard-title" class="text-4xl md:text-5xl font-bold text-gray-800 mb-4 tracking-tight">
+    Ecopack General Dashboard
+  </h1>
+  <p id="subtitle" class="text-lg text-gray-600 max-w-xl mx-auto leading-relaxed">
+    Overview of requests, selected materials, and product categories.
+  </p>
+
+  <div class="mt-4 flex justify-center gap-3">
+    <a
+      href="/"
+      class="inline-flex items-center px-4 py-2 text-sm font-medium rounded-full
+             bg-gray-100 text-gray-700 hover:bg-gray-200 transition-colors"
+    >
+      Home
+    </a>
+    <a
+      href="/dashboard"
+      class="inline-flex items-center px-4 py-2 text-sm font-medium rounded-full
+             bg-emerald-600 text-white hover:bg-emerald-700 transition-colors"
+    >
+      Dashboard
+    </a>
+    <a
+      href="/app"
+      class="inline-flex items-center px-4 py-2 text-sm font-medium rounded-full
+             bg-yellow-300 text-emerald-700 hover:bg-emerald-100 border border-emerald-200 transition-colors"
+    >
+      Advisor
+    </a>
+  </div>
+</header>
+
+
+    <!-- KPI Cards -->
+    <section class="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
+      <div class="bg-white rounded-lg shadow-md p-5 border-l-4 border-emerald-500 hover:shadow-lg transition-shadow">
+        <p class="text-xs font-semibold text-gray-600 uppercase mb-2">
+          Total requests
+        </p>
+        <p id="kpi-total-requests" class="text-2xl font-bold text-gray-900">
+          {{ total_requests }}
+        </p>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-md p-5 border-l-4 border-emerald-500 hover:shadow-lg transition-shadow">
+        <p class="text-xs font-semibold text-gray-600 uppercase mb-2">
+          With selection
+        </p>
+        <p id="kpi-with-selection" class="text-2xl font-bold text-emerald-600">
+          {{ requests_with_selection }}
+        </p>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-md p-5 border-l-4 border-yellow-500 hover:shadow-lg transition-shadow">
+        <p class="text-xs font-semibold text-gray-600 uppercase mb-2">
+          Total cost (₹)
+        </p>
+        <p id="kpi-total-cost" class="text-2xl font-bold text-yellow-600">
+          {{ '%.2f'|format(total_selected_cost_inr) }}
+        </p>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-md p-5 border-l-4 border-red-900 hover:shadow-lg transition-shadow">
+        <p class="text-xs font-semibold text-gray-600 uppercase mb-2">
+          CO₂ (kg)
+        </p>
+        <p id="kpi-total-co2" class="text-2xl font-bold text-red-900">
+          {{ '%.2f'|format(total_selected_co2_kg) }}
+        </p>
+      </div>
+    </section>
+
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+  <!-- Material types chart -->
+  <div class="bg-white rounded-lg shadow-md p-6 border border-gray-100">
+    <h2 class="text-lg font-bold text-emerald-600 mb-5">
+      Selected material types (count)
+    </h2>
+
+    <!-- Existing simple bars -->
+    <div class="flex items-end justify-between h-40 gap-2">
+      {% for i in range(material_type_labels|length) %}
+      {% set h = 20 + (material_type_counts[i] * 5) %}
+      <div class="flex flex-col items-center flex-1">
+        <div
+          class="w-full {{ 'bg-red-900' if 'plastic' in (material_type_labels[i] | lower) else 'bg-emerald-600' }} rounded-t"
+          style="height: {{ h if h <= 100 else 100 }}%;"
+        ></div>
+        <span class="text-xs text-gray-700 mt-2 font-medium">
+          {{ material_type_labels[i] }}
+        </span>
+      </div>
+      {% endfor %}
+      {% if material_type_labels|length == 0 %}
+      <p class="text-sm text-gray-500">No selections yet.</p>
+      {% endif %}
+    </div>
+
+    <!-- Chart.js canvas -->
+    <div class="mt-4 h-64">
+      <canvas id="selected-materials-chart"></canvas>
+    </div>
+  </div>
+
+  <!-- Categories chart -->
+  <div class="bg-white rounded-lg shadow-md p-6 border border-gray-100">
+    <h2 class="text-lg font-bold text-emerald-600 mb-5">Product categories</h2>
+
+    <!-- Existing simple bars -->
+    <div class="flex items-end justify-between h-40 gap-2">
+      {% for i in range(product_category_labels|length) %}
+      {% set h = 20 + (product_category_counts[i] * 5) %}
+      <div class="flex flex-col items-center flex-1">
+        <div
+          class="w-full bg-emerald-600 rounded-t"
+          style="height: {{ h if h <= 100 else 100 }}%;"
+        ></div>
+        <span class="text-xs text-gray-700 mt-2 font-medium">
+          {{ product_category_labels[i] }}
+        </span>
+      </div>
+      {% endfor %}
+      {% if product_category_labels|length == 0 %}
+      <p class="text-sm text-gray-500">No requests yet.</p>
+      {% endif %}
+    </div>
+
+    <!-- Chart.js canvas -->
+    <div class="mt-4 h-64">
+      <canvas id="product-categories-chart"></canvas>
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- Lists Section -->
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <!-- Material insights -->
+<div class="bg-white rounded-lg shadow-md p-6 border border-gray-100">
+  <h2 class="text-lg font-bold text-emerald-600 mb-4">Material insights</h2>
+
+  {% if material_type_labels|length == 0 %}
+    <p class="text-sm text-gray-500">No selected materials yet.</p>
+  {% else %}
+    {% set max_count = material_type_counts|max %}
+{% set max_idx = material_type_counts.index(max_count) %}
+
+    <div class="space-y-3">
+      <div class="flex items-center justify-between">
+        <span class="text-sm text-gray-600">Most selected material</span>
+        <span class="text-sm font-semibold text-gray-900">
+          {{ material_type_labels[max_idx] }} ({{ material_type_counts[max_idx] }})
+        </span>
+      </div>
+
+      <div class="flex items-center justify-between">
+        <span class="text-sm text-gray-600">Unique materials used</span>
+        <span class="text-sm font-semibold text-gray-900">
+          {{ material_type_labels|length }}
+        </span>
+      </div>
+
+      <div class="flex items-center justify-between">
+        <span class="text-sm text-gray-600">Total selections</span>
+        <span class="text-sm font-semibold text-gray-900">
+          {{ material_type_counts|sum }}
+        </span>
+      </div>
+
+      <p class="text-xs text-gray-500 mt-2">
+        Paper Cushioning, Paperboard and Recycled Paper currently dominate your selections.
+      </p>
+    </div>
+  {% endif %}
+</div>
+
+<!-- Category insights -->
+<div class="bg-white rounded-lg shadow-md p-6 border border-gray-100">
+  <h2 class="text-lg font-bold text-emerald-600 mb-4">Category insights</h2>
+
+  {% if product_category_labels|length == 0 %}
+    <p class="text-sm text-gray-500">No requests yet.</p>
+  {% else %}
+    {% set cat_max_count = product_category_counts|max %}
+    {% set cat_max_idx = product_category_counts.index(cat_max_count) %}
+    <div class="space-y-3">
+      <div class="flex items-center justify-between">
+        <span class="text-sm text-gray-600">Top category</span>
+        <span class="text-sm font-semibold text-gray-900">
+          {{ product_category_labels[cat_max_idx] }} ({{ product_category_counts[cat_max_idx] }})
+        </span>
+      </div>
+
+      <div class="flex items-center justify-between">
+        <span class="text-sm text-gray-600">Active categories</span>
+        <span class="text-sm font-semibold text-gray-900">
+          {{ product_category_labels|length }}
+        </span>
+      </div>
+
+      <div class="flex items-center justify-between">
+        <span class="text-sm text-gray-600">Total requests (all categories)</span>
+        <span class="text-sm font-semibold text-gray-900">
+          {{ product_category_counts|sum }}
+        </span>
+      </div>
+
+      <p class="text-xs text-gray-500 mt-2">
+        Electronics, Cosmetics &amp; Beauty and Industrial Goods are currently your busiest segments.
+      </p>
+    </div>
+  {% endif %}
+</div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="w-full px-6 py-8 border-t border-gray-200">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4"><span class="text-gray-600 text-sm">© 2026 Ecopack – Sustainable Packaging Advisor</span>
+     <div class="flex items-center gap-6"> <a href="mailto:o210679@rguktong.ac.in" class="text-gray-600 hover:text-gray-900 text-sm">Contact</a> <a href="https://github.com/Koundinya27" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-gray-900 text-sm">GitHub repo</a>
+     </div>
+    </div>
+   </footer>
+  </div>
+</div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const cards = document.querySelectorAll('.bg-white');
+  cards.forEach((card, index) => {
+    card.style.opacity = '0';
+    card.style.transform = 'translateY(8px)';
+    setTimeout(() => {
+      card.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
+      card.style.opacity = '1';
+      card.style.transform = 'translateY(0)';
+    }, index * 80);
+  });
+});
+</script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const cards = document.querySelectorAll('.bg-white');
+  cards.forEach((card, index) => {
+    card.style.opacity = '0';
+    card.style.transform = 'translateY(8px)';
+    setTimeout(() => {
+      card.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
+      card.style.opacity = '1';
+      card.style.transform = 'translateY(0)';
+    }, index * 80);
+  });
+
+  // --- Charts below ---
+  const materialLabels = {{ material_type_labels|tojson }};
+  const materialCounts = {{ material_type_counts|tojson }};
+  const categoryLabels = {{ product_category_labels|tojson }};
+  const categoryCounts = {{ product_category_counts|tojson }};
+
+  const selCtx = document.getElementById('selected-materials-chart');
+  const catCtx = document.getElementById('product-categories-chart');
+
+  if (selCtx && materialLabels.length) {
+  new Chart(selCtx, {
+    type: 'pie',  // <- pie instead of bar
+    data: {
+      labels: materialLabels,
+      datasets: [{
+        label: 'Selections',
+        data: materialCounts,
+        backgroundColor: [
+          '#10b981',
+          '#6366f1',
+          '#f97316',
+          '#ef4444',
+          '#22c55e',
+          '#8b5cf6'
+        ].slice(0, materialLabels.length),
+        borderColor: '#ffffff',
+        borderWidth: 2
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: { color: '#0a231a', font: { size: 11 } }
+        }
+      }
+    }
+  });
+  }
+
+  if (catCtx && categoryLabels.length) {
+    new Chart(catCtx, {
+      type: 'bar',
+      data: {
+        labels: categoryLabels,
+        datasets: [{
+          label: 'Requests',
+          data: categoryCounts,
+          backgroundColor: '#10b981'
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#0a1223' } },
+          y: { ticks: { color: '#4b5563' } }
+        }
+      }
+    });
+  }
+});
+</script>
+</body>
+</html>

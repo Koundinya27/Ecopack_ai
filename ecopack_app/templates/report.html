@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ecopack Report – {{ user_request.product_name }}</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      margin: 24px;
+      color: #111827;
+      background: #f9fafb;
+      font-size: 13px;
+    }
+    h1, h2 {
+      color: #065f46;
+      margin-bottom: 8px;
+    }
+    h1 { font-size: 24px; }
+    h2 { font-size: 18px; }
+    .card {
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 6px;
+      padding: 12px 14px;
+      margin-bottom: 12px;
+    }
+    .grid-2 {
+      display: table;
+      width: 100%;
+    }
+    .col {
+      display: table-cell;
+      width: 50%;
+      vertical-align: top;
+      padding-right: 10px;
+    }
+    .col:last-child {
+      padding-right: 0;
+      padding-left: 10px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 8px;
+      font-size: 12px;
+    }
+    th, td {
+      border: 1px solid #e5e7eb;
+      padding: 6px;
+    }
+    th {
+      background: #f3f4f6;
+      text-align: left;
+    }
+    .text-right { text-align: right; }
+    .muted { color: #6b7280; font-size: 11px; }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <h1>Packaging Recommendation Report</h1>
+  <p class="muted">
+    Request ID: {{ user_request.id }}
+    {% if user_request.created_at %}
+      • Created at: {{ user_request.created_at }}
+    {% endif %}
+  </p>
+
+  <!-- Product + preferences -->
+  <div class="grid-2" style="margin-top: 16px;">
+    <div class="col">
+      <div class="card">
+        <h2>Product details</h2>
+        <p><strong>Name:</strong> {{ user_request.product_name }}</p>
+        <p><strong>Category:</strong> {{ user_request.product_category }}</p>
+        <p>
+          <strong>Dimensions (cm):</strong>
+          {{ user_request.length_cm }} × {{ user_request.width_cm }} × {{ user_request.height_cm }}
+        </p>
+        <p><strong>Weight (kg):</strong> {{ user_request.weight_in_kg }}</p>
+        <p><strong>Fragility level:</strong> {{ user_request.fragility_level }}</p>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <h2>Preferences & summary</h2>
+        <p><strong>Total units:</strong> {{ user_request.total_units }}</p>
+        <p>
+          <strong>Budget / unit (₹):</strong>
+          {{ user_request.budget_min_per_unit }} – {{ user_request.budget_max_per_unit }}
+        </p>
+        <p><strong>Sustainability:</strong> {{ user_request.sustainability_level }}</p>
+        <p><strong>Prior protection:</strong> {{ user_request.prior_protection_level }}</p>
+        <hr style="border: none; border-top: 1px solid #e5e7eb; margin: 8px 0;" />
+        <p><strong>Estimated total cost (₹):</strong> {{ '%.2f'|format(total_cost) }}</p>
+        <p><strong>Estimated total CO₂ (kg):</strong> {{ '%.2f'|format(total_co2) }}</p>
+        {% if recs %}
+        <p style="margin-top: 4px;">
+          <strong>Best model score:</strong> {{ '%.3f'|format(recs[0].final_score) }}
+        </p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <!-- Selected material -->
+  <div style="margin-top: 16px;">
+    <h2>Selected material</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Material</th>
+          <th>Type</th>
+          <th class="text-right">Total CO₂ (kg)</th>
+          <th class="text-right">Total cost (₹)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{ user_request.selected_material_name or 'Not selected' }}</td>
+          <td>{{ user_request.selected_material_type or '-' }}</td>
+          <td class="text-right">
+            {{ '%.2f'|format(user_request.selected_total_co2_kg or 0) }}
+          </td>
+          <td class="text-right">
+            {{ '%.2f'|format(user_request.selected_total_cost_inr or 0) }}
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Recommended materials -->
+  <div style="margin-top: 20px;">
+    <h2>Recommended materials</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Rank</th>
+          <th>Material</th>
+          <th>Type</th>
+          <th class="text-right">Total CO₂ (kg)</th>
+          <th class="text-right">Total cost (₹)</th>
+          <th class="text-right">Score</th>
+          <th class="text-right">Selected?</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for r in recs %}
+        <tr>
+          <td>{{ loop.index }}</td>
+          <td>{{ r.material_name }}</td>
+          <td>{{ r.material_type }}</td>
+          <td class="text-right">{{ '%.2f'|format(r.total_co2_kg) }}</td>
+          <td class="text-right">{{ '%.2f'|format(r.total_packaging_cost_inr) }}</td>
+          <td class="text-right">{{ '%.3f'|format(r.final_score) }}</td>
+          <td class="text-right">
+            {% if user_request.selected_material_name == r.material_name %}
+              Yes
+            {% else %}
+              -
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <p class="muted" style="margin-top: 20px; text-align: center;">
+    Generated by Ecopack – Sustainable Packaging Advisor
+  </p>
+</body>
+</html>
