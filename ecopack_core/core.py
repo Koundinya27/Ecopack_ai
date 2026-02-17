@@ -69,8 +69,8 @@ TRADITIONAL_BASELINES = {
 
 # ---------- STEP 1: LOAD & FEATURE ENGINEERING ----------
 
-materials = pd.read_csv("data/materials_generated1.csv")
-products = pd.read_csv("data/products_1000_plus.csv")
+materials = pd.read_csv("ecopack_core/data/materials_100_plus.csv")
+products = pd.read_csv("ecopack_core/data/products_1000_plus.csv")
 
 num_mat = [
     "max_weight_capacity_kg",

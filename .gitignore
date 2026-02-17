@@ -16,8 +16,9 @@ instance/
 
 # Data / generated (tune if needed)
 data/
-materials_generated*/
-products_1000_*/
+!ecopack_core/data/
+!ecopack_core/data/*.csv
+
 
 # Build / dist
 build/
