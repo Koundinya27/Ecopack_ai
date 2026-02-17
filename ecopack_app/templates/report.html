@@ -54,6 +54,26 @@
     }
     .text-right { text-align: right; }
     .muted { color: #6b7280; font-size: 11px; }
+    .chart-box {
+      margin-top: 16px;
+      padding: 10px 12px;
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 6px;
+    }
+    .chart-title {
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 6px;
+      color: #065f46;
+    }
+    .chart-img {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      border: 1px solid #e5e7eb;
+      border-radius: 4px;
+    }
   </style>
 </head>
 <body>
@@ -98,6 +118,30 @@
         <p style="margin-top: 4px;">
           <strong>Best model score:</strong> {{ '%.3f'|format(recs[0].final_score) }}
         </p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <!-- Charts row -->
+  <div class="grid-2" style="margin-top: 16px;">
+    <div class="col">
+      <div class="chart-box">
+        <div class="chart-title">Cost comparison across materials</div>
+        {% if cost_chart_img %}
+          <img src="{{ cost_chart_img }}" alt="Cost chart" class="chart-img" />
+        {% else %}
+          <p class="muted">No chart available for cost.</p>
+        {% endif %}
+      </div>
+    </div>
+    <div class="col">
+      <div class="chart-box">
+        <div class="chart-title">CO₂ comparison across materials</div>
+        {% if co2_chart_img %}
+          <img src="{{ co2_chart_img }}" alt="CO₂ chart" class="chart-img" />
+        {% else %}
+          <p class="muted">No chart available for CO₂.</p>
         {% endif %}
       </div>
     </div>

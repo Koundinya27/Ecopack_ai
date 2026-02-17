@@ -16,3 +16,4 @@ psycopg2-binary==2.9.9  # for PostgreSQL
 
 # Optional: gunicorn if you deploy on Linux server
 gunicorn==23.0.0
+matplotlib==3.7.1

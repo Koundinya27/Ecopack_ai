@@ -34,6 +34,37 @@ CATEGORY_MAP = {
     "Steel Can": "Rigid & Heavy Duty",
     "Glass Jar": "Rigid & Heavy Duty",
 }
+TRADITIONAL_BASELINES = {
+    "Electronics": [
+        {"name": "Plastic mailer + bubble wrap", "cost_per_kg_inr": 80, "co2_per_kg": 4.5},
+        {"name": "Single-wall corrugated + plastic tape", "cost_per_kg_inr": 60, "co2_per_kg": 3.2},
+    ],
+    "Apparel & Fashion": [
+        {"name": "LDPE polybag", "cost_per_kg_inr": 70, "co2_per_kg": 3.8},
+        {"name": "Premium paper box + tissue", "cost_per_kg_inr": 110, "co2_per_kg": 2.4},
+    ],
+    "Food & Beverages": [
+        {"name": "Single-use PET bottles/jars", "cost_per_kg_inr": 55, "co2_per_kg": 3.0},
+        {"name": "Glass bottles + metal caps", "cost_per_kg_inr": 40, "co2_per_kg": 1.2},
+    ],
+    "Cosmetics & Beauty": [
+        {"name": "Multi-layer laminate tubes", "cost_per_kg_inr": 150, "co2_per_kg": 5.1},
+        {"name": "Rigid plastic jars", "cost_per_kg_inr": 95, "co2_per_kg": 4.2},
+    ],
+    "Home & Living": [
+        {"name": "Double-wall corrugated + EPS foam", "cost_per_kg_inr": 50, "co2_per_kg": 3.5},
+        {"name": "Wooden crates", "cost_per_kg_inr": 45, "co2_per_kg": 0.8},
+    ],
+    "Industrial Goods": [
+        {"name": "Steel drums/IBCs", "cost_per_kg_inr": 35, "co2_per_kg": 2.9},
+        {"name": "Heavy-duty pallet wrap (LDPE)", "cost_per_kg_inr": 65, "co2_per_kg": 4.0},
+    ],
+    "Pharmaceuticals": [
+        {"name": "PVC/Alu Blister packs", "cost_per_kg_inr": 210, "co2_per_kg": 6.5},
+        {"name": "EPS Insulated shippers (Cold chain)", "cost_per_kg_inr": 180, "co2_per_kg": 5.8},
+    ],
+}
+
 
 
 # ---------- STEP 1: LOAD & FEATURE ENGINEERING ----------
@@ -210,6 +241,7 @@ xgb_co2_pipeline = Pipeline(steps=[
 xgb_co2_pipeline.fit(X_train, y_train_co2)
 
 # ---------- STEP 4: SCORING FUNCTIONS ----------
+
 
 def compute_product_fit(candidates: pd.DataFrame, product_row: pd.Series) -> pd.Series:
     prod_cat = str(product_row["product_category"])
@@ -474,12 +506,8 @@ def get_preset_dimensions(preset_name: str):
     """Map preset names to box dimensions + GSM."""
     presets = {
         "kraft-small": {"l":15, "w":10, "h":10, "gsm":250},
-        "kraft-medium": {"l":20, "w":15, "h":10, "gsm":300},
-        "kraft-large": {"l":25, "w":20, "h":12, "gsm":350},
         "corrugated-small": {"l":18, "w":12, "h":12, "gsm":400},
-        "corrugated-medium": {"l":25, "w":18, "h":12, "gsm":500},
-        "corrugated-large": {"l":30, "w":22, "h":15, "gsm":600},
-        "recycled-small": {"l":16, "w":11, "h":12, "gsm":280},
+        "recycled-small": {"l":16, "w":11, "h":12, "gsm":280}
     }
     return presets.get(preset_name.lower(), None)
 
@@ -529,6 +557,42 @@ def estimate_packaging_mass_kg(product_row, material_row, packaging_info):
     frag_factor = 1.0 + (frag - 3) * 0.05  # ±10% around fragility 3
 
     return base_mass * frag_factor
+
+def compute_traditional_baselines(product_row, total_units, ref_pack_mass_per_unit_kg: float):
+    """
+    Build per-unit and total metrics for traditional baselines for this product category,
+    using a reference packaging mass per unit (e.g., from the best eco material).
+    """
+    category = str(product_row.get("product_category", ""))
+    baselines = TRADITIONAL_BASELINES.get(category, [])
+    results = []
+
+    # If we somehow get 0, fall back to a small default mass
+    if ref_pack_mass_per_unit_kg <= 0:
+        ref_pack_mass_per_unit_kg = 0.1  # 100 g
+
+    for b in baselines:
+        cost_per_unit = ref_pack_mass_per_unit_kg * float(b["cost_per_kg_inr"])
+        co2_per_unit = ref_pack_mass_per_unit_kg * float(b["co2_per_kg"])
+
+        total_pack_mass = ref_pack_mass_per_unit_kg * total_units
+        total_cost = cost_per_unit * total_units
+        total_co2 = co2_per_unit * total_units
+
+        results.append({
+            "name": b["name"],
+            "cost_per_kg_inr": float(b["cost_per_kg_inr"]),
+            "co2_per_kg": float(b["co2_per_kg"]),
+            "packaging_mass_per_unit_kg": float(ref_pack_mass_per_unit_kg),
+            "cost_per_unit_inr": float(cost_per_unit),
+            "co2_per_unit_kg": float(co2_per_unit),
+            "total_packaging_mass_kg": float(total_pack_mass),
+            "total_packaging_cost_inr": float(total_cost),
+            "total_co2_kg": float(total_co2),
+        })
+
+    return results
+
 
 
 def recommend_materials(request_json, models, top_k=5):
@@ -584,8 +648,8 @@ def recommend_materials(request_json, models, top_k=5):
         co2_per_unit = pack_mass_per_unit * float(row["pred_co2_per_kg"])
 
         total_pack_mass = pack_mass_per_unit * total_units
-        total_cost = total_pack_mass * float(row["pred_cost_per_kg_inr"])
-        total_co2 = total_pack_mass * float(row["pred_co2_per_kg"])
+        total_cost = cost_per_unit * total_units
+        total_co2 = co2_per_unit * total_units
         budget_min = float(prefs.get("budget_min_per_unit", 0) or 0)
         budget_max = float(prefs.get("budget_max_per_unit", 0) or 0)
 
@@ -617,9 +681,22 @@ def recommend_materials(request_json, models, top_k=5):
             "final_score": float(adjusted_final_score),
         })
 
+       # After building top_materials list
+    if top_materials:
+        ref_mass = top_materials[0]["packaging_mass_per_unit_kg"]
+    else:
+        ref_mass = 0.1
+
+    traditional_baselines = compute_traditional_baselines(
+        product_row=product_row,
+        total_units=total_units,
+        ref_pack_mass_per_unit_kg=ref_mass,
+    )
+
     return {
         "total_units": total_units,
         "top_materials": top_materials,
+        "traditional_baselines": traditional_baselines,
     }
 
 

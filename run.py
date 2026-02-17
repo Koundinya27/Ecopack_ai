@@ -1,4 +1,4 @@
-from ecopack_app import create_app
+from ecopack_app import create_app, DevConfig
 
 app = create_app()
 
