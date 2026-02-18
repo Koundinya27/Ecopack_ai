@@ -3,12 +3,12 @@ from . import bp
 from .. import db
 from ..models import UserRequest, RecommendationLog
 from ecopack_core.core import CATEGORY_MAP, load_models, recommend_materials
-from xhtml2pdf import pisa
 from io import BytesIO
-import io
 from sqlalchemy import func
 import matplotlib.pyplot as plt
 import base64
+from reportlab.pdfgen import canvas
+
 
 models = load_models()
 
@@ -152,69 +152,55 @@ def report_pdf(request_id):
         .order_by(RecommendationLog.final_score.asc())
         .all()
     )
-    total_cost = sum(r.total_packaging_cost_inr for r in recs)
-    total_co2 = sum(r.total_co2_kg for r in recs)
-    labels = [r.material_name for r in recs]
-    cost_values = [float(r.total_packaging_cost_inr) for r in recs]
-    co2_values = [float(r.total_co2_kg) for r in recs]
 
-    # cost chart
-    cost_chart_img = None
-    if labels and cost_values:
-        fig, ax = plt.subplots(figsize=(6, 3))
-        ax.bar(labels, cost_values, color="#10b981")
-        ax.set_title("Total packaging cost by material")
-        ax.set_ylabel("Cost (₹)")
-        ax.tick_params(axis="x", rotation=45, labelsize=8)
-        buf = BytesIO()
-        plt.tight_layout()
-        fig.savefig(buf, format="png")
-        plt.close(fig)
-        buf.seek(0)
-        cost_chart_img = "data:image/png;base64," + base64.b64encode(buf.read()).decode("utf-8")
+    buffer = BytesIO()
+    pdf = canvas.Canvas(buffer)
 
-    # CO2 chart
-    co2_chart_img = None
-    if labels and co2_values:
-        fig, ax = plt.subplots(figsize=(6, 3))
-        ax.bar(labels, co2_values, color="#ef4444")
-        ax.set_title("Total CO₂ by material")
-        ax.set_ylabel("CO₂ (kg)")
-        ax.tick_params(axis="x", rotation=45, labelsize=8)
-        buf = BytesIO()
-        plt.tight_layout()
-        fig.savefig(buf, format="png")
-        plt.close(fig)
-        buf.seek(0)
-        co2_chart_img = "data:image/png;base64," + base64.b64encode(buf.read()).decode("utf-8")
+    y = 800
+    pdf.setTitle("EcoPack Recommendation Report")
+    pdf.setFont("Helvetica-Bold", 16)
+    pdf.drawString(50, y, "EcoPack Recommendation Report")
+    y -= 40
 
-    html_str = render_template(
-        "report.html",
-        user_request=user_request,
-        recs=recs,
-        total_cost=total_cost,
-        total_co2=total_co2,
-        labels=labels,
-        cost_values=cost_values,
-        co2_values=co2_values,
-        cost_chart_img=cost_chart_img,
-        co2_chart_img=co2_chart_img,
-    )
+    pdf.setFont("Helvetica", 12)
+    pdf.drawString(50, y, f"Request ID: {request_id}")
+    y -= 20
+    pdf.drawString(50, y, f"Product: {user_request.product_name}")
+    y -= 20
+    pdf.drawString(50, y, f"Category: {user_request.product_category}")
+    y -= 40
 
-    pdf_buffer = io.BytesIO()
-    pisa_status = pisa.CreatePDF(html_str, dest=pdf_buffer)
+    pdf.drawString(50, y, "Recommended materials:")
+    y -= 20
 
-    if pisa_status.err:
-        return jsonify({"error": "Failed to generate PDF"}), 500
+    for r in recs:
+        if y < 100:
+            pdf.showPage()
+            y = 800
+            pdf.setFont("Helvetica", 12)
 
-    pdf_buffer.seek(0)
+        pdf.drawString(60, y, f"- {r.material_name} ({r.material_type})")
+        y -= 20
+        pdf.drawString(
+            80,
+            y,
+            f"Total cost: ₹{float(r.total_packaging_cost_inr):.2f}, "
+            f"Total CO₂: {float(r.total_co2_kg):.2f} kg",
+        )
+        y -= 30
+
+    pdf.showPage()
+    pdf.save()
+    buffer.seek(0)
+
     filename = f"ecopack_report_{request_id}.pdf"
     return send_file(
-        pdf_buffer,
+        buffer,
         mimetype="application/pdf",
         download_name=filename,
         as_attachment=True,
     )
+
 
 @bp.route("/confirm_selection", methods=["POST"])
 def confirm_selection():
@@ -273,8 +259,7 @@ def confirm_selection():
 
     # last 5 requests with reduction values
     subq = (
-        UserRequest.query
-        .filter(
+        UserRequest.query.filter(
             UserRequest.avg_co2_reduction_pct.isnot(None),
             UserRequest.avg_cost_reduction_pct.isnot(None),
         )
@@ -312,8 +297,7 @@ def dashboard():
     # basic counts
     total_requests = UserRequest.query.count()
     requests_with_selection = (
-        UserRequest.query
-        .filter(UserRequest.selected_material_name.isnot(None))
+        UserRequest.query.filter(UserRequest.selected_material_name.isnot(None))
         .count()
     )
 
@@ -352,8 +336,7 @@ def dashboard():
 
     # last 5 requests with reduction values
     subq = (
-        UserRequest.query
-        .filter(
+        UserRequest.query.filter(
             UserRequest.avg_co2_reduction_pct.isnot(None),
             UserRequest.avg_cost_reduction_pct.isnot(None),
         )

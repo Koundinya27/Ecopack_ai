@@ -11,7 +11,6 @@ numpy
 
 matplotlib
 
-xhtml2pdf==0.2.8
 reportlab
 html5lib
 
