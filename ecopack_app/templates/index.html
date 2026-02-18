@@ -40,7 +40,46 @@
     .chart-card:nth-child(3) { animation-delay: 0.2s; }
   </style>
   <style>@view-transition { navigation: auto; }</style>
+  <style>
+  .material-button.selected {
+    border: 2px solid #10b981;
+    box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.25);
+    background-color: #ecfdf5;
+  }
+</style>
 </head>
+<script>
+  async function confirmSelection(requestId, materialId, buttonEl) {
+    const res = await fetch("/api/confirm_selection", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ request_id: requestId, material_id: materialId }),
+    });
+
+    const data = await res.json();
+
+    if (!res.ok) {
+      alert(data.error || "Failed to confirm selection");
+      return;
+    }
+
+    // Remove highlight from all buttons
+    document
+      .querySelectorAll(".material-button.selected")
+      .forEach(el => el.classList.remove("selected"));
+
+    // Highlight the clicked button
+    if (buttonEl) {
+      buttonEl.classList.add("selected");
+    }
+
+    // Open PDF in new tab, stay on advisor page
+    if (data.pdf_url) {
+      window.open(data.pdf_url, "_blank");
+    }
+  }
+</script>
+
 
 <body class="h-full bg-white">
   <div id="app-wrapper" class="h-full w-full overflow-auto">

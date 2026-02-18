@@ -8,6 +8,9 @@ from sqlalchemy import func
 import matplotlib.pyplot as plt
 import base64
 from reportlab.pdfgen import canvas
+from reportlab.graphics.shapes import Drawing, String
+from reportlab.graphics.charts.barcharts import VerticalBarChart
+from reportlab.graphics import renderPDF
 
 
 models = load_models()
@@ -156,38 +159,179 @@ def report_pdf(request_id):
     buffer = BytesIO()
     pdf = canvas.Canvas(buffer)
 
+    # Page setup
     y = 800
+    left = 50
+
     pdf.setTitle("EcoPack Recommendation Report")
-    pdf.setFont("Helvetica-Bold", 16)
-    pdf.drawString(50, y, "EcoPack Recommendation Report")
-    y -= 40
 
-    pdf.setFont("Helvetica", 12)
-    pdf.drawString(50, y, f"Request ID: {request_id}")
-    y -= 20
-    pdf.drawString(50, y, f"Product: {user_request.product_name}")
-    y -= 20
-    pdf.drawString(50, y, f"Category: {user_request.product_category}")
-    y -= 40
+    # Header
+    pdf.setFont("Helvetica-Bold", 18)
+    pdf.drawString(left, y, "Packaging Recommendation Report")
+    y -= 30
 
-    pdf.drawString(50, y, "Recommended materials:")
-    y -= 20
+    pdf.setFont("Helvetica", 10)
+    pdf.drawString(left, y, f"Request ID: {user_request.id}")
+    y -= 15
+    pdf.drawString(left, y, f"Product: {user_request.product_name}")
+    y -= 15
+    pdf.drawString(left, y, f"Category: {user_request.product_category}")
+    y -= 15
+    pdf.drawString(
+        left,
+        y,
+        f"Total units: {user_request.total_units}    "
+        f"Budget/unit (₹): {user_request.budget_min_per_unit} – {user_request.budget_max_per_unit}",
+    )
+    y -= 25
 
-    for r in recs:
-        if y < 100:
+    # Summary card
+    total_cost = sum(r.total_packaging_cost_inr for r in recs) if recs else 0.0
+    total_co2 = sum(r.total_co2_kg for r in recs) if recs else 0.0
+
+    pdf.setFont("Helvetica-Bold", 12)
+    pdf.drawString(left, y, "Summary")
+    y -= 18
+    pdf.setFont("Helvetica", 10)
+    pdf.drawString(left, y, f"Estimated total cost (₹): {total_cost:.2f}")
+    y -= 15
+    pdf.drawString(left, y, f"Estimated total CO₂ (kg): {total_co2:.2f}")
+    y -= 25
+
+    # Selected material section
+    pdf.setFont("Helvetica-Bold", 12)
+    pdf.drawString(left, y, "Selected material")
+    y -= 18
+    pdf.setFont("Helvetica", 10)
+
+    if user_request.selected_material_name:
+        pdf.drawString(left, y, f"Material: {user_request.selected_material_name}")
+        y -= 15
+        pdf.drawString(left, y, f"Type: {user_request.selected_material_type}")
+        y -= 15
+        pdf.drawString(
+            left,
+            y,
+            f"Total cost (₹): {float(user_request.selected_total_cost_inr or 0):.2f}",
+        )
+        y -= 15
+        pdf.drawString(
+            left,
+            y,
+            f"Total CO₂ (kg): {float(user_request.selected_total_co2_kg or 0):.2f}",
+        )
+        y -= 25
+    else:
+        pdf.drawString(left, y, "No material has been selected yet.")
+        y -= 25
+
+    # New page if needed
+    if y < 150:
+        pdf.showPage()
+        y = 800
+        pdf.setFont("Helvetica", 10)
+
+    # Recommended materials table header
+    pdf.setFont("Helvetica-Bold", 12)
+    pdf.drawString(left, y, "Recommended materials")
+    y -= 18
+    pdf.setFont("Helvetica-Bold", 9)
+
+    pdf.drawString(left, y, "Rank")
+    pdf.drawString(left + 40, y, "Material")
+    pdf.drawString(left + 190, y, "Type")
+    pdf.drawString(left + 280, y, "Total CO₂ (kg)")
+    pdf.drawString(left + 380, y, "Total cost (₹)")
+    pdf.drawString(left + 480, y, "Score")
+    y -= 12
+    pdf.line(left, y, left + 540, y)
+    y -= 10
+
+    # Table rows
+    pdf.setFont("Helvetica", 9)
+    for idx, r in enumerate(recs, start=1):
+        if y < 80:
             pdf.showPage()
             y = 800
-            pdf.setFont("Helvetica", 12)
+            pdf.setFont("Helvetica-Bold", 9)
+            pdf.drawString(left, y, "Rank")
+            pdf.drawString(left + 40, y, "Material")
+            pdf.drawString(left + 190, y, "Type")
+            pdf.drawString(left + 280, y, "Total CO₂ (kg)")
+            pdf.drawString(left + 380, y, "Total cost (₹)")
+            pdf.drawString(left + 480, y, "Score")
+            y -= 12
+            pdf.line(left, y, left + 540, y)
+            y -= 10
+            pdf.setFont("Helvetica", 9)
 
-        pdf.drawString(60, y, f"- {r.material_name} ({r.material_type})")
-        y -= 20
-        pdf.drawString(
-            80,
+        pdf.drawString(left, y, str(idx))
+        pdf.drawString(left + 40, y, r.material_name[:25])
+        pdf.drawString(left + 190, y, r.material_type[:18])
+        pdf.drawRightString(
+            left + 340,
             y,
-            f"Total cost: ₹{float(r.total_packaging_cost_inr):.2f}, "
-            f"Total CO₂: {float(r.total_co2_kg):.2f} kg",
+            f"{float(r.total_co2_kg):.2f}",
         )
-        y -= 30
+        pdf.drawRightString(
+            left + 440,
+            y,
+            f"{float(r.total_packaging_cost_inr):.2f}",
+        )
+        pdf.drawRightString(
+            left + 540,
+            y,
+            f"{float(r.final_score):.3f}",
+        )
+        y -= 14
+
+    # Charts page (only if we have data)
+    if recs:
+        pdf.showPage()
+
+        labels = [r.material_name[:10] for r in recs]
+        cost_values = [float(r.total_packaging_cost_inr) for r in recs]
+        co2_values = [float(r.total_co2_kg) for r in recs]
+
+        # Cost chart
+        d1 = Drawing(500, 200)
+        d1.add(String(0, 185, "Total packaging cost by material", fontSize=12))
+        bc1 = VerticalBarChart()
+        bc1.x = 40
+        bc1.y = 40
+        bc1.width = 420
+        bc1.height = 120
+        bc1.data = [cost_values]
+        bc1.categoryAxis.categoryNames = labels
+        bc1.categoryAxis.labels.angle = 45
+        bc1.categoryAxis.labels.dy = -15
+        bc1.valueAxis.valueMin = 0
+        d1.add(bc1)
+        renderPDF.draw(d1, pdf, 50, 520)
+
+        # CO2 chart
+        d2 = Drawing(500, 200)
+        d2.add(String(0, 185, "Total CO₂ by material", fontSize=12))
+        bc2 = VerticalBarChart()
+        bc2.x = 40
+        bc2.y = 40
+        bc2.width = 420
+        bc2.height = 120
+        bc2.data = [co2_values]
+        bc2.categoryAxis.categoryNames = labels
+        bc2.categoryAxis.labels.angle = 45
+        bc2.categoryAxis.labels.dy = -15
+        bc2.valueAxis.valueMin = 0
+        d2.add(bc2)
+        renderPDF.draw(d2, pdf, 50, 280)
+
+    # Footer
+    pdf.setFont("Helvetica-Oblique", 8)
+    pdf.drawCentredString(
+        300,
+        40,
+        "Generated by Ecopack – Sustainable Packaging Advisor",
+    )
 
     pdf.showPage()
     pdf.save()
@@ -200,7 +344,6 @@ def report_pdf(request_id):
         download_name=filename,
         as_attachment=True,
     )
-
 
 @bp.route("/confirm_selection", methods=["POST"])
 def confirm_selection():

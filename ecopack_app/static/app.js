@@ -122,7 +122,7 @@ function renderTable(results) {
         </td>
         <td class="px-4 py-2 text-right">
           <button type="button"
-            class="select-btn inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-emerald-50 text-emerald-700 hover:bg-emerald-100 border border-emerald-200"
+            class="material-button select-btn inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-emerald-50 text-emerald-700 hover:bg-emerald-100 border border-emerald-200"
             data-request-id="${lastRequestId}"
             data-material-id="${r.id}">
             Select
@@ -140,9 +140,8 @@ function renderTable(results) {
   });
 }
 
-// fallback simple table renderer (called from new submit handler if needed)
+// fallback simple table renderer (kept for compatibility)
 function renderResults(apiData) {
-  // keep for compatibility with earlier usage
   const mapped = (apiData.top_materials || []).map((m) => ({
     id: m.material_id,
     name: m.material_name,
@@ -481,15 +480,14 @@ document.addEventListener("DOMContentLoaded", () => {
       const showChartsBtn = document
         .getElementById("show-charts-btn")
         ?.querySelector("span");
-      
+
       if (showChartsBtn) showChartsBtn.textContent = "Show results in charts";
 
       const comparisonSection = document.getElementById("comparison-section");
       if (comparisonSection) comparisonSection.classList.remove("hidden");
-      
+
       resultsSection?.scrollIntoView({ behavior: "smooth", block: "start" });
 
-      // draw traditional vs selected charts if available
       if (
         selectedMaterial &&
         baselines.length > 0 &&
@@ -547,7 +545,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-// report button
+// report button (HTML / client-side report; unused for PDF)
 document.addEventListener("DOMContentLoaded", () => {
   const reportBtn = document.getElementById("view-report-btn");
   if (!reportBtn) return;
@@ -562,7 +560,7 @@ document.addEventListener("DOMContentLoaded", () => {
   applyConfig(config);
 });
 
-// select-btn click handler (for confirm_selection and PDF)
+// select-btn click handler (confirm_selection + highlight + PDF; stay on Advisor)
 document.addEventListener("click", async (e) => {
   const btn = e.target.closest(".select-btn");
   if (!btn) return;
@@ -599,22 +597,20 @@ document.addEventListener("click", async (e) => {
 
     const data = await res.json();
 
-    const row = btn.closest("tr");
-    document.querySelectorAll(".result-row").forEach((r) => {
-      r.classList.remove("bg-emerald-50");
-    });
-    if (row) row.classList.add("bg-emerald-50");
+    // clear old highlight
+    document
+      .querySelectorAll(".material-button.selected")
+      .forEach((el) => el.classList.remove("selected"));
 
+    // highlight this button
+    btn.classList.add("selected");
     btn.textContent = "Selected";
     btn.disabled = true;
 
+    // open PDF in new tab; stay on Advisor (no redirect)
     if (data.pdf_url) {
       window.open(data.pdf_url, "_blank");
     }
-
-    setTimeout(() => {
-      window.location.href = "/";
-    }, 500);
   } catch (err) {
     console.error(err);
     alert("Network error while saving selection.");
