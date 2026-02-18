@@ -14,3 +14,4 @@ itsdangerous
 Jinja2
 xgboost
 scikit-learn
+matplotlib
