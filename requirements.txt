@@ -1,19 +1,23 @@
-# Web framework
-Flask==3.0.3
+Flask==3.0.0
 Flask-SQLAlchemy==3.1.1
-Flask-Migrate==4.0.5
+SQLAlchemy==2.0.25
 
-# Core scientific stack
-numpy==2.0.2
-pandas==2.2.3
+gunicorn==21.2.0
 
-# ML stack
-scikit-learn==1.5.2
-xgboost==2.1.4
+psycopg2-binary
 
-# Database driver (adjust if you use something else)
-psycopg2-binary  # for PostgreSQL
+pandas==2.2.0
+numpy==1.26.3
 
-# Optional: gunicorn if you deploy on Linux server
-gunicorn==23.0.0
-matplotlib==3.7.1
+matplotlib==3.8.2
+
+xhtml2pdf==0.2.15
+reportlab==3.6.12
+html5lib==1.1
+
+Werkzeug==3.0.1
+itsdangerous==2.1.2
+Jinja2==3.1.3
+
+xgboost==2.0.3
+scikit-learn==1.4.0
